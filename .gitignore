@@ -25,9 +25,12 @@
 
 #node modules
 node_modules/
+.venv/
 
 #ignore la-fitness bot
 la-fitness-master/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.venv/lib64
+.venv/pyvenv.cfg
