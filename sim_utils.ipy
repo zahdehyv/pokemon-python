@@ -1,0 +1,118 @@
+from data.dex import pokedex
+from data.dex import index_to_id_pokemon
+import sim.sim as sim
+import pandas as pd
+from tools.pick_six import generate_team_pok
+
+class PokemonEco:
+    def __init__(self):
+        self.index_to_id_pokemon = index_to_id_pokemon
+        self.id_to_index_pokemon = {v: k for k, v in index_to_id_pokemon.items()}
+
+class PokemonEntity:
+    def __init__(self, index):
+        self.entity, self.other_moves, self.other_natures, self.other_abilities = generate_team_pok(index)
+        self.lvl = 1
+        self.xp = 0
+
+class ExperienceHandler:
+    def __init__(self):
+        
+        self.pokemon_index_to_xp_data = {} # dict of index to dicts holding xp data by pokemon
+
+        pokemon_exp_yield = (
+            pd.read_csv("data/pokemon_ev_yields_ok.csv")[["Number", "Exp. Yield"]]
+        )[:849]
+        for row in pokemon_exp_yield.iterrows():
+            if not int(row[1]["Number"]) in self.pokemon_index_to_xp_data:
+                self.pokemon_index_to_xp_data[int(row[1]["Number"])] = {}
+                (self.pokemon_index_to_xp_data[int(row[1]["Number"])])["xp_base"] = float(
+                    row[1]["Exp. Yield"]
+                )
+
+        pokemon_exp_type = (
+            pd.read_csv("data/pokemon_experience_types.csv")[["Number", "Experience Type"]]
+        )[:807]
+
+        for row in pokemon_exp_type.iterrows():
+            if int(row[1]["Number"]) in self.pokemon_index_to_xp_data:
+                (self.pokemon_index_to_xp_data[int(row[1]["Number"])])["xp_type"] = str(
+                    row[1]["Experience Type"]
+                )
+
+        def toin(x):
+            xn = str.replace(x,',','')
+            return int(xn)
+
+        pokemon_exp_to_level_up = (
+            pd.read_csv("data/experience_table.csv")[['Erratic', 'Fast', 'Medium Fast', 'Medium Slow', 'Slow',
+            'Fluctuating']]
+        )
+        self.pokemon_exp_to_level_up_by_type = {} # this holds the leveling requirements for each experience type
+        for column in pokemon_exp_to_level_up.columns:
+            self.pokemon_exp_to_level_up_by_type[column] = [x for x in map(toin, list(pokemon_exp_to_level_up[column]))]
+
+    def experience_gain(self, winner_lvl, loser_lvl, loser_index):
+        b = self.pokemon_index_to_xp_data[loser_index]["xp_base"]
+        l = (b * loser_lvl)/5
+        r = ((2*loser_lvl+10)/(loser_lvl + winner_lvl + 10))**2.5
+        x = l * r + 1
+        return int(x)
+    
+    def leveling_handler(self, pkmn_id, pkmn_lvl, pkmn_total_xp):
+        cum_lvl = self.pokemon_exp_to_level_up_by_type[self.pokemon_index_to_xp_data[pkmn_id]["xp_type"]]
+        print(cum_lvl)
+        for lvl in range(pkmn_lvl,100):
+            if pkmn_total_xp >= cum_lvl[lvl]:
+                pkmn_lvl = pkmn_lvl + 1
+                print("leveled up to level:",pkmn_lvl)
+            else:
+                break
+class AI:
+    pass
+
+class GeneticOperations:
+    def mutate(pkmn: PokemonEntity):
+        pass
+    def reproduce(pkmn_x: PokemonEntity, pkmn_y: PokemonEntity):
+        "crossover"
+        pass
+    def select(list, fitnes_fnc):
+        pass
+
+if __name__ == "__main__":
+    bulb = PokemonEntity(1)
+    print(bulb.entity)
+    print(bulb.other_moves)
+    print(bulb.other_natures)
+    print(bulb.other_abilities)
+
+
+
+
+
+    # xp_h = ExperienceHandler()
+    # print(xp_h.experience_gain(100, 100, 807))
+    # print(xp_h.leveling_handler(807,100,xp_h.experience_gain(100, 100, 84)))
+    # xp_h.leveling_handler(12,1, 26)
+    # for i in pokemon_index_to_xp_data:
+    #     print(i, "->", pokemon_index_to_xp_data[i])
+
+    # print(pokemon_exp_to_level_up)
+
+    # for typ in pokemon_exp_to_level_up_by_type:
+    #     print(typ, "->", pokemon_exp_to_level_up_by_type[typ])
+    #     print()
+
+    # a = True
+    # for x in pokemon_index_to_xp_data:
+    #     if not pokemon_index_to_xp_data[x]["xp_type"] in pokemon_exp_to_level_up_by_type:
+    #         a = False
+    # print(a)
+
+    # print(pokemon_exp_type)
+    # print(pokedex[all_pokemons_names[37]])
+    # print(len(all_pokemons_names))
+    # print(all_pokemons_names[-1])
+    # print(id_to_index_pokemon)
+    # print(index_to_id_pokemon)

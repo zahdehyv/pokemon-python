@@ -1,0 +1,1026 @@
+Number,Name,Experience Type
+0001,Bulbasaur,Medium Slow
+0002,Ivysaur,Medium Slow
+0003,Venusaur,Medium Slow
+0004,Charmander,Medium Slow
+0005,Charmeleon,Medium Slow
+0006,Charizard,Medium Slow
+0007,Squirtle,Medium Slow
+0008,Wartortle,Medium Slow
+0009,Blastoise,Medium Slow
+0010,Caterpie,Medium Fast
+0011,Metapod,Medium Fast
+0012,Butterfree,Medium Fast
+0013,Weedle,Medium Fast
+0014,Kakuna,Medium Fast
+0015,Beedrill,Medium Fast
+0016,Pidgey,Medium Slow
+0017,Pidgeotto,Medium Slow
+0018,Pidgeot,Medium Slow
+0019,Rattata,Medium Fast
+0020,Raticate,Medium Fast
+0021,Spearow,Medium Fast
+0022,Fearow,Medium Fast
+0023,Ekans,Medium Fast
+0024,Arbok,Medium Fast
+0025,Pikachu,Medium Fast
+0026,Raichu,Medium Fast
+0027,Sandshrew,Medium Fast
+0028,Sandslash,Medium Fast
+0029,Nidoran♀,Medium Slow
+0030,Nidorina,Medium Slow
+0031,Nidoqueen,Medium Slow
+0032,Nidoran♂,Medium Slow
+0033,Nidorino,Medium Slow
+0034,Nidoking,Medium Slow
+0035,Clefairy,Fast
+0036,Clefable,Fast
+0037,Vulpix,Medium Fast
+0038,Ninetales,Medium Fast
+0039,Jigglypuff,Fast
+0040,Wigglytuff,Fast
+0041,Zubat,Medium Fast
+0042,Golbat,Medium Fast
+0043,Oddish,Medium Slow
+0044,Gloom,Medium Slow
+0045,Vileplume,Medium Slow
+0046,Paras,Medium Fast
+0047,Parasect,Medium Fast
+0048,Venonat,Medium Fast
+0049,Venomoth,Medium Fast
+0050,Diglett,Medium Fast
+0051,Dugtrio,Medium Fast
+0052,Meowth,Medium Fast
+0053,Persian,Medium Fast
+0054,Psyduck,Medium Fast
+0055,Golduck,Medium Fast
+0056,Mankey,Medium Fast
+0057,Primeape,Medium Fast
+0058,Growlithe,Slow
+0059,Arcanine,Slow
+0060,Poliwag,Medium Slow
+0061,Poliwhirl,Medium Slow
+0062,Poliwrath,Medium Slow
+0063,Abra,Medium Slow
+0064,Kadabra,Medium Slow
+0065,Alakazam,Medium Slow
+0066,Machop,Medium Slow
+0067,Machoke,Medium Slow
+0068,Machamp,Medium Slow
+0069,Bellsprout,Medium Slow
+0070,Weepinbell,Medium Slow
+0071,Victreebel,Medium Slow
+0072,Tentacool,Slow
+0073,Tentacruel,Slow
+0074,Geodude,Medium Slow
+0075,Graveler,Medium Slow
+0076,Golem,Medium Slow
+0077,Ponyta,Medium Fast
+0078,Rapidash,Medium Fast
+0079,Slowpoke,Medium Fast
+0080,Slowbro,Medium Fast
+0081,Magnemite,Medium Fast
+0082,Magneton,Medium Fast
+0083,Farfetch'd,Medium Fast
+0084,Doduo,Medium Fast
+0085,Dodrio,Medium Fast
+0086,Seel,Medium Fast
+0087,Dewgong,Medium Fast
+0088,Grimer,Medium Fast
+0089,Muk,Medium Fast
+0090,Shellder,Slow
+0091,Cloyster,Slow
+0092,Gastly,Medium Slow
+0093,Haunter,Medium Slow
+0094,Gengar,Medium Slow
+0095,Onix,Medium Fast
+0096,Drowzee,Medium Fast
+0097,Hypno,Medium Fast
+0098,Krabby,Medium Fast
+0099,Kingler,Medium Fast
+0100,Voltorb,Medium Fast
+0101,Electrode,Medium Fast
+0102,Exeggcute,Slow
+0103,Exeggutor,Slow
+0104,Cubone,Medium Fast
+0105,Marowak,Medium Fast
+0106,Hitmonlee,Medium Fast
+0107,Hitmonchan,Medium Fast
+0108,Lickitung,Medium Fast
+0109,Koffing,Medium Fast
+0110,Weezing,Medium Fast
+0111,Rhyhorn,Slow
+0112,Rhydon,Slow
+0113,Chansey,Fast
+0114,Tangela,Medium Fast
+0115,Kangaskhan,Medium Fast
+0116,Horsea,Medium Fast
+0117,Seadra,Medium Fast
+0118,Goldeen,Medium Fast
+0119,Seaking,Medium Fast
+0120,Staryu,Slow
+0121,Starmie,Slow
+0122,Mr. Mime,Medium Fast
+0123,Scyther,Medium Fast
+0124,Jynx,Medium Fast
+0125,Electabuzz,Medium Fast
+0126,Magmar,Medium Fast
+0127,Pinsir,Slow
+0128,Tauros,Slow
+0129,Magikarp,Slow
+0130,Gyarados,Slow
+0131,Lapras,Slow
+0132,Ditto,Medium Fast
+0133,Eevee,Medium Fast
+0134,Vaporeon,Medium Fast
+0135,Jolteon,Medium Fast
+0136,Flareon,Medium Fast
+0137,Porygon,Medium Fast
+0138,Omanyte,Medium Fast
+0139,Omastar,Medium Fast
+0140,Kabuto,Medium Fast
+0141,Kabutops,Medium Fast
+0142,Aerodactyl,Slow
+0143,Snorlax,Slow
+0144,Articuno,Slow
+0145,Zapdos,Slow
+0146,Moltres,Slow
+0147,Dratini,Slow
+0148,Dragonair,Slow
+0149,Dragonite,Slow
+0150,Mewtwo,Slow
+0151,Mew,Medium Slow
+0152,Chikorita,Medium Slow
+0153,Bayleef,Medium Slow
+0154,Meganium,Medium Slow
+0155,Cyndaquil,Medium Slow
+0156,Quilava,Medium Slow
+0157,Typhlosion,Medium Slow
+0158,Totodile,Medium Slow
+0159,Croconaw,Medium Slow
+0160,Feraligatr,Medium Slow
+0161,Sentret,Medium Fast
+0162,Furret,Medium Fast
+0163,Hoothoot,Medium Fast
+0164,Noctowl,Medium Fast
+0165,Ledyba,Fast
+0166,Ledian,Fast
+0167,Spinarak,Fast
+0168,Ariados,Fast
+0169,Crobat,Medium Fast
+0170,Chinchou,Slow
+0171,Lanturn,Slow
+0172,Pichu,Medium Fast
+0173,Cleffa,Fast
+0174,Igglybuff,Fast
+0175,Togepi,Fast
+0176,Togetic,Fast
+0177,Natu,Medium Fast
+0178,Xatu,Medium Fast
+0179,Mareep,Medium Slow
+0180,Flaaffy,Medium Slow
+0181,Ampharos,Medium Slow
+0182,Bellossom,Medium Slow
+0183,Marill,Fast
+0184,Azumarill,Fast
+0185,Sudowoodo,Medium Fast
+0186,Politoed,Medium Slow
+0187,Hoppip,Medium Slow
+0188,Skiploom,Medium Slow
+0189,Jumpluff,Medium Slow
+0190,Aipom,Fast
+0191,Sunkern,Medium Slow
+0192,Sunflora,Medium Slow
+0193,Yanma,Medium Fast
+0194,Wooper,Medium Fast
+0195,Quagsire,Medium Fast
+0196,Espeon,Medium Fast
+0197,Umbreon,Medium Fast
+0198,Murkrow,Medium Slow
+0199,Slowking,Medium Fast
+0200,Misdreavus,Fast
+0201,Unown,Medium Fast
+0202,Wobbuffet,Medium Fast
+0203,Girafarig,Medium Fast
+0204,Pineco,Medium Fast
+0205,Forretress,Medium Fast
+0206,Dunsparce,Medium Fast
+0207,Gligar,Medium Slow
+0208,Steelix,Medium Fast
+0209,Snubbull,Fast
+0210,Granbull,Fast
+0211,Qwilfish,Medium Fast
+0212,Scizor,Medium Fast
+0213,Shuckle,Medium Slow
+0214,Heracross,Slow
+0215,Sneasel,Medium Slow
+0216,Teddiursa,Medium Fast
+0217,Ursaring,Medium Fast
+0218,Slugma,Medium Fast
+0219,Magcargo,Medium Fast
+0220,Swinub,Slow
+0221,Piloswine,Slow
+0222,Corsola,Fast
+0223,Remoraid,Medium Fast
+0224,Octillery,Medium Fast
+0225,Delibird,Fast
+0226,Mantine,Slow
+0227,Skarmory,Slow
+0228,Houndour,Slow
+0229,Houndoom,Slow
+0230,Kingdra,Medium Fast
+0231,Phanpy,Medium Fast
+0232,Donphan,Medium Fast
+0233,Porygon2,Medium Fast
+0234,Stantler,Slow
+0235,Smeargle,Fast
+0236,Tyrogue,Medium Fast
+0237,Hitmontop,Medium Fast
+0238,Smoochum,Medium Fast
+0239,Elekid,Medium Fast
+0240,Magby,Medium Fast
+0241,Miltank,Slow
+0242,Blissey,Fast
+0243,Raikou,Slow
+0244,Entei,Slow
+0245,Suicune,Slow
+0246,Larvitar,Slow
+0247,Pupitar,Slow
+0248,Tyranitar,Slow
+0249,Lugia,Slow
+0250,Ho-Oh,Slow
+0251,Celebi,Medium Slow
+0252,Treecko,Medium Slow
+0253,Grovyle,Medium Slow
+0254,Sceptile,Medium Slow
+0255,Torchic,Medium Slow
+0256,Combusken,Medium Slow
+0257,Blaziken,Medium Slow
+0258,Mudkip,Medium Slow
+0259,Marshtomp,Medium Slow
+0260,Swampert,Medium Slow
+0261,Poochyena,Medium Fast
+0262,Mightyena,Medium Fast
+0263,Zigzagoon,Medium Fast
+0264,Linoone,Medium Fast
+0265,Wurmple,Medium Fast
+0266,Silcoon,Medium Fast
+0267,Beautifly,Medium Fast
+0268,Cascoon,Medium Fast
+0269,Dustox,Medium Fast
+0270,Lotad,Medium Slow
+0271,Lombre,Medium Slow
+0272,Ludicolo,Medium Slow
+0273,Seedot,Medium Slow
+0274,Nuzleaf,Medium Slow
+0275,Shiftry,Medium Slow
+0276,Taillow,Medium Slow
+0277,Swellow,Medium Slow
+0278,Wingull,Medium Fast
+0279,Pelipper,Medium Fast
+0280,Ralts,Slow
+0281,Kirlia,Slow
+0282,Gardevoir,Slow
+0283,Surskit,Medium Fast
+0284,Masquerain,Medium Fast
+0285,Shroomish,Fluctuating
+0286,Breloom,Fluctuating
+0287,Slakoth,Slow
+0288,Vigoroth,Slow
+0289,Slaking,Slow
+0290,Nincada,Erratic
+0291,Ninjask,Erratic
+0292,Shedinja,Erratic
+0293,Whismur,Medium Slow
+0294,Loudred,Medium Slow
+0295,Exploud,Medium Slow
+0296,Makuhita,Fluctuating
+0297,Hariyama,Fluctuating
+0298,Azurill,Fast
+0299,Nosepass,Medium Fast
+0300,Skitty,Fast
+0301,Delcatty,Fast
+0302,Sableye,Medium Slow
+0303,Mawile,Fast
+0304,Aron,Slow
+0305,Lairon,Slow
+0306,Aggron,Slow
+0307,Meditite,Medium Fast
+0308,Medicham,Medium Fast
+0309,Electrike,Slow
+0310,Manectric,Slow
+0311,Plusle,Medium Fast
+0312,Minun,Medium Fast
+0313,Volbeat,Erratic
+0314,Illumise,Fluctuating
+0315,Roselia,Medium Slow
+0316,Gulpin,Fluctuating
+0317,Swalot,Fluctuating
+0318,Carvanha,Slow
+0319,Sharpedo,Slow
+0320,Wailmer,Fluctuating
+0321,Wailord,Fluctuating
+0322,Numel,Medium Fast
+0323,Camerupt,Medium Fast
+0324,Torkoal,Medium Fast
+0325,Spoink,Fast
+0326,Grumpig,Fast
+0327,Spinda,Fast
+0328,Trapinch,Medium Slow
+0329,Vibrava,Medium Slow
+0330,Flygon,Medium Slow
+0331,Cacnea,Medium Slow
+0332,Cacturne,Medium Slow
+0333,Swablu,Erratic
+0334,Altaria,Erratic
+0335,Zangoose,Erratic
+0336,Seviper,Fluctuating
+0337,Lunatone,Fast
+0338,Solrock,Fast
+0339,Barboach,Medium Fast
+0340,Whiscash,Medium Fast
+0341,Corphish,Fluctuating
+0342,Crawdaunt,Fluctuating
+0343,Baltoy,Medium Fast
+0344,Claydol,Medium Fast
+0345,Lileep,Erratic
+0346,Cradily,Erratic
+0347,Anorith,Erratic
+0348,Armaldo,Erratic
+0349,Feebas,Erratic
+0350,Milotic,Erratic
+0351,Castform,Medium Fast
+0352,Kecleon,Medium Slow
+0353,Shuppet,Fast
+0354,Banette,Fast
+0355,Duskull,Fast
+0356,Dusclops,Fast
+0357,Tropius,Slow
+0358,Chimecho,Fast
+0359,Absol,Medium Slow
+0360,Wynaut,Medium Fast
+0361,Snorunt,Medium Fast
+0362,Glalie,Medium Fast
+0363,Spheal,Medium Slow
+0364,Sealeo,Medium Slow
+0365,Walrein,Medium Slow
+0366,Clamperl,Erratic
+0367,Huntail,Erratic
+0368,Gorebyss,Erratic
+0369,Relicanth,Slow
+0370,Luvdisc,Fast
+0371,Bagon,Slow
+0372,Shelgon,Slow
+0373,Salamence,Slow
+0374,Beldum,Slow
+0375,Metang,Slow
+0376,Metagross,Slow
+0377,Regirock,Slow
+0378,Regice,Slow
+0379,Registeel,Slow
+0380,Latias,Slow
+0381,Latios,Slow
+0382,Kyogre,Slow
+0383,Groudon,Slow
+0384,Rayquaza,Slow
+0385,Jirachi,Slow
+0386,Deoxys,Slow
+0387,Turtwig,Medium Slow
+0388,Grotle,Medium Slow
+0389,Torterra,Medium Slow
+0390,Chimchar,Medium Slow
+0391,Monferno,Medium Slow
+0392,Infernape,Medium Slow
+0393,Piplup,Medium Slow
+0394,Prinplup,Medium Slow
+0395,Empoleon,Medium Slow
+0396,Starly,Medium Slow
+0397,Staravia,Medium Slow
+0398,Staraptor,Medium Slow
+0399,Bidoof,Medium Fast
+0400,Bibarel,Medium Fast
+0401,Kricketot,Medium Slow
+0402,Kricketune,Medium Slow
+0403,Shinx,Medium Slow
+0404,Luxio,Medium Slow
+0405,Luxray,Medium Slow
+0406,Budew,Medium Slow
+0407,Roserade,Medium Slow
+0408,Cranidos,Erratic
+0409,Rampardos,Erratic
+0410,Shieldon,Erratic
+0411,Bastiodon,Erratic
+0412,Burmy,Medium Fast
+0413,Wormadam,Medium Fast
+0414,Mothim,Medium Fast
+0415,Combee,Medium Slow
+0416,Vespiquen,Medium Slow
+0417,Pachirisu,Medium Fast
+0418,Buizel,Medium Fast
+0419,Floatzel,Medium Fast
+0420,Cherubi,Medium Fast
+0421,Cherrim,Medium Fast
+0422,Shellos,Medium Fast
+0423,Gastrodon,Medium Fast
+0424,Ambipom,Fast
+0425,Drifloon,Fluctuating
+0426,Drifblim,Fluctuating
+0427,Buneary,Medium Fast
+0428,Lopunny,Medium Fast
+0429,Mismagius,Fast
+0430,Honchkrow,Medium Slow
+0431,Glameow,Fast
+0432,Purugly,Fast
+0433,Chingling,Fast
+0434,Stunky,Medium Fast
+0435,Skuntank,Medium Fast
+0436,Bronzor,Medium Fast
+0437,Bronzong,Medium Fast
+0438,Bonsly,Medium Fast
+0439,Mime Jr.,Medium Fast
+0440,Happiny,Fast
+0441,Chatot,Medium Slow
+0442,Spiritomb,Medium Fast
+0443,Gible,Slow
+0444,Gabite,Slow
+0445,Garchomp,Slow
+0446,Munchlax,Slow
+0447,Riolu,Medium Slow
+0448,Lucario,Medium Slow
+0449,Hippopotas,Slow
+0450,Hippowdon,Slow
+0451,Skorupi,Slow
+0452,Drapion,Slow
+0453,Croagunk,Medium Fast
+0454,Toxicroak,Medium Fast
+0455,Carnivine,Slow
+0456,Finneon,Erratic
+0457,Lumineon,Erratic
+0458,Mantyke,Slow
+0459,Snover,Slow
+0460,Abomasnow,Slow
+0461,Weavile,Medium Slow
+0462,Magnezone,Medium Fast
+0463,Lickilicky,Medium Fast
+0464,Rhyperior,Slow
+0465,Tangrowth,Medium Fast
+0466,Electivire,Medium Fast
+0467,Magmortar,Medium Fast
+0468,Togekiss,Fast
+0469,Yanmega,Medium Fast
+0470,Leafeon,Medium Fast
+0471,Glaceon,Medium Fast
+0472,Gliscor,Medium Slow
+0473,Mamoswine,Slow
+0474,Porygon-Z,Medium Fast
+0475,Gallade,Slow
+0476,Probopass,Medium Fast
+0477,Dusknoir,Fast
+0478,Froslass,Medium Fast
+0479,Rotom,Medium Fast
+0480,Uxie,Slow
+0481,Mesprit,Slow
+0482,Azelf,Slow
+0483,Dialga,Slow
+0484,Palkia,Slow
+0485,Heatran,Slow
+0486,Regigigas,Slow
+0487,Giratina,Slow
+0488,Cresselia,Slow
+0489,Phione,Slow
+0490,Manaphy,Slow
+0491,Darkrai,Slow
+0492,Shaymin,Medium Slow
+0493,Arceus,Slow
+0494,Victini,Slow
+0495,Snivy,Medium Slow
+0496,Servine,Medium Slow
+0497,Serperior,Medium Slow
+0498,Tepig,Medium Slow
+0499,Pignite,Medium Slow
+0500,Emboar,Medium Slow
+0501,Oshawott,Medium Slow
+0502,Dewott,Medium Slow
+0503,Samurott,Medium Slow
+0504,Patrat,Medium Fast
+0505,Watchog,Medium Fast
+0506,Lillipup,Medium Slow
+0507,Herdier,Medium Slow
+0508,Stoutland,Medium Slow
+0509,Purrloin,Medium Fast
+0510,Liepard,Medium Fast
+0511,Pansage,Medium Fast
+0512,Simisage,Medium Fast
+0513,Pansear,Medium Fast
+0514,Simisear,Medium Fast
+0515,Panpour,Medium Fast
+0516,Simipour,Medium Fast
+0517,Munna,Fast
+0518,Musharna,Fast
+0519,Pidove,Medium Slow
+0520,Tranquill,Medium Slow
+0521,Unfezant,Medium Slow
+0522,Blitzle,Medium Fast
+0523,Zebstrika,Medium Fast
+0524,Roggenrola,Medium Slow
+0525,Boldore,Medium Slow
+0526,Gigalith,Medium Slow
+0527,Woobat,Medium Fast
+0528,Swoobat,Medium Fast
+0529,Drilbur,Medium Fast
+0530,Excadrill,Medium Fast
+0531,Audino,Fast
+0532,Timburr,Medium Slow
+0533,Gurdurr,Medium Slow
+0534,Conkeldurr,Medium Slow
+0535,Tympole,Medium Slow
+0536,Palpitoad,Medium Slow
+0537,Seismitoad,Medium Slow
+0538,Throh,Medium Fast
+0539,Sawk,Medium Fast
+0540,Sewaddle,Medium Slow
+0541,Swadloon,Medium Slow
+0542,Leavanny,Medium Slow
+0543,Venipede,Medium Slow
+0544,Whirlipede,Medium Slow
+0545,Scolipede,Medium Slow
+0546,Cottonee,Medium Fast
+0547,Whimsicott,Medium Fast
+0548,Petilil,Medium Fast
+0549,Lilligant,Medium Fast
+0550,Basculin,Medium Fast
+0551,Sandile,Medium Slow
+0552,Krokorok,Medium Slow
+0553,Krookodile,Medium Slow
+0554,Darumaka,Medium Slow
+0555,Darmanitan,Medium Slow
+0556,Maractus,Medium Fast
+0557,Dwebble,Medium Fast
+0558,Crustle,Medium Fast
+0559,Scraggy,Medium Fast
+0560,Scrafty,Medium Fast
+0561,Sigilyph,Medium Fast
+0562,Yamask,Medium Fast
+0563,Cofagrigus,Medium Fast
+0564,Tirtouga,Medium Fast
+0565,Carracosta,Medium Fast
+0566,Archen,Medium Fast
+0567,Archeops,Medium Fast
+0568,Trubbish,Medium Fast
+0569,Garbodor,Medium Fast
+0570,Zorua,Medium Slow
+0571,Zoroark,Medium Slow
+0572,Minccino,Fast
+0573,Cinccino,Fast
+0574,Gothita,Medium Slow
+0575,Gothorita,Medium Slow
+0576,Gothitelle,Medium Slow
+0577,Solosis,Medium Slow
+0578,Duosion,Medium Slow
+0579,Reuniclus,Medium Slow
+0580,Ducklett,Medium Fast
+0581,Swanna,Medium Fast
+0582,Vanillite,Slow
+0583,Vanillish,Slow
+0584,Vanilluxe,Slow
+0585,Deerling,Medium Fast
+0586,Sawsbuck,Medium Fast
+0587,Emolga,Medium Fast
+0588,Karrablast,Medium Fast
+0589,Escavalier,Medium Fast
+0590,Foongus,Medium Fast
+0591,Amoonguss,Medium Fast
+0592,Frillish,Medium Fast
+0593,Jellicent,Medium Fast
+0594,Alomomola,Fast
+0595,Joltik,Medium Fast
+0596,Galvantula,Medium Fast
+0597,Ferroseed,Medium Fast
+0598,Ferrothorn,Medium Fast
+0599,Klink,Medium Slow
+0600,Klang,Medium Slow
+0601,Klinklang,Medium Slow
+0602,Tynamo,Slow
+0603,Eelektrik,Slow
+0604,Eelektross,Slow
+0605,Elgyem,Medium Fast
+0606,Beheeyem,Medium Fast
+0607,Litwick,Medium Slow
+0608,Lampent,Medium Slow
+0609,Chandelure,Medium Slow
+0610,Axew,Slow
+0611,Fraxure,Slow
+0612,Haxorus,Slow
+0613,Cubchoo,Medium Fast
+0614,Beartic,Medium Fast
+0615,Cryogonal,Medium Fast
+0616,Shelmet,Medium Fast
+0617,Accelgor,Medium Fast
+0618,Stunfisk,Medium Fast
+0619,Mienfoo,Medium Slow
+0620,Mienshao,Medium Slow
+0621,Druddigon,Medium Fast
+0622,Golett,Medium Fast
+0623,Golurk,Medium Fast
+0624,Pawniard,Medium Fast
+0625,Bisharp,Medium Fast
+0626,Bouffalant,Medium Fast
+0627,Rufflet,Slow
+0628,Braviary,Slow
+0629,Vullaby,Slow
+0630,Mandibuzz,Slow
+0631,Heatmor,Medium Fast
+0632,Durant,Medium Fast
+0633,Deino,Slow
+0634,Zweilous,Slow
+0635,Hydreigon,Slow
+0636,Larvesta,Slow
+0637,Volcarona,Slow
+0638,Cobalion,Slow
+0639,Terrakion,Slow
+0640,Virizion,Slow
+0641,Tornadus,Slow
+0642,Thundurus,Slow
+0643,Reshiram,Slow
+0644,Zekrom,Slow
+0645,Landorus,Slow
+0646,Kyurem,Slow
+0647,Keldeo,Slow
+0648,Meloetta,Slow
+0649,Genesect,Slow
+0650,Chespin,Medium Slow
+0651,Quilladin,Medium Slow
+0652,Chesnaught,Medium Slow
+0653,Fennekin,Medium Slow
+0654,Braixen,Medium Slow
+0655,Delphox,Medium Slow
+0656,Froakie,Medium Slow
+0657,Frogadier,Medium Slow
+0658,Greninja,Medium Slow
+0659,Bunnelby,Medium Fast
+0660,Diggersby,Medium Fast
+0661,Fletchling,Medium Slow
+0662,Fletchinder,Medium Slow
+0663,Talonflame,Medium Slow
+0664,Scatterbug,Medium Fast
+0665,Spewpa,Medium Fast
+0666,Vivillon,Medium Fast
+0667,Litleo,Medium Slow
+0668,Pyroar,Medium Slow
+0669,Flabébé,Medium Fast
+0670,Floette,Medium Fast
+0671,Florges,Medium Fast
+0672,Skiddo,Medium Fast
+0673,Gogoat,Medium Fast
+0674,Pancham,Medium Fast
+0675,Pangoro,Medium Fast
+0676,Furfrou,Medium Fast
+0677,Espurr,Medium Fast
+0678,Meowstic,Medium Fast
+0679,Honedge,Medium Fast
+0680,Doublade,Medium Fast
+0681,Aegislash,Medium Fast
+0682,Spritzee,Medium Fast
+0683,Aromatisse,Medium Fast
+0684,Swirlix,Medium Fast
+0685,Slurpuff,Medium Fast
+0686,Inkay,Medium Fast
+0687,Malamar,Medium Fast
+0688,Binacle,Medium Fast
+0689,Barbaracle,Medium Fast
+0690,Skrelp,Medium Fast
+0691,Dragalge,Medium Fast
+0692,Clauncher,Slow
+0693,Clawitzer,Slow
+0694,Helioptile,Medium Fast
+0695,Heliolisk,Medium Fast
+0696,Tyrunt,Medium Fast
+0697,Tyrantrum,Medium Fast
+0698,Amaura,Medium Fast
+0699,Aurorus,Medium Fast
+0700,Sylveon,Medium Fast
+0701,Hawlucha,Medium Fast
+0702,Dedenne,Medium Fast
+0703,Carbink,Slow
+0704,Goomy,Slow
+0705,Sliggoo,Slow
+0706,Goodra,Slow
+0707,Klefki,Fast
+0708,Phantump,Medium Fast
+0709,Trevenant,Medium Fast
+0710,Pumpkaboo,Medium Fast
+0711,Gourgeist,Medium Fast
+0712,Bergmite,Medium Fast
+0713,Avalugg,Medium Fast
+0714,Noibat,Medium Fast
+0715,Noivern,Medium Fast
+0716,Xerneas,Slow
+0717,Yveltal,Slow
+0718,Zygarde,Slow
+0719,Diancie,Slow
+0720,Hoopa,Slow
+0721,Volcanion,Slow
+0722,Rowlet,Medium Slow
+0723,Dartrix,Medium Slow
+0724,Decidueye,Medium Slow
+0725,Litten,Medium Slow
+0726,Torracat,Medium Slow
+0727,Incineroar,Medium Slow
+0728,Popplio,Medium Slow
+0729,Brionne,Medium Slow
+0730,Primarina,Medium Slow
+0731,Pikipek,Medium Fast
+0732,Trumbeak,Medium Fast
+0733,Toucannon,Medium Fast
+0734,Yungoos,Medium Fast
+0735,Gumshoos,Medium Fast
+0736,Grubbin,Medium Fast
+0737,Charjabug,Medium Fast
+0738,Vikavolt,Medium Fast
+0739,Crabrawler,Medium Fast
+0740,Crabominable,Medium Fast
+0741,Oricorio,Medium Fast
+0742,Cutiefly,Medium Fast
+0743,Ribombee,Medium Fast
+0744,Rockruff,Medium Fast
+0745,Lycanroc,Medium Fast
+0746,Wishiwashi,Fast
+0747,Mareanie,Medium Fast
+0748,Toxapex,Medium Fast
+0749,Mudbray,Medium Fast
+0750,Mudsdale,Medium Fast
+0751,Dewpider,Medium Fast
+0752,Araquanid,Medium Fast
+0753,Fomantis,Medium Fast
+0754,Lurantis,Medium Fast
+0755,Morelull,Medium Fast
+0756,Shiinotic,Medium Fast
+0757,Salandit,Medium Fast
+0758,Salazzle,Medium Fast
+0759,Stufful,Medium Fast
+0760,Bewear,Medium Fast
+0761,Bounsweet,Medium Slow
+0762,Steenee,Medium Slow
+0763,Tsareena,Medium Slow
+0764,Comfey,Fast
+0765,Oranguru,Slow
+0766,Passimian,Slow
+0767,Wimpod,Medium Fast
+0768,Golisopod,Medium Fast
+0769,Sandygast,Medium Fast
+0770,Palossand,Medium Fast
+0771,Pyukumuku,Fast
+0772,Type: Null,Slow
+0773,Silvally,Slow
+0774,Minior,Medium Slow
+0775,Komala,Slow
+0776,Turtonator,Medium Fast
+0777,Togedemaru,Medium Fast
+0778,Mimikyu,Medium Fast
+0779,Bruxish,Medium Fast
+0780,Drampa,Medium Fast
+0781,Dhelmise,Medium Fast
+0782,Jangmo-o,Slow
+0783,Hakamo-o,Slow
+0784,Kommo-o,Slow
+0785,Tapu Koko,Slow
+0786,Tapu Lele,Slow
+0787,Tapu Bulu,Slow
+0788,Tapu Fini,Slow
+0789,Cosmog,Slow
+0790,Cosmoem,Slow
+0791,Solgaleo,Slow
+0792,Lunala,Slow
+0793,Nihilego,Slow
+0794,Buzzwole,Slow
+0795,Pheromosa,Slow
+0796,Xurkitree,Slow
+0797,Celesteela,Slow
+0798,Kartana,Slow
+0799,Guzzlord,Slow
+0800,Necrozma,Slow
+0801,Magearna,Slow
+0802,Marshadow,Slow
+0803,Poipole,Slow
+0804,Naganadel,Slow
+0805,Stakataka,Slow
+0806,Blacephalon,Slow
+0807,Zeraora,Slow
+0808,Meltan,Slow
+0809,Melmetal,Slow
+0810,Grookey,Medium Slow
+0811,Thwackey,Medium Slow
+0812,Rillaboom,Medium Slow
+0813,Scorbunny,Medium Slow
+0814,Raboot,Medium Slow
+0815,Cinderace,Medium Slow
+0816,Sobble,Medium Slow
+0817,Drizzile,Medium Slow
+0818,Inteleon,Medium Slow
+0819,Skwovet,Medium Fast
+0820,Greedent,Medium Fast
+0821,Rookidee,Medium Slow
+0822,Corvisquire,Medium Slow
+0823,Corviknight,Medium Slow
+0824,Blipbug,Medium Fast
+0825,Dottler,Medium Fast
+0826,Orbeetle,Medium Fast
+0827,Nickit,Fast
+0828,Thievul,Fast
+0829,Gossifleur,Medium Fast
+0830,Eldegoss,Medium Fast
+0831,Wooloo,Medium Fast
+0832,Dubwool,Medium Fast
+0833,Chewtle,Medium Fast
+0834,Drednaw,Medium Fast
+0835,Yamper,Fast
+0836,Boltund,Fast
+0837,Rolycoly,Medium Slow
+0838,Carkol,Medium Slow
+0839,Coalossal,Medium Slow
+0840,Applin,Erratic
+0841,Flapple,Erratic
+0842,Appletun,Erratic
+0843,Silicobra,Medium Fast
+0844,Sandaconda,Medium Fast
+0845,Cramorant,Medium Fast
+0846,Arrokuda,Slow
+0847,Barraskewda,Slow
+0848,Toxel,Medium Slow
+0849,Toxtricity,Medium Slow
+0850,Sizzlipede,Medium Fast
+0851,Centiskorch,Medium Fast
+0852,Clobbopus,Medium Slow
+0853,Grapploct,Medium Slow
+0854,Sinistea,Medium Fast
+0855,Polteageist,Medium Fast
+0856,Hatenna,Slow
+0857,Hattrem,Slow
+0858,Hatterene,Slow
+0859,Impidimp,Medium Fast
+0860,Morgrem,Medium Fast
+0861,Grimmsnarl,Medium Fast
+0862,Obstagoon,Medium Fast
+0863,Perrserker,Medium Fast
+0864,Cursola,Fast
+0865,Sirfetch'd,Medium Fast
+0866,Mr. Rime,Medium Fast
+0867,Runerigus,Medium Fast
+0868,Milcery,Medium Fast
+0869,Alcremie,Medium Fast
+0870,Falinks,Medium Fast
+0871,Pincurchin,Medium Fast
+0872,Snom,Medium Fast
+0873,Frosmoth,Medium Fast
+0874,Stonjourner,Slow
+0875,Eiscue,Slow
+0876,Indeedee,Fast
+0877,Morpeko,Medium Fast
+0878,Cufant,Medium Fast
+0879,Copperajah,Medium Fast
+0880,Dracozolt,Slow
+0881,Arctozolt,Slow
+0882,Dracovish,Slow
+0883,Arctovish,Slow
+0884,Duraludon,Medium Fast
+0885,Dreepy,Slow
+0886,Drakloak,Slow
+0887,Dragapult,Slow
+0888,Zacian,Slow
+0889,Zamazenta,Slow
+0890,Eternatus,Slow
+0891,Kubfu,Slow
+0892,Urshifu,Slow
+0893,Zarude,Slow
+0894,Regieleki,Slow
+0895,Regidrago,Slow
+0896,Glastrier,Slow
+0897,Spectrier,Slow
+0898,Calyrex,Slow
+0899,Wyrdeer,Slow
+0900,Kleavor,Medium Fast
+0901,Ursaluna,Medium Fast
+0902,Basculegion,Medium Fast
+0903,Sneasler,Medium Slow
+0904,Overqwil,Medium Fast
+0905,Enamorus,Slow
+0906,Sprigatito,Medium Slow
+0907,Floragato,Medium Slow
+0908,Meowscarada,Medium Slow
+0909,Fuecoco,Medium Slow
+0910,Crocalor,Medium Slow
+0911,Skeledirge,Medium Slow
+0912,Quaxly,Medium Slow
+0913,Quaxwell,Medium Slow
+0914,Quaquaval,Medium Slow
+0915,Lechonk,Medium Fast
+0916,Oinkologne,Medium Fast
+0917,Tarountula,Erratic
+0918,Spidops,Erratic
+0919,Nymble,Medium Fast
+0920,Lokix,Medium Fast
+0921,Pawmi,Medium Fast
+0922,Pawmo,Medium Fast
+0923,Pawmot,Medium Fast
+0924,Tandemaus,Fast
+0925,Maushold,Fast
+0926,Fidough,Medium Slow
+0927,Dachsbun,Medium Slow
+0928,Smoliv,Medium Slow
+0929,Dolliv,Medium Slow
+0930,Arboliva,Medium Slow
+0931,Squawkabilly,Erratic
+0932,Nacli,Medium Slow
+0933,Naclstack,Medium Slow
+0934,Garganacl,Medium Slow
+0935,Charcadet,Slow
+0936,Armarouge,Slow
+0937,Ceruledge,Slow
+0938,Tadbulb,Medium Fast
+0939,Bellibolt,Medium Fast
+0940,Wattrel,Medium Slow
+0941,Kilowattrel,Medium Slow
+0942,Maschiff,Medium Slow
+0943,Mabosstiff,Medium Slow
+0944,Shroodle,Medium Slow
+0945,Grafaiai,Medium Slow
+0946,Bramblin,Medium Fast
+0947,Brambleghast,Medium Fast
+0948,Toedscool,Medium Slow
+0949,Toedscruel,Medium Slow
+0950,Klawf,Medium Fast
+0951,Capsakid,Medium Fast
+0952,Scovillain,Medium Fast
+0953,Rellor,Fast
+0954,Rabsca,Fast
+0955,Flittle,Medium Slow
+0956,Espathra,Medium Slow
+0957,Tinkatink,Medium Slow
+0958,Tinkatuff,Medium Slow
+0959,Tinkaton,Medium Slow
+0960,Wiglett,Medium Fast
+0961,Wugtrio,Medium Fast
+0962,Bombirdier,Slow
+0963,Finizen,Slow
+0964,Palafin,Slow
+0965,Varoom,Medium Fast
+0966,Revavroom,Medium Fast
+0967,Cyclizar,Medium Slow
+0968,Orthworm,Slow
+0969,Glimmet,Medium Slow
+0970,Glimmora,Medium Slow
+0971,Greavard,Medium Slow
+0972,Houndstone,Medium Slow
+0973,Flamigo,Medium Slow
+0974,Cetoddle,Medium Slow
+0975,Cetitan,Medium Slow
+0976,Veluza,Fast
+0977,Dondozo,Slow
+0978,Tatsugiri,Medium Slow
+0979,Annihilape,Medium Fast
+0980,Clodsire,Medium Fast
+0981,Farigiraf,Medium Fast
+0982,Dudunsparce,Medium Fast
+0983,Kingambit,Medium Fast
+0984,Great Tusk,Slow
+0985,Scream Tail,Slow
+0986,Brute Bonnet,Slow
+0987,Flutter Mane,Slow
+0988,Slither Wing,Slow
+0989,Sandy Shocks,Slow
+0990,Iron Treads,Slow
+0991,Iron Bundle,Slow
+0992,Iron Hands,Slow
+0993,Iron Jugulis,Slow
+0994,Iron Moth,Slow
+0995,Iron Thorns,Slow
+0996,Frigibax,Slow
+0997,Arctibax,Slow
+0998,Baxcalibur,Slow
+0999,Gimmighoul,Slow
+1000,Gholdengo,Slow
+1001,Wo-Chien,Slow
+1002,Chien-Pao,Slow
+1003,Ting-Lu,Slow
+1004,Chi-Yu,Slow
+1005,Roaring Moon,Slow
+1006,Iron Valiant,Slow
+1007,Koraidon,Slow
+1008,Miraidon,Slow
+1009,Walking Wake,Slow
+1010,Iron Leaves,Slow
+1011,Dipplin,Erratic
+1012,Poltchageist,Medium Fast
+1013,Sinistcha,Medium Fast
+1014,Okidogi,Slow
+1015,Munkidori,Slow
+1016,Fezandipiti,Slow
+1017,Ogerpon,Slow
+1018,Archaludon,Medium Fast
+1019,Hydrapple,Erratic
+1020,Gouging Fire,Slow
+1021,Raging Bolt,Slow
+1022,Iron Boulder,Slow
+1023,Iron Crown,Slow
+1024,Terapagos,Slow
+1025,Pecharunt,Slow

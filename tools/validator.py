@@ -28,9 +28,9 @@ def validate_team(team):
             raise InValidSetError(species + " cant have the ability, " + pokemon['ability'])
         for i in range(6):
             if pokemon['evs'][i] > 255 or pokemon['evs'][i] < 0:
-                raise InVaidSetError("ev value is out of range: " + str(pokemon['evs'][i]))
+                raise InValidSetError("ev value is out of range: " + str(pokemon['evs'][i]))
             if pokemon['ivs'][i] > 31 or pokemon['ivs'][i] < 0:
-                raise InVaidSetError("iv value is out of range: " + str(pokemon['ivs'][i]))
+                raise InValidSetError("iv value is out of range: " + str(pokemon['ivs'][i]))
         if sum(pokemon['evs']) > 510:
             raise InValidSetError("sum of evs is over 510")
 

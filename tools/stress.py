@@ -1,5 +1,5 @@
 import time
-from picksix import generateTeam
+from pick_six import generateTeam
 
 def thousand():
     t0 = time.time() 
@@ -10,7 +10,7 @@ def thousand():
     t1 = time.time()
     print('battles took ', (t1-t0)*1000, ' milliseconds')
 
-from picksix import generateTeam
+from pick_six import generateTeam
 import cProfile
 import re
 #cProfile.run('thousand()')

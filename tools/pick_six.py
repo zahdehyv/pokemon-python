@@ -100,6 +100,55 @@ def generate_team(num_pokemon=6, domain='all'):
         
     return team
 
+def generate_team_pok(index, domain='all', mvs = []):
+    index = index-1
+    
+    team = []
+    species = []
+    items = []
+    pokedex = list(domain_all)
+    items = list(dex.item_dex.keys())
+    natures = list(dex.nature_dex.keys())
+
+    
+    pokemon = {}
+    pokemon['species'] = pokedex[index]
+
+    pokemon['moves'] = []
+    moves = list(dex.simple_learnsets[pokemon['species']])
+    for mv in mvs:
+        pokemon['moves'].append(mv)
+    while len(pokemon['moves']) < 4 and len(moves) > 0:
+        r = random.randint(0,len(moves)-1)
+        pokemon['moves'].append(moves[r])
+        del moves[r]
+
+    
+    r = random.randint(0,len(items)-1)
+    pokemon['item'] = items[r]
+
+    r = random.randint(0,len(natures)-1)
+    pokemon['nature'] = natures[r]
+    del natures[r]
+
+    abilities = [re.sub(r'\W+', '', ability.lower()) for ability in list(filter(None.__ne__, list(dex.pokedex[pokemon['species']].abilities)))]
+    #print(str(abilities))
+    r = random.randint(0,len(abilities)-1)
+    pokemon['ability'] = abilities[r]
+    del abilities[r]
+
+    divs = [random.randint(0,127) for i in range(5)]
+    divs.append(0)
+    divs.append(127)
+    divs.sort()
+    evs = [4*(divs[i+1]-divs[i]) if 4*(divs[i+1]-divs[i])< 252 else 252 for i in range(len(divs)-1)]
+    pokemon['evs'] = evs
+    pokemon['ivs'] = [31, 31, 31, 31, 31, 31]
+
+    team.append(pokemon)
+        
+    return team, moves, natures, abilities
+
 def choice(L, n, p):
     pass
 
