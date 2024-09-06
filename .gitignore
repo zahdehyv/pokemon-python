@@ -34,3 +34,4 @@ la-fitness-master/
 hs_err_pid*
 .venv/lib64
 .venv/pyvenv.cfg
+gui_test.py

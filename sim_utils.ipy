@@ -81,15 +81,15 @@ class GeneticOperations:
         pass
 
 if __name__ == "__main__":
-    bulb = PokemonEntity(1)
+    bulb = PokemonEntity(456)
     print(bulb.entity)
-    print(bulb.other_moves)
-    print(bulb.other_natures)
-    print(bulb.other_abilities)
 
 
 
 
+    # print(bulb.other_moves)
+    # print(bulb.other_natures)
+    # print(bulb.other_abilities)
 
     # xp_h = ExperienceHandler()
     # print(xp_h.experience_gain(100, 100, 807))

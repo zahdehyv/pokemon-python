@@ -41,63 +41,62 @@ button_frame.pack(pady=20)
 # Create buttons for various actions with 8-bit font, white font color, and transparent background
 button_font = ("Press Start 2P", 14)  # Use the installed 8-bit font
 
-start_simulation_button = tk.Button(
+training_room_button = tk.Button(
     button_frame, 
-    text="Start Simulation", 
+    text="Training Room", 
     font=button_font, 
     fg="white", 
     bg="black",  # Set initial background to black
     bd=0,  # Remove border
     highlightthickness=0,  # Remove highlight border
-    command=lambda: on_button_click("Start Simulation")
+    command=lambda: on_button_click("Training Room")
 )
-start_simulation_button.bind("<Enter>", on_enter)  # Bind mouse enter event
-start_simulation_button.bind("<Leave>", on_leave)  # Bind mouse leave event
-start_simulation_button.pack(pady=10)
+training_room_button.bind("<Enter>", on_enter)  # Bind mouse enter event
+training_room_button.bind("<Leave>", on_leave)  # Bind mouse leave event
+training_room_button.pack(pady=10)
 
-train_button = tk.Button(
+simulation_button = tk.Button(
     button_frame, 
-    text="Train Pokémon", 
+    text="Simulation Box", 
     font=button_font, 
     fg="white", 
     bg="black",  # Set initial background to black
     bd=0,  # Remove border
     highlightthickness=0,  # Remove highlight border
-    command=lambda: on_button_click("Train Pokémon")
+    command=lambda: on_button_click("Simulation Box")
 )
-train_button.bind("<Enter>", on_enter)  # Bind mouse enter event
-train_button.bind("<Leave>", on_leave)  # Bind mouse leave event
-train_button.pack(pady=10)
+simulation_button.bind("<Enter>", on_enter)  # Bind mouse enter event
+simulation_button.bind("<Leave>", on_leave)  # Bind mouse leave event
+simulation_button.pack(pady=10)
 
-battle_button = tk.Button(
+battle_coliseum_button = tk.Button(
     button_frame, 
-    text="Battle Pokémon", 
+    text="Battle Coliseum", 
     font=button_font, 
     fg="white", 
     bg="black",  # Set initial background to black
     bd=0,  # Remove border
     highlightthickness=0,  # Remove highlight border
-    command=lambda: on_button_click("Battle Pokémon")
+    command=lambda: on_button_click("Battle Coliseum")
 )
-battle_button.bind("<Enter>", on_enter)  # Bind mouse enter event
-battle_button.bind("<Leave>", on_leave)  # Bind mouse leave event
-battle_button.pack(pady=10)
+battle_coliseum_button.bind("<Enter>", on_enter)  # Bind mouse enter event
+battle_coliseum_button.bind("<Leave>", on_leave)  # Bind mouse leave event
+battle_coliseum_button.pack(pady=10)
 
-view_stats_button = tk.Button(
+pokedex_button = tk.Button(
     button_frame, 
-    text="View Stats", 
+    text="Pokedex", 
     font=button_font, 
     fg="white", 
     bg="black",  # Set initial background to black
     bd=0,  # Remove border
     highlightthickness=0,  # Remove highlight border
-    command=lambda: on_button_click("View Stats")
+    command=lambda: on_button_click("Pokedex")
 )
-view_stats_button.bind("<Enter>", on_enter)  # Bind mouse enter event
-view_stats_button.bind("<Leave>", on_leave)  # Bind mouse leave event
-view_stats_button.pack(pady=10)
+pokedex_button.bind("<Enter>", on_enter)  # Bind mouse enter event
+pokedex_button.bind("<Leave>", on_leave)  # Bind mouse leave event
+pokedex_button.pack(pady=10)
 
-# Create an Exit button with white font color and transparent background
 exit_button = tk.Button(
     root, 
     text="Exit", 
