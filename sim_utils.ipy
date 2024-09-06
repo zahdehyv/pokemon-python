@@ -81,7 +81,7 @@ class GeneticOperations:
         pass
 
 if __name__ == "__main__":
-    bulb = PokemonEntity(456)
+    bulb = PokemonEntity(675)
     print(bulb.entity)
 
 
