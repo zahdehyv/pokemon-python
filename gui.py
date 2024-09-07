@@ -5,9 +5,6 @@ from PIL import Image, ImageTk
 import os
 import pandas as pd
 
-# Function to handle button clicks
-def on_button_click(action):
-    messagebox.showinfo("Action", f"You selected: {action}")
 
 # Function to change button color on mouse enter
 def on_enter(event):

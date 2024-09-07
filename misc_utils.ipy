@@ -3,6 +3,7 @@ from data.dex import index_to_id_pokemon
 import sim.sim as sim
 import pandas as pd
 from tools.pick_six import generate_team_pok
+import numpy as np
 
 class PokemonEco:
     def __init__(self):
@@ -68,7 +69,8 @@ class ExperienceHandler:
                 print("leveled up to level:",pkmn_lvl)
             else:
                 break
-class AI:
+            
+class brAI_nEAT:
     pass
 
 class GeneticOperations:
@@ -79,10 +81,17 @@ class GeneticOperations:
         pass
     def select(list, fitnes_fnc):
         pass
+    
+    def fitness(self, x: PokemonEntity):
+        return (x.lvl/100)**(5/7)
+    def temperature(self, x:PokemonEntity):
+        return (1 - self.fitness(x))**3
+        
 
 if __name__ == "__main__":
     bulb = PokemonEntity(675)
     print(bulb.entity)
+    print(type(bulb.entity[0]))
 
 
 

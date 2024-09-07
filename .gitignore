@@ -26,6 +26,7 @@
 #node modules
 node_modules/
 .venv/
+old/
 
 #ignore la-fitness bot
 la-fitness-master/
@@ -35,3 +36,6 @@ hs_err_pid*
 .venv/lib64
 .venv/pyvenv.cfg
 gui_test.py
+es_hyperneat_xor.py
+config_cppn_xor
+test_neat.py
