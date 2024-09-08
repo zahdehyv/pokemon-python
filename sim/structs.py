@@ -167,7 +167,7 @@ class Pokemon:
     active : bool = False
     active_turns : int = 0
 
-    level : int = 50
+    level : int = field(default=1)
 
     types : List[str] = field(init=False)
 
@@ -183,6 +183,7 @@ class Pokemon:
             'accuracy': 0,
             'evasion': 0
         }
+        # print(poke)
         self.name = poke.name
         self.species = poke.species
         self.id = poke.species
@@ -273,7 +274,9 @@ class Player:
     def __post_init__(self, team:List[PokemonSet]):
         i = 0
         for poke in team:
-            pokemon = Pokemon(self.uid, i, poke, debug=self.debug)
+            pokemon = Pokemon(self.uid, i, poke, debug=self.debug, level=poke.level)
+            # print("assigning ",poke.level,"to", pokemon.level)
+            # print("level", pokemon.level)
             self.pokemon.append(pokemon) 
             i += 1 
         return
