@@ -1,0 +1,5 @@
+Especie: zeraora
+Batallas ganadas: 13/29
+Nivel: 100
+Movimientos usados:
+Total de movimientos diferentes usados: 0

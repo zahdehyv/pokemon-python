@@ -1,0 +1,6 @@
+Especie: charmander
+Batallas ganadas: 7/29
+Nivel: 95
+Movimientos usados:
+  blastburn: 42 veces
+Total de movimientos diferentes usados: 1

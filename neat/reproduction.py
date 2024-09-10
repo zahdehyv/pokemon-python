@@ -184,5 +184,8 @@ class DefaultReproduction(DefaultClassConfig):
                 child.mutate(config.genome_config)
                 new_population[gid] = child
                 self.ancestors[gid] = (parent1_id, parent2_id)
+                child.selected_parent = [parent1_id, parent2_id]
+                random.shuffle(child.selected_parent)
+                child.fitness = min(parent1.fitness, parent2.fitness)
 
         return new_population

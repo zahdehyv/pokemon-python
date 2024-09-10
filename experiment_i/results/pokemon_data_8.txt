@@ -1,0 +1,6 @@
+Especie: carracosta
+Batallas ganadas: 19/29
+Nivel: 95
+Movimientos usados:
+  hydropump: 57 veces
+Total de movimientos diferentes usados: 1

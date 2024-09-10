@@ -27,6 +27,7 @@
 node_modules/
 .venv/
 old/
+data_deprecated/
 
 #ignore la-fitness bot
 la-fitness-master/
@@ -39,3 +40,6 @@ gui_test.py
 es_hyperneat_xor.py
 config_cppn_xor
 test_neat.py
+test0.py
+test1.py
+test2.py

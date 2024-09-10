@@ -7,6 +7,7 @@ import numpy as np
 import random
 from sim.structs import Pokemon
 
+from pathlib import Path
 import pickle
 import neat
 import neat.nn
@@ -14,18 +15,19 @@ from pureples.shared.substrate import Substrate
 from pureples.shared.visualize import draw_net
 from pureples.es_hyperneat.es_hyperneat import ESNetwork
 
-COOLER = 11
-TURN_BONUS = 30
+COOLER = 3
+TURN_BONUS = 7
 
-VERSION = "S"
-VERSION_TEXT = "small" if VERSION == "S" else "medium" if VERSION == "M" else "large"          
+BRAIN_SIZE = "S"
+BRAIN_SIZE_TEXT = "small" if BRAIN_SIZE == "S" else "medium" if BRAIN_SIZE == "M" else "large"          
 
 INPUT_COORDINATES = [(float(j-6), float(-2)) for j in range(13)]
 OUTPUT_COORDINATES = [(float(x-3), 2.0) for x in list(range(3))+list(range(4,7))]
 
 SUBSTRATE = Substrate(INPUT_COORDINATES, OUTPUT_COORDINATES)
 
-NO_OF_GENS = 9999
+NO_OF_GENS = 69
+
 # MATCHES_BY_GEN = 1
 # MATCHES_TO_RECOMBINE = 10
 
@@ -37,7 +39,7 @@ def params(version):
     ES-HyperNEAT specific parameters.
     """
     return {"initial_depth": 0 if version == "S" else 1 if version == "M" else 2,
-            "max_depth": 1 if version == "S" else 2 if version == "M" else 3,
+            "max_depth": 2 if version == "S" else 3 if version == "M" else 5,
             "variance_threshold": 0.03,
             "band_threshold": 0.3,
             "iteration_level": 1,
@@ -45,7 +47,7 @@ def params(version):
             "max_weight": 3.0,
             "activation": "sigmoid"}
 
-DYNAMIC_PARAMS = params(VERSION)
+DYNAMIC_PARAMS = params(BRAIN_SIZE)
 
 CONFIG = neat.config.Config(neat.genome.DefaultGenome, neat.reproduction.DefaultReproduction,
                             neat.species.DefaultSpeciesSet, neat.stagnation.DefaultStagnation,
@@ -58,21 +60,26 @@ class PokemonEco:
 
 
 class PokemonEntity:
-    def __init__(self, index, genome, config, has_ai = True, brain_size = "S", level = 1):
+    def __init__(self, index, genome, config, has_ai = True, level = 1):
+        self.index = index
         self.entity, self.other_moves, self.other_natures, self.other_abilities = generate_team_pok(index)
         self.entity = sim.dict_to_team_set(self.entity)
         self.lvl = level
         self.entity[0].level = self.lvl
         self.xp = 0
         self.brAInNEAT = None
-        self.brain_size_text = None
         self.genome = genome
         self.config = config
         self.network = None
+        self.has_ai = has_ai
         if has_ai:
             self.set_ai()
             self.genome.fitness = 0.001
-            self.brain_size_text = "small" if brain_size == "S" else "medium" if brain_size == "M" else "large"
+            
+        self.won_battles = 0
+        self.total_battles = 0
+        self.used_moves = set()
+        self.age = 0
         
     def set_ai(self):
         cppn = neat.nn.FeedForwardNetwork.create(self.genome, self.config)
@@ -84,27 +91,22 @@ class PokemonEntity:
     def choose_random(self):
         return np.random.randint(-1,5)
     
+    def ask_for_choice(self, myself: Pokemon, rival: Pokemon):
+        if self.genome:
+            return self.choose(myself, rival)
+        else:
+            print("Select an option:")
+            print("> -1 pass")
+            j = 0
+            for i in range(len(self.entity[0].moves)):
+                print(">",i, self.entity[0].moves[i])
+                j = i+1
+            print(">", j, "run")
+            chs = input()
+            return int(chs)
+                
+    
     def choose(self, myself: Pokemon, rival: Pokemon):
-        """
-        inputs would be:
-        minepkmn:
-            hp / maxhp (0,1)
-            lvl / 100 (0,1)
-            type1
-            type2
-        rivalpkmn
-            hp / maxhp
-            lvl / 100
-            type1
-            type2
-        bias
-        
-        outputs
-        pass -1
-        attacks
-            0, 1, 2, 3
-        run 4
-        """
         A_HP = (myself.hp / myself.maxhp ,)
         A_LV = (myself.level / 100 ,)
         A_type1 = tuple([float(np.sin(hash(myself.types[0]))), float(np.cos(hash(myself.types[0])))])
@@ -116,32 +118,48 @@ class PokemonEntity:
         B_type2 = (0.0, 0.0) if len(rival.types)<=1 else tuple([float(np.sin(hash(rival.types[1]))), float(np.cos(hash(rival.types[1])))])
         
         net_input = A_HP + A_LV + A_type1 + A_type2 + bias + B_HP + B_LV + B_type1 + B_type2
-        
-        # print(net_input)
-        
+                
         self.brAInNEAT.reset()
         net_output = None
         for _ in range(self.network.activations):
             net_output = self.brAInNEAT.activate(net_input)
-        # print("A")
-        return net_output.index(max(net_output)) -1
-        # exit()
-        # return self.choose_random()
-        
+        return net_output.index(max(net_output)) -1        
     
-    def fitness(self):
-        return (self.lvl/100)**(5/7)
+    def fitness(self, age):
+        x = self.lvl/100
+        if self.total_battles > 0:
+            x = 0.4*x + 0.6*(self.won_battles/self.total_battles)
+        p = 3/(age + 2.7)
+        return p*((len(self.used_moves)/4)**2.9) + (1-p)*x
+    
     def fitness_d(self):
         return self.lvl/100
     def temperature(self):
         return (1 - self.genome.fitness)**COOLER
-    def update_fitness(self):
-        self.genome.fitness = self.fitness_d()
+    def update_fitness(self, age):
+        self.genome.fitness = self.fitness(age)
 
 def save_pokemon(pokemon: PokemonEntity):
-    with open(f'pokemons/{pokemon.entity[0].species}_{pokemon.entity[0].nature}_{VERSION_TEXT}_{int(pokemon.genome.fitness*100)}.pkl', 'wb') as output:
-        pickle.dump(CPPN, output, pickle.HIGHEST_PROTOCOL)
-    filename
+    with open(f'pokemons/{pokemon.entity[0].species}_{pokemon.entity[0].nature}_{BRAIN_SIZE_TEXT}_{int(pokemon.genome.fitness*100)}.pkl', 'wb') as output:
+        pickle.dump(pokemon, output, pickle.HIGHEST_PROTOCOL)
+    with open(f'pokemon_data/{pokemon.entity[0].species}_{pokemon.entity[0].nature}_{BRAIN_SIZE_TEXT}_{int(pokemon.genome.fitness*100)}.txt', 'w') as file:
+        file.write(f"Specie:{pokemon.entity[0].species}\n")
+        file.write(f"Won:{pokemon.won_battles}/{pokemon.total_battles} battles\n")
+        file.write(f"Level:{pokemon.lvl}\n")
+        file.write(f"Fitness:{pokemon.genome.fitness}\n")
+        file.write(f"Ability:{pokemon.entity[0].ability}\n")
+        file.write(f"Nature:{pokemon.entity[0].nature}\n")
+        file.write(f"Moves:{str(pokemon.entity[0].moves)}\n")
+        file.write(f"Most Used Moves:{str(pokemon.used_moves)}\n")
+    
+    
+def load_pokemon(path):
+    pokemon: PokemonEntity = None
+    with open(path, 'rb') as input_data:
+        pokemon = pickle.load(input_data)
+    return pokemon
+
+
     
 
 class ExperienceHandler:
@@ -198,11 +216,30 @@ class ExperienceHandler:
             else:
                 break
         return pkmn_lvl
-
+    
+    def base_stats(self, pkmn: Pokemon):
+        a = pkmn.stats.hp
+        b = pkmn.stats.attack
+        c = pkmn.stats.defense
+        d = pkmn.stats.specialattack
+        e = pkmn.stats.specialdefense
+        f = pkmn.stats.speed
+        return (a + b + c + d + e + f)/6
+    
+    def stats_mod(self, pkmn1: Pokemon, pkmn2: Pokemon):
+        a = self.base_stats(pkmn1)
+        b = self.base_stats(pkmn2)
+        x = b/a
+        return (((np.tanh(13*(x-1.1))+1)/2)+0.7*x)*1.5**x
+    
 class BasicPkmnLogic:
     def __init__(self) -> None:
         self.experience_handler = ExperienceHandler()
         self.ecosystem = PokemonEco()
+        self.lb_log = None
+        
+        self.manual_battle = None
+        self.manual_battle_exp = False
         
     def try_run(self, pkmn1: Pokemon, pkmn2: Pokemon):
         U = get_U()
@@ -210,39 +247,138 @@ class BasicPkmnLogic:
         p = (np.tanh(3*(r - 0.95))+1)/2
         return U < p
             
+    def manual_battle_create(self, pkmn1: PokemonEntity, pkmn2: PokemonEntity):
+        self.manual_battle_exp = True
+        self.manual_battle = sim.Battle('single', 'Piad', pkmn1.entity, 'Daniel', pkmn2.entity)
         
+    def manual_battle_do_turn(self, pkmn1: PokemonEntity, pkmn2: PokemonEntity, my_choice: int):
+        # print(my_choice)
+        pkmn1_choice = my_choice
+        pkmn2_choice = pkmn2.ask_for_choice(self.manual_battle.p2.active_pokemon[0], self.manual_battle.p1.active_pokemon[0])
+        if not (pkmn1_choice < 4) and not (pkmn2_choice < 4): #both run
+            self.manual_battle.log.append(self.manual_battle.p1.active_pokemon[0].species+" runs")
+            self.manual_battle.log.append(self.manual_battle.p2.active_pokemon[0].species+" runs")
+            self.manual_battle.log.append("both pokemons runs so the self.manual_battle ends")
+            self.manual_battle_exp = False
+            return True
+        elif not (pkmn1_choice < 4): #pkmn1 run
+            success_run = self.try_run(self.manual_battle.p1.active_pokemon[0],self.manual_battle.p2.active_pokemon[0])
+            self.manual_battle.log.append(self.manual_battle.p1.active_pokemon[0].species+" prepares to run")
+            if success_run:
+                self.manual_battle.log.append("succesfully")
+                self.manual_battle.winner = 'p2'
+                self.manual_battle_exp = False
+                return True
+            else:
+                self.manual_battle.log.append("but failed")
+                self.manual_battle.p1.choice = player.Decision('pass', 0)
+                self.manual_battle.p2.choice = player.Decision('move', pkmn2_choice)
+        elif not (pkmn2_choice < 4): #pkmn2 run
+            success_run = self.try_run(self.manual_battle.p2.active_pokemon[0],self.manual_battle.p1.active_pokemon[0])
+            self.manual_battle.log.append(self.manual_battle.p2.active_pokemon[0].species+" prepares to run")
+            if success_run:
+                self.manual_battle.log.append("succesfully")
+                self.manual_battle.winner = 'p1'
+                self.manual_battle_exp = False
+                return True
+            else:
+                self.manual_battle.log.append("but failed")
+                self.manual_battle.p1.choice = player.Decision('move', pkmn1_choice)
+                self.manual_battle.p2.choice = player.Decision('pass', 0)            
+        else:
+            self.manual_battle.p1.choice = player.Decision('move', pkmn1_choice)
+            self.manual_battle.p2.choice = player.Decision('move', pkmn2_choice)
+        
+        if pkmn1_choice == -1:
+            self.manual_battle.p1.choice = player.Decision('pass', 0)
+            self.manual_battle.log.append(self.manual_battle.p1.active_pokemon[0].species+" passes his turn")
+        if pkmn2_choice == -1:
+            self.manual_battle.p2.choice = player.Decision('pass', 0)
+            self.manual_battle.log.append(self.manual_battle.p2.active_pokemon[0].species+" passes his turn")
+
+        sim.do_turn(self.manual_battle)
+        
+        if self.manual_battle.p1.active_pokemon[0].hp <=0:
+            self.manual_battle.log.append(self.manual_battle.p1.active_pokemon[0].species+" has fainted")
+            return True
+        elif self.manual_battle.p2.active_pokemon[0].hp <=0:
+            self.manual_battle.log.append(self.manual_battle.p2.active_pokemon[0].species+" has fainted")
+            return True
+        
+        self.manual_battle.log.append(f"status: {pkmn1.entity[0].species} hp:{self.manual_battle.p1.active_pokemon[0].hp}/{self.manual_battle.p1.active_pokemon[0].maxhp} and {pkmn2.entity[0].species} hp:{self.manual_battle.p2.active_pokemon[0].hp}/{self.manual_battle.p2.active_pokemon[0].maxhp}")
+        if self.manual_battle.ended:
+        # print()
+        # print(self.manual_battle.log)
+        # input()
+        # print()
+            self.lb_log = self.manual_battle.log
+            
+            if self.manual_battle_exp:
+                if self.manual_battle.winner == 'p1':
+                    winner = pkmn1
+                    loser = pkmn2
+                    # a = self.experience_handler.base_stats(self.manual_battle.p1.active_pokemon[0])
+                    # b = self.experience_handler.base_stats(self.manual_battle.p2.active_pokemon[0])
+                    # stat_modifier = self.experience_handler.stats_mod(self.manual_battle.p1.active_pokemon[0],self.manual_battle.p2.active_pokemon[0])
+                if self.manual_battle.winner == 'p2':
+                    winner = pkmn2
+                    loser = pkmn1
+                    # a = self.experience_handler.base_stats(self.manual_battle.p2.active_pokemon[0])
+                    # b = self.experience_handler.base_stats(self.manual_battle.p1.active_pokemon[0])
+                    # stat_modifier = self.experience_handler.stats_mod(self.manual_battle.p2.active_pokemon[0],self.manual_battle.p1.active_pokemon[0])
+                # print()
+                # print(a)
+                # print(b)
+                # print(stat_modifier)
+                # print()
+                loser_index = self.ecosystem.id_to_index_pokemon[loser.entity[0].species]
+                modifier = (self.manual_battle.turn+TURN_BONUS)/self.manual_battle.turn
+                
+                winner.xp = winner.xp + int(modifier*self.experience_handler.experience_gain(winner.lvl, loser.lvl, loser_index))
+                winner.lvl = self.experience_handler.leveling_handler(winner.entity[0].species, winner.lvl, winner.xp)
+                winner.entity[0].level = winner.lvl
+                return True
+            
     def battle(self, pkmn1: PokemonEntity, pkmn2: PokemonEntity, debug = False):
         exp = True
-        battle = sim.Battle('single', 'A', pkmn1.entity, 'B', pkmn2.entity, debug=debug)
-        # print(battle.p1.active_pokemon[0].types[0])
-        # print(battle.p1.active_pokemon[0].types[1])
-        runaway = 1
+        battle = sim.Battle('single', 'A', pkmn1.entity, 'B', pkmn2.entity, debug=debug)  
         MAX_TURNS = 500
+        
         while not battle.ended:
             if battle.turn > 500:
                 exp = False
                 break
-            pkmn1_choice = pkmn1.choose(battle.p1.active_pokemon[0], battle.p2.active_pokemon[0])
-            pkmn2_choice = pkmn2.choose(battle.p2.active_pokemon[0], battle.p1.active_pokemon[0])
+            battle.log.append(f"status: {pkmn1.entity[0].species} hp:{battle.p1.active_pokemon[0].hp}/{battle.p1.active_pokemon[0].maxhp} and {pkmn2.entity[0].species} hp:{battle.p2.active_pokemon[0].hp}/{battle.p2.active_pokemon[0].maxhp}")
+            pkmn1_choice = pkmn1.ask_for_choice(battle.p1.active_pokemon[0], battle.p2.active_pokemon[0])
+            pkmn2_choice = pkmn2.ask_for_choice(battle.p2.active_pokemon[0], battle.p1.active_pokemon[0])
             if not (pkmn1_choice < 4) and not (pkmn2_choice < 4): #both run
+                battle.log.append(battle.p1.active_pokemon[0].species+" runs")
+                battle.log.append(battle.p2.active_pokemon[0].species+" runs")
+                battle.log.append("both pokemons runs so the battle ends")
                 exp = False
                 break
             elif not (pkmn1_choice < 4): #pkmn1 run
                 success_run = self.try_run(battle.p1.active_pokemon[0],battle.p2.active_pokemon[0])
+                battle.log.append(battle.p1.active_pokemon[0].species+" prepares to run")
                 if success_run:
+                    battle.log.append("succesfully")
                     battle.winner = 'p2'
                     exp = False
                     break
                 else:
+                    battle.log.append("but failed")
                     battle.p1.choice = player.Decision('pass', 0)
                     battle.p2.choice = player.Decision('move', pkmn2_choice)
             elif not (pkmn2_choice < 4): #pkmn2 run
                 success_run = self.try_run(battle.p2.active_pokemon[0],battle.p1.active_pokemon[0])
+                battle.log.append(battle.p2.active_pokemon[0].species+" prepares to run")
                 if success_run:
+                    battle.log.append("succesfully")
                     battle.winner = 'p1'
                     exp = False
                     break
                 else:
+                    battle.log.append("but failed")
                     battle.p1.choice = player.Decision('move', pkmn1_choice)
                     battle.p2.choice = player.Decision('pass', 0)            
             else:
@@ -251,29 +387,56 @@ class BasicPkmnLogic:
             
             if pkmn1_choice == -1:
                 battle.p1.choice = player.Decision('pass', 0)
+                battle.log.append(battle.p1.active_pokemon[0].species+" passes his turn")
             if pkmn2_choice == -1:
                 battle.p2.choice = player.Decision('pass', 0)
-            
-            # Decision('pass', 0)
-            # print("B")
+                battle.log.append(battle.p2.active_pokemon[0].species+" passes his turn")
+
+            if pkmn1_choice in range(4):
+                pkmn1.used_moves.add(pkmn1.entity[0].moves[pkmn1_choice])
+            # if pkmn2_choice in range(4):
+            #     pkmn2.used_moves.add(pkmn2.entity[0].moves[pkmn2_choice])
+                
             sim.do_turn(battle)
-            
+        if battle.p1.active_pokemon[0].hp <=0:
+            battle.log.append(battle.p1.active_pokemon[0].species+" has fainted")
+        if battle.p2.active_pokemon[0].hp <=0:
+            battle.log.append(battle.p2.active_pokemon[0].species+" has fainted")
+        
+        # print()
+        # print(battle.log)
+        # input()
+        # print()
+        self.lb_log = battle.log
+        
         if exp:
             if battle.winner == 'p1':
                 winner = pkmn1
                 loser = pkmn2
+                # a = self.experience_handler.base_stats(battle.p1.active_pokemon[0])
+                # b = self.experience_handler.base_stats(battle.p2.active_pokemon[0])
+                # stat_modifier = self.experience_handler.stats_mod(battle.p1.active_pokemon[0],battle.p2.active_pokemon[0])
             if battle.winner == 'p2':
                 winner = pkmn2
                 loser = pkmn1
-            # print(battle.log)
-            # print(battle.winner)
+                # a = self.experience_handler.base_stats(battle.p2.active_pokemon[0])
+                # b = self.experience_handler.base_stats(battle.p1.active_pokemon[0])
+                # stat_modifier = self.experience_handler.stats_mod(battle.p2.active_pokemon[0],battle.p1.active_pokemon[0])
+            # print()
+            # print(a)
+            # print(b)
+            # print(stat_modifier)
+            # print()
             loser_index = self.ecosystem.id_to_index_pokemon[loser.entity[0].species]
-            # print(battle.turn)
-            modifier = int(max(TURN_BONUS/battle.turn, 1))
+            modifier = (battle.turn+TURN_BONUS)/battle.turn
             
-            winner.xp = winner.xp + modifier*self.experience_handler.experience_gain(winner.lvl, loser.lvl, loser_index)
+            winner.xp = winner.xp + int(modifier*self.experience_handler.experience_gain(winner.lvl, loser.lvl, loser_index))
             winner.lvl = self.experience_handler.leveling_handler(winner.entity[0].species, winner.lvl, winner.xp)
             winner.entity[0].level = winner.lvl
+        if battle.winner == 'p1':
+            return 1
+        else:
+            return 0
         
     def pokemon_match_old(self, pokemon_list):
         # print(len(pokemon_list))
@@ -302,26 +465,37 @@ class BasicPkmnLogic:
                 self.battle(A[i], B[np.mod(j, int(len(pokemon_list)/2))])
                 
 class GeneticEvolution:
-    def __init__(self, index_generator):
+    def __init__(self, index_generator, reproduce = False):
         self.index_generator = index_generator
         self.genome_id_to_pokemon = {}
         self.pkmn_logic = BasicPkmnLogic()
+        self.available_pokemons = []
+        self.reproduce = reproduce
+        self.ax_method = None
+        self.m_fitness = 0.0
+        self.age = 0
         
     def mutate(self, pkmn: PokemonEntity):
-        no_of_muts = 1
-        U1 = get_U()
-        if U1 < 0.05:
-            no_of_muts = 5
-        elif U1 < 0.13:
-            no_of_muts = 4
-        elif U1 < 0.23:
-            no_of_muts = 3 
-        elif U1 < 0.47:
-            no_of_muts = 2
-        
-        for _ in range(no_of_muts):
+        # no_of_muts = 1
+        # U1 = get_U()
+        # if U1 < 0.05:
+        #     no_of_muts = 5
+        # elif U1 < 0.13:
+        #     no_of_muts = 4
+        # elif U1 < 0.23:
+        #     no_of_muts = 3 
+        # elif U1 < 0.47:
+        #     no_of_muts = 2
+        mutates = 0
+        tc = 0
+        while get_U() < pkmn.temperature():
+            tc = tc +1
+            if tc > 7:
+                break
+            # print("mutate",tc)
+            mutates = 1
             U2 = get_U()
-            if U2 < 0.6: # mutate move
+            if U2 < 0.6 and len(pkmn.entity[0].moves)>0 and len(pkmn.other_moves)>0: # mutate move
                 index_out = np.random.randint(len(pkmn.entity[0].moves))
                 move_out = pkmn.entity[0].moves[index_out]
                 index_in = np.random.randint(len(pkmn.other_moves))
@@ -329,7 +503,7 @@ class GeneticEvolution:
                 pkmn.entity[0].moves[index_out] = move_in
                 pkmn.other_moves[index_in] = move_out
                 
-            elif U2<0.9: #mutate ability
+            elif U2<0.9 and len(pkmn.other_abilities) > 0: #mutate ability
                 ability_out = pkmn.entity[0].ability
                 ability_in_index = np.random.randint(len(pkmn.other_abilities))
                 ability_in = pkmn.other_abilities[ability_in_index]
@@ -338,21 +512,44 @@ class GeneticEvolution:
                 
             else: #mutate nature
                 pass
+                # self.mutate(pkmn)
+                
                 # nature_out = pkmn.entity[0].nature
                 # nature_in_index = np.random.randint(len(pkmn.other_abilities))
                 # nature_in = pkmn.other_abilities[nature_in_index]
                 # pkmn.other_abilities[nature_in_index]= nature_out
                 # pkmn.entity[0].nature = nature_in
+        return mutates
         
-    def reproduce(pkmn_x: PokemonEntity, pkmn_y: PokemonEntity):
-        "crossover"
-        pass
-    
-    # def select(list, fitnes_fnc): MADE BY LIB
-    #     pass
-
-    
-
+    def crossover(self, pkmn_x: PokemonEntity, pkmn_y: PokemonEntity):
+        pkmn_x.other_abilities = [pkmn_x.entity[0].ability]+pkmn_x.other_abilities
+        pkmn_x.entity[0].ability = np.random.choice([pkmn_x.entity[0].ability, pkmn_y.entity[0].ability])
+        if pkmn_x.entity[0].ability in pkmn_x.other_abilities:
+            pkmn_x.other_abilities.remove(pkmn_x.entity[0].ability)
+        
+        pkmn_x.other_natures = [pkmn_x.entity[0].nature]+pkmn_x.other_natures
+        pkmn_x.entity[0].nature = np.random.choice([pkmn_x.entity[0].nature, pkmn_y.entity[0].nature])
+        if pkmn_x.entity[0].nature in pkmn_x.other_natures:
+            pkmn_x.other_natures.remove(pkmn_x.entity[0].nature)
+        
+        while True:
+            moves_universe = set(pkmn_x.other_moves + pkmn_x.entity[0].moves)
+            new_moves = []
+            for x_mv, y_mv in zip(pkmn_x.entity[0].moves, pkmn_y.entity[0].moves):
+                mv = np.random.choice([x_mv, y_mv])
+                if mv in moves_universe:
+                    new_moves.append(mv)
+                    moves_universe.remove(mv)
+            if(len(new_moves) == 4):
+                pkmn_x.other_moves = list(moves_universe)
+                pkmn_x.entity[0].moves = new_moves
+                # print("mixed moves properly")
+                break
+            else:
+                # print("not mixed properly")
+                if get_U()<0.1:
+                    # print("outa loop")
+                    break
     
     def eval_fitness_matches(self, genomes, config):
         pokemons = []
@@ -380,23 +577,16 @@ class GeneticEvolution:
             # print(genome_id)
         
         print("Mutando:", mut_n,"pokemons de", len(pokemons))
+        print()
         
         self.pkmn_logic.pokemon_bipartite_reg_matches(pokemons, 40)
-        # self.pkmn_logic.pokemon_match(pokemons)
-        
-        # for match_no in range(MATCHES_BY_GEN):
-        #     print("match no:", match_no)
-        #     self.pkmn_logic.pokemon_match(pokemons)
-        #     if np.mod(match_no, MATCHES_TO_RECOMBINE) == 0:
-        #         pass
             
         for pokemon in pokemons:
             pokemon:PokemonEntity
-            pokemon.update_fitness()
-            # print(pokemon.genome.fitness)
-            # print(pokemon.lvl)
+            pokemon.update_fitness(self.age)
+            
         
-    def run(self, gens, version):
+    def run_matches_itself(self, gens, version):
         pop = neat.population.Population(CONFIG)
         stats = neat.statistics.StatisticsReporter()
         pop.add_reporter(stats)
@@ -406,33 +596,244 @@ class GeneticEvolution:
         DYNAMIC_PARAMS = params(version)
 
         winner = pop.run(self.eval_fitness_matches, gens)
-        # print(f"es_hyperneat_{VERSION_TEXT} done")
         return winner, stats
     
+    def eval_fitness_gen_i_train(self, genomes, config):
+        pokemons = []
+        mut_n = 0
+        newborn_n = 0
+        created_n = 0
+        selected_n = 0
+        self.age = self.age +1
+        for genome_id, genome in genomes:
+            pok = None
+            if genome_id in self.genome_id_to_pokemon:
+                pok : PokemonEntity = self.genome_id_to_pokemon[genome_id]
+                pok.lvl = 1
+                pok.entity[0].level = 1
+                pok.xp = 0
+                pok.genome = genome
+                pok.set_ai()
+                pokemons.append(pok)
+                selected_n = selected_n +1
+            else:
+                if (genome.selected_parent[0] and genome.selected_parent[1]) and (genome.selected_parent[0] in self.genome_id_to_pokemon) and (get_U()<0.7):
+                    parent: PokemonEntity = self.genome_id_to_pokemon[genome.selected_parent[0]]
+                    pok = PokemonEntity(parent.index, genome, config)
+                    pok.entity = parent.entity.copy()
+                    pok.entity[0] = parent.entity[0]
+                    pok.entity[0].moves = parent.entity[0].moves.copy()
+                    pok.entity[0].nature = parent.entity[0].nature
+                    pok.entity[0].ability = parent.entity[0].ability
+                    newborn_n = newborn_n +1
+                    if get_U() < 0.69 and genome.selected_parent[1] in self.genome_id_to_pokemon:
+                        parent2: PokemonEntity = self.genome_id_to_pokemon[genome.selected_parent[1]]
+                        self.crossover(pok, parent2)
+                    pok.lvl = 1
+                    pok.entity[0].level = 1
+                    pok.xp = 0
+                    self.genome_id_to_pokemon[genome_id] = pok
+                    pokemons.append(pok)
+                        
+                else:
+                    pok = PokemonEntity(self.index_generator(), genome, config)
+                    self.genome_id_to_pokemon[genome_id] = pok
+                    pokemons.append(pok)
+                    created_n = created_n +1
+            
+            # if pok.genome.fitness>0.1:
+            #     print("aaaa",pok.genome.fitness)
+            
+            U = get_U()
+            p = pok.temperature()
+            if U < p and pok.genome.fitness > 0.005:
+                mut_n = mut_n + self.mutate(pok)
+           
+        print("Species:",pokemons[0].entity[0].species)
+        print("Seleccionados:", selected_n,"pokemons de", len(pokemons))
+        print("Nacidos:", newborn_n,"pokemons de", len(pokemons))
+        print("Creados:", created_n,"pokemons de", len(pokemons))
+        print("Mutados:", mut_n,"pokemons de", len(pokemons))
+        
+        max_fitness = 0.0
+        # self.pkmn_logic.pokemon_bipartite_reg_matches(pokemons, 30)
+        # print("iteration started")
+        for i,pkmn in enumerate(pokemons):
+            pkmn: PokemonEntity
+            pkmn.used_moves = set()
+            pkmn.age = pkmn.age +1
+            
+            # if (np.mod(i,100)==0):
+            #     print("pokemon", i)
+            pkmn:PokemonEntity
+            pkmn.won_battles = 0
+            pkmn.total_battles = 0
+            for _ in range(55):
+                foe: PokemonEntity = np.random.choice(self.available_pokemons)
+                foe.lvl = pkmn.lvl
+                foe.entity[0].level = pkmn.lvl
+                pkmn.won_battles = pkmn.won_battles +self.pkmn_logic.battle(pkmn, foe)
+                pkmn.total_battles = pkmn.total_battles +1
+            
+            pkmn.update_fitness(self.age)
+            if pkmn.genome.fitness > max_fitness: #(pkmn.lvl > 90) or (pkmn.won_battles > 46):
+                max_fitness = pkmn.genome.fitness
+                print()
+                print("pkmn index",i)
+                print("pkmn lvl", pkmn.lvl)
+                print("pkmn age", pkmn.age)
+                print("pkmn used moves", list(pkmn.used_moves))
+                print("battles won",pkmn.won_battles,"/",pkmn.total_battles)
+                print("pkmn fit", pkmn.genome.fitness)
+                if max_fitness > self.m_fitness:
+                    self.m_fitness = max_fitness
+                if self.ax_method:
+                    self.ax_method(max_fitness)
+                        
+        # for pokemon in pokemons:
+        #     pokemon:PokemonEntity
+        #     pokemon.update_fitness()
+            
+    def run_i_gen_training(self, gens, version):
+        pop = neat.population.Population(CONFIG)
+        stats = neat.statistics.StatisticsReporter()
+        pop.add_reporter(stats)
+        pop.add_reporter(neat.reporting.StdOutReporter(True))
+
+        global DYNAMIC_PARAMS
+        DYNAMIC_PARAMS = params(version)
+
+        winner = pop.run(self.eval_fitness_gen_i_train, gens)
+        return winner, stats
+    
+def gen_i_training():
+    training = [
+    3,    # Venusaur
+    6,    # Charizard
+    9,    # Blastoise
+    65,   # Alakazam
+    68,   # Machamp
+    94,   # Gengar
+    130,  # Gyarados
+    143,  # Snorlax
+    149,  # Dragonite
+    150,  # Mewtwo
+    248,  # Tyranitar
+    257,  # Blaziken
+    282,  # Gardevoir
+    306,  # Aggron
+    310,  # Manectric
+    373,  # Salamence
+    376,  # Metagross
+    384,  # Rayquaza
+    445,  # Garchomp
+    448,  # Lucario
+    462,  # Magnezone
+    475,  # Gallade
+    530,  # Excadrill
+    609,  # Chandelure
+    635,  # Hydreigon
+    681,  # Aegislash
+    701,  # Hawlucha
+    724,  # Decidueye
+    784,  # Kommo-o
+    798   # Kartana
+]
+
+    
+    for pkmn_index in training:#range(1, 152): # GEN 1 starters of the games
+        genetic = GeneticEvolution(None)
+        # add the already saved pokemons to the posible foes
+        for pat in Path("./pokemons/to_train/").iterdir():
+            genetic.available_pokemons.append(load_pokemon(pat))
+        # pkmn_index = np.random.randint(808)
+        print("\ntraining",PokemonEntity(pkmn_index,None, None, False).entity[0].species, "with:")
+        for pokemn in genetic.available_pokemons:
+            print(" -",pokemn.entity[0].species)
+        def generator():
+            return pkmn_index
+        genetic.genome_id_to_pokemon = {}
+        genetic.index_generator = generator
+        
+        top_genome = genetic.run_i_gen_training(NO_OF_GENS, BRAIN_SIZE)[0]
+        winner: PokemonEntity = genetic.genome_id_to_pokemon[top_genome.key]
+        
+        print()
+        print("Results:")
+        print("Specie:", winner.entity[0].species)
+        print("Won:",winner.won_battles, "from", winner.total_battles)
+        print("Level:",winner.lvl)
+        print("Age:",winner.age)
+        print("Used Moves:",list(winner.used_moves))
+        print("Fitness:", winner.genome.fitness)
+        print("Ability:", winner.entity[0].ability)
+        print("Nature:", winner.entity[0].nature)
+        print("Moves:", *winner.entity[0].moves, sep = "\n - ")
+        print()
+        # print("press a key")
+        # input()
+        save_pokemon(winner)
+        print("pokemon_saved")
     
 if __name__ == "__main__":
-    def gen():
-        U = get_U()
-        if U < 0.33333333:
-            return 3
-        elif U < 0.66666666:
-            return 6
-        else:
-            return 9
+    gen_i_training()
+    
+    # pkmns = []
+    # for pat in Path("./pokemons/").iterdir():
+    #     pkmns.append(load_pokemon(pat))
+    
+    # BasicPkmnLogic().pokemon_match_old(pkmns)
+        
+    # pkmn1 = load_pokemon('pokemons/to_train/azelf_timid_small_100.pkl')
+    # pkmn2 = load_pokemon('pokemons/charizard_bold_small_97.pkl')
+    
+    # pokemon_logic = BasicPkmnLogic()
+    # pokemon_logic.battle(pkmn1, pkmn2)
+    # for log in pokemon_logic.lb_log:
+    #     print(log)
+    #     print()
+    #     input()
+    # A.genome = None
+    # A.lvl = 46
+    # B.lvl = 46
+    # A.entity[0].level = 50
+    # B.entity[0].level = 50
+        
+        
+    
+    
+    
+    
+    
+    
+        #     print("Specie:", pok.entity[0].species)
+        #     print("Fitness:", pok.genome.fitness)
+        #     print("Ability:", pok.entity[0].ability)
+        #     print("Nature:", pok.entity[0].nature)
+        #     print("Moves:", *pok.entity[0].moves, sep = "\n - ")
+        #     print()
                 
-    genetic = GeneticEvolution(gen)
-    top_genome = genetic.run(NO_OF_GENS, VERSION)[0]
-    winner: PokemonEntity = genetic.genome_id_to_pokemon[top_genome.key]
-    print("Fitness:", winner.genome.fitness)
-    print("Specie:", winner.entity[0].species)
-    print("Ability:", winner.entity[0].ability)
-    print("Nature:", winner.entity[0].nature)
-    print("Moves:", *winner.entity[0].moves, sep = "\n - ")
+    # def gen():
+    #     U = get_U()
+    #     if U < 0.33333333:
+    #         return 3
+    #     elif U < 0.66666666:
+    #         return 6
+    #     else:
+    #         return 9
     
-    
+    # genetic = GeneticEvolution(gen)
+    # top_genome = genetic.run_matches_itself(NO_OF_GENS, BRAIN_SIZE)[0]
+    # winner: PokemonEntity = genetic.genome_id_to_pokemon[top_genome.key]
+    # print("Fitness:", winner.genome.fitness)
+    # print("Specie:", winner.entity[0].species)
+    # print("Ability:", winner.entity[0].ability)
+    # print("Nature:", winner.entity[0].nature)
+    # print("Moves:", *winner.entity[0].moves, sep = "\n - ")
+    # save_pokemon(winner)
     
     # a = PokemonEntity(1,None,None, level= 80, has_ai=False)
-    # print(a.fitness())
+    # print(a.entity[0].)
     # exit()
     
     # pok1 = PokemonEntity(151, None,None,False, level=50)

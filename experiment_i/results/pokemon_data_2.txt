@@ -1,0 +1,6 @@
+Especie: charizard
+Batallas ganadas: 12/29
+Nivel: 100
+Movimientos usados:
+  flamethrower: 63 veces
+Total de movimientos diferentes usados: 1

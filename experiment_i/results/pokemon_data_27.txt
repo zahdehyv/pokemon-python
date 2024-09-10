@@ -1,0 +1,6 @@
+Especie: venusaur
+Batallas ganadas: 11/29
+Nivel: 93
+Movimientos usados:
+  gigaimpact: 6 veces
+Total de movimientos diferentes usados: 1

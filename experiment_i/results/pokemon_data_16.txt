@@ -1,0 +1,6 @@
+Especie: carbink
+Batallas ganadas: 14/29
+Nivel: 92
+Movimientos usados:
+  stoneedge: 40 veces
+Total de movimientos diferentes usados: 1

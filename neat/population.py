@@ -27,6 +27,7 @@ class Population(object):
         self.reproduction = config.reproduction_type(config.reproduction_config,
                                                      self.reporters,
                                                      stagnation)
+        # print(self.reproduction)
         if config.fitness_criterion == 'max':
             self.fitness_criterion = max
         elif config.fitness_criterion == 'min':

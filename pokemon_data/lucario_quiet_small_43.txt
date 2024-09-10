@@ -1,0 +1,8 @@
+Specie:lucario
+Won:19/55 battles
+Level:54
+Fitness:0.43023982531056626
+Ability:innerfocus
+Nature:quiet
+Moves:['retaliate', 'icepunch', 'furycutter', 'headbutt']
+Most Used Moves:{'icepunch', 'furycutter', 'retaliate'}

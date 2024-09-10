@@ -1,0 +1,6 @@
+Especie: charmander
+Batallas ganadas: 5/29
+Nivel: 98
+Movimientos usados:
+  flameburst: 33 veces
+Total de movimientos diferentes usados: 1

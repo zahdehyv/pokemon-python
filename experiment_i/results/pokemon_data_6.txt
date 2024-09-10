@@ -1,0 +1,6 @@
+Especie: azelf
+Batallas ganadas: 26/29
+Nivel: 100
+Movimientos usados:
+  futuresight: 40 veces
+Total de movimientos diferentes usados: 1

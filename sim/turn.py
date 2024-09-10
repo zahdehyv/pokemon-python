@@ -199,7 +199,7 @@ def run_move(B:Battle, user:Pokemon, move:dex.Move, target:Pokemon) -> None:
     '''
     # Fainted pokemon can't use their move.
     if user.fainted:
-        #B.log(user.name + " fainted before they could move")
+        B.log.append(user.name + " fainted before they could move")
         return
 
     # subtract pp
@@ -218,6 +218,7 @@ def run_move(B:Battle, user:Pokemon, move:dex.Move, target:Pokemon) -> None:
 
     # ACCURACY CHECK
     if not accuracy_check(B, user, move, target):
+        B.log.append(user.name + ' used ' + move.id + ' and missed')
         if B.debug:
             print(user.name + ' used ' + move.id + ' and missed')
         # move missed! do nothing
@@ -262,6 +263,7 @@ def run_move(B:Battle, user:Pokemon, move:dex.Move, target:Pokemon) -> None:
     unique_moves_after_damage(B, user, move, target, dmg)
     # handle boosts and statuses
     boosts_statuses(B, user, move, target)
+    B.log.append(user.name + ' used ' + move.id + '')
     if B.debug:
         print(user.name + ' used ' + move.id + '')
     return

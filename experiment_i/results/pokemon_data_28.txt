@@ -1,0 +1,6 @@
+Especie: blastoise
+Batallas ganadas: 21/29
+Nivel: 99
+Movimientos usados:
+  surf: 3 veces
+Total de movimientos diferentes usados: 1

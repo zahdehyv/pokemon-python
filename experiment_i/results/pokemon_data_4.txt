@@ -1,0 +1,6 @@
+Especie: venusaur
+Batallas ganadas: 1/29
+Nivel: 100
+Movimientos usados:
+  frenzyplant: 39 veces
+Total de movimientos diferentes usados: 1

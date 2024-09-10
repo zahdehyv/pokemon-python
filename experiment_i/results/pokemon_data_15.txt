@@ -1,0 +1,6 @@
+Especie: toxicroak
+Batallas ganadas: 11/29
+Nivel: 87
+Movimientos usados:
+  rocktomb: 52 veces
+Total de movimientos diferentes usados: 1
