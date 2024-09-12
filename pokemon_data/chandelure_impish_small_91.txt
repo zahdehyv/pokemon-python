@@ -1,0 +1,8 @@
+Specie:chandelure
+Won:53/55 battles
+Level:100
+Fitness:0.9134976361782735
+Ability:flamebody
+Nature:impish
+Moves:[np.str_('shadowball'), np.str_('flamethrower'), np.str_('darkpulse'), np.str_('shockwave')]
+Most Used Moves:{np.str_('flamethrower'), np.str_('shadowball'), np.str_('darkpulse')}

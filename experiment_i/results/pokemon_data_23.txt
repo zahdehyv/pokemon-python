@@ -1,6 +1,6 @@
 Especie: wartortle
-Batallas ganadas: 14/29
-Nivel: 93
+Batallas ganadas: 16/34
+Nivel: 100
 Movimientos usados:
-  surf: 16 veces
+  surf: 50 veces
 Total de movimientos diferentes usados: 1

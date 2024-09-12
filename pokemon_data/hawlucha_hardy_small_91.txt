@@ -1,0 +1,8 @@
+Specie:hawlucha
+Won:55/55 battles
+Level:100
+Fitness:0.9171617084212279
+Ability:unburden
+Nature:hardy
+Moves:['payback', 'encore', 'skyattack', 'uturn']
+Most Used Moves:{'skyattack', 'payback'}

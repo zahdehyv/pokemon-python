@@ -1,0 +1,8 @@
+Specie:manectric
+Won:53/55 battles
+Level:91
+Fitness:0.921380848127533
+Ability:minus
+Nature:hardy
+Moves:[np.str_('signalbeam'), np.str_('snarl'), np.str_('flamethrower'), np.str_('swift')]
+Most Used Moves:{np.str_('snarl'), np.str_('flamethrower')}

@@ -1,0 +1,6 @@
+Especie: salamence
+Batallas ganadas: 34/46
+Nivel: 100
+Movimientos usados:
+  naturalgift: 66 veces
+Total de movimientos diferentes usados: 1

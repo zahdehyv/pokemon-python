@@ -1,6 +1,6 @@
 Especie: charizard
-Batallas ganadas: 15/29
+Batallas ganadas: 29/49
 Nivel: 100
 Movimientos usados:
-  blastburn: 7 veces
+  blastburn: 48 veces
 Total de movimientos diferentes usados: 1

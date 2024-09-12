@@ -1,0 +1,6 @@
+Especie: kommoo
+Batallas ganadas: 18/44
+Nivel: 100
+Movimientos usados:
+  firepunch: 88 veces
+Total de movimientos diferentes usados: 1

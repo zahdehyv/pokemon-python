@@ -1,0 +1,8 @@
+Specie:tyranitar
+Won:53/55 battles
+Level:98
+Fitness:0.939452496020877
+Ability:sandstream
+Nature:adamant
+Moves:[np.str_('doubleteam'), np.str_('aerialace'), np.str_('strength'), np.str_('snarl')]
+Most Used Moves:{np.str_('aerialace')}

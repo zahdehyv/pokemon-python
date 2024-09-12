@@ -1,5 +1,6 @@
 Especie: zeraora
-Batallas ganadas: 13/29
+Batallas ganadas: 15/57
 Nivel: 100
 Movimientos usados:
-Total de movimientos diferentes usados: 0
+  knockoff: 76 veces
+Total de movimientos diferentes usados: 1

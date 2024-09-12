@@ -1,0 +1,6 @@
+Especie: blastoise
+Batallas ganadas: 41/48
+Nivel: 100
+Movimientos usados:
+  hydrocannon: 79 veces
+Total de movimientos diferentes usados: 1

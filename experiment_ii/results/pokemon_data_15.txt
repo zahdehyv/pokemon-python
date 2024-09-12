@@ -1,0 +1,6 @@
+Especie: kartana
+Batallas ganadas: 18/44
+Nivel: 100
+Movimientos usados:
+  knockoff: 111 veces
+Total de movimientos diferentes usados: 1

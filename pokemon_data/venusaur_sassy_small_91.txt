@@ -1,0 +1,8 @@
+Specie:venusaur
+Won:52/55 battles
+Level:86
+Fitness:0.9110395813326456
+Ability:overgrow
+Nature:sassy
+Moves:[np.str_('grasspledge'), np.str_('solarbeam'), np.str_('defensecurl'), np.str_('growth')]
+Most Used Moves:{np.str_('solarbeam')}

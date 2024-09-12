@@ -1,0 +1,8 @@
+Specie:decidueye
+Won:48/55 battles
+Level:94
+Fitness:0.9075258974582933
+Ability:overgrow
+Nature:mild
+Moves:[np.str_('shadowclaw'), np.str_('nastyplot'), np.str_('spiritshackle'), np.str_('grassknot')]
+Most Used Moves:{np.str_('shadowclaw'), np.str_('spiritshackle'), np.str_('grassknot'), np.str_('nastyplot')}

@@ -1,0 +1,6 @@
+Especie: machamp
+Batallas ganadas: 17/41
+Nivel: 100
+Movimientos usados:
+  icepunch: 85 veces
+Total de movimientos diferentes usados: 1

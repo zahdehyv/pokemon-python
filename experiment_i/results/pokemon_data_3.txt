@@ -1,7 +1,7 @@
 Especie: stoutland
-Batallas ganadas: 24/29
+Batallas ganadas: 25/44
 Nivel: 100
 Movimientos usados:
-  gigaimpact: 20 veces
-  wildcharge: 37 veces
+  gigaimpact: 44 veces
+  wildcharge: 15 veces
 Total de movimientos diferentes usados: 2

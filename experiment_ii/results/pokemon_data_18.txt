@@ -1,0 +1,6 @@
+Especie: gallade
+Batallas ganadas: 13/46
+Nivel: 100
+Movimientos usados:
+  icepunch: 86 veces
+Total de movimientos diferentes usados: 1

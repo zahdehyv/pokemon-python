@@ -1,0 +1,8 @@
+Specie:snorlax
+Won:49/55 battles
+Level:91
+Fitness:0.9106090152415955
+Ability:immunity
+Nature:quirky
+Moves:[np.str_('icepunch'), np.str_('lick'), np.str_('pursuit'), np.str_('blizzard')]
+Most Used Moves:{np.str_('pursuit'), np.str_('lick'), np.str_('blizzard'), np.str_('icepunch')}

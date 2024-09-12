@@ -1,0 +1,8 @@
+Specie:gardevoir
+Won:51/55 battles
+Level:97
+Fitness:0.928182967184919
+Ability:trace
+Nature:serious
+Moves:[np.str_('drainingkiss'), np.str_('healpulse'), np.str_('substitute'), np.str_('shadowball')]
+Most Used Moves:{np.str_('shadowball')}

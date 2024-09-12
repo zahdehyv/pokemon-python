@@ -1,0 +1,6 @@
+Especie: aggron
+Batallas ganadas: 28/45
+Nivel: 100
+Movimientos usados:
+  flamethrower: 95 veces
+Total de movimientos diferentes usados: 1

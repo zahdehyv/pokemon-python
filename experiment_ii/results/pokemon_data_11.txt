@@ -1,0 +1,9 @@
+Especie: decidueye
+Batallas ganadas: 2/46
+Nivel: 100
+Movimientos usados:
+  nastyplot: 67 veces
+  shadowclaw: 23 veces
+  spiritshackle: 1 veces
+  grassknot: 1 veces
+Total de movimientos diferentes usados: 4

@@ -1,0 +1,8 @@
+Specie:gengar
+Won:47/55 battles
+Level:100
+Fitness:0.9022318801789871
+Ability:cursedbody
+Nature:bold
+Moves:['telekinesis', 'captivate', 'hex', 'attract']
+Most Used Moves:{'hex'}

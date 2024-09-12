@@ -1,0 +1,8 @@
+Specie:mewtwo
+Won:55/55 battles
+Level:95
+Fitness:0.9167487450228026
+Ability:unnerve
+Nature:lonely
+Moves:[np.str_('incinerate'), np.str_('substitute'), np.str_('fireblast'), np.str_('rockslide')]
+Most Used Moves:{np.str_('fireblast')}

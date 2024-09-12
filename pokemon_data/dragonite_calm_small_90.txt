@@ -1,0 +1,8 @@
+Specie:dragonite
+Won:54/55 battles
+Level:97
+Fitness:0.901693210814669
+Ability:multiscale
+Nature:calm
+Moves:[np.str_('dive'), np.str_('icywind'), np.str_('icebeam'), np.str_('aircutter')]
+Most Used Moves:{np.str_('icebeam')}

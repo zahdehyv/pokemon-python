@@ -1,0 +1,8 @@
+Specie:kartana
+Won:55/55 battles
+Level:91
+Fitness:0.9018006845362806
+Ability:beastboost
+Nature:lax
+Moves:[np.str_('smartstrike'), np.str_('falseswipe'), np.str_('knockoff'), np.str_('snore')]
+Most Used Moves:{np.str_('knockoff')}

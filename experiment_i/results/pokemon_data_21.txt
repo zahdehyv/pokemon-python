@@ -1,6 +1,6 @@
 Especie: gothitelle
-Batallas ganadas: 21/29
+Batallas ganadas: 28/44
 Nivel: 100
 Movimientos usados:
-  dreameater: 16 veces
+  dreameater: 64 veces
 Total de movimientos diferentes usados: 1

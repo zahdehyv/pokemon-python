@@ -1,0 +1,8 @@
+Especie: rayquaza
+Batallas ganadas: 12/42
+Nivel: 100
+Movimientos usados:
+  rockslide: 75 veces
+  protect: 74 veces
+  icywind: 18 veces
+Total de movimientos diferentes usados: 3

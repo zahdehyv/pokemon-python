@@ -1,0 +1,8 @@
+Specie:hydreigon
+Won:54/55 battles
+Level:95
+Fitness:0.9234822859589004
+Ability:levitate
+Nature:naive
+Moves:[np.str_('bite'), np.str_('flamethrower'), np.str_('focusenergy'), np.str_('scaryface')]
+Most Used Moves:{np.str_('flamethrower')}

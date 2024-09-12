@@ -1,0 +1,8 @@
+Especie: hawlucha
+Batallas ganadas: 31/55
+Nivel: 100
+Movimientos usados:
+  skyattack: 64 veces
+  uturn: 1 veces
+  payback: 1 veces
+Total de movimientos diferentes usados: 3

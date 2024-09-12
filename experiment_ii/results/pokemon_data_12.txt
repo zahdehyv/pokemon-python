@@ -1,0 +1,6 @@
+Especie: gardevoir
+Batallas ganadas: 23/39
+Nivel: 100
+Movimientos usados:
+  shadowball: 64 veces
+Total de movimientos diferentes usados: 1

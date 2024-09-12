@@ -1,0 +1,8 @@
+Specie:gyarados
+Won:50/55 battles
+Level:91
+Fitness:0.9011535881658288
+Ability:intimidate
+Nature:naughty
+Moves:[np.str_('fireblast'), np.str_('hydropump'), np.str_('payback'), np.str_('crunch')]
+Most Used Moves:{np.str_('payback'), np.str_('hydropump'), np.str_('crunch')}

@@ -1,0 +1,7 @@
+Especie: chandelure
+Batallas ganadas: 26/50
+Nivel: 100
+Movimientos usados:
+  flamethrower: 46 veces
+  darkpulse: 16 veces
+Total de movimientos diferentes usados: 2

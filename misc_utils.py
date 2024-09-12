@@ -16,7 +16,7 @@ from pureples.shared.visualize import draw_net
 from pureples.es_hyperneat.es_hyperneat import ESNetwork
 
 COOLER = 3
-TURN_BONUS = 7
+TURN_BONUS = 10
 
 BRAIN_SIZE = "S"
 BRAIN_SIZE_TEXT = "small" if BRAIN_SIZE == "S" else "medium" if BRAIN_SIZE == "M" else "large"          
@@ -26,13 +26,20 @@ OUTPUT_COORDINATES = [(float(x-3), 2.0) for x in list(range(3))+list(range(4,7))
 
 SUBSTRATE = Substrate(INPUT_COORDINATES, OUTPUT_COORDINATES)
 
-NO_OF_GENS = 69
+NO_OF_GENS = None
 
 # MATCHES_BY_GEN = 1
 # MATCHES_TO_RECOMBINE = 10
 
 def get_U():
     return np.random.uniform()
+
+def softmax(logits):
+    exp_logits = np.exp(logits - np.max(logits))
+    return exp_logits / np.sum(exp_logits)
+
+def sample_from_distribution(probabilities):
+    return np.random.choice(len(probabilities), p=probabilities)
 
 def params(version):
     """
@@ -123,13 +130,14 @@ class PokemonEntity:
         net_output = None
         for _ in range(self.network.activations):
             net_output = self.brAInNEAT.activate(net_input)
-        return net_output.index(max(net_output)) -1        
+        return net_output.index(max(net_output)) -1    
+        # return sample_from_distribution(softmax(net_output)) -1 
     
     def fitness(self, age):
         x = self.lvl/100
         if self.total_battles > 0:
             x = 0.4*x + 0.6*(self.won_battles/self.total_battles)
-        p = 3/(age + 2.7)
+        p = (3/(age + 2.3))**2
         return p*((len(self.used_moves)/4)**2.9) + (1-p)*x
     
     def fitness_d(self):
@@ -663,8 +671,8 @@ class GeneticEvolution:
             pkmn.used_moves = set()
             pkmn.age = pkmn.age +1
             
-            # if (np.mod(i,100)==0):
-            #     print("pokemon", i)
+            if (np.mod(i,10)==0):
+                print("pokemon", i)
             pkmn:PokemonEntity
             pkmn.won_battles = 0
             pkmn.total_battles = 0
@@ -678,15 +686,15 @@ class GeneticEvolution:
             pkmn.update_fitness(self.age)
             if pkmn.genome.fitness > max_fitness: #(pkmn.lvl > 90) or (pkmn.won_battles > 46):
                 max_fitness = pkmn.genome.fitness
-                print()
-                print("pkmn index",i)
-                print("pkmn lvl", pkmn.lvl)
-                print("pkmn age", pkmn.age)
-                print("pkmn used moves", list(pkmn.used_moves))
-                print("battles won",pkmn.won_battles,"/",pkmn.total_battles)
-                print("pkmn fit", pkmn.genome.fitness)
                 if max_fitness > self.m_fitness:
                     self.m_fitness = max_fitness
+                    print()
+                    print("pkmn index",i)
+                    print("pkmn lvl", pkmn.lvl)
+                    print("pkmn age", pkmn.age)
+                    print("pkmn used moves", list(pkmn.used_moves))
+                    print("battles won",pkmn.won_battles,"/",pkmn.total_battles)
+                    print("pkmn fit", pkmn.genome.fitness)
                 if self.ax_method:
                     self.ax_method(max_fitness)
                         

@@ -1,0 +1,8 @@
+Specie:kommoo
+Won:51/55 battles
+Level:92
+Fitness:0.9137317539969936
+Ability:bulletproof
+Nature:lax
+Moves:[np.str_('firepunch'), np.str_('irontail'), np.str_('roar'), np.str_('closecombat')]
+Most Used Moves:{np.str_('firepunch')}

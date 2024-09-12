@@ -1,0 +1,8 @@
+Specie:aggron
+Won:52/55 battles
+Level:84
+Fitness:0.9026563821376502
+Ability:rockhead
+Nature:lax
+Moves:[np.str_('mudslap'), np.str_('facade'), np.str_('flamethrower'), np.str_('irondefense')]
+Most Used Moves:{np.str_('flamethrower')}

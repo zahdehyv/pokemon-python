@@ -1,6 +1,6 @@
 Especie: groudon
-Batallas ganadas: 19/29
+Batallas ganadas: 31/49
 Nivel: 100
 Movimientos usados:
-  rockslide: 23 veces
+  rockslide: 82 veces
 Total de movimientos diferentes usados: 1

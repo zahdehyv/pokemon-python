@@ -1,0 +1,8 @@
+Specie:metagross
+Won:52/55 battles
+Level:94
+Fitness:0.9047336054286665
+Ability:lightmetal
+Nature:rash
+Moves:[np.str_('scaryface'), np.str_('protect'), np.str_('icywind'), np.str_('furycutter')]
+Most Used Moves:{np.str_('icywind')}

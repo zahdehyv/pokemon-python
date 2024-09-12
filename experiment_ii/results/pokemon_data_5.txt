@@ -1,0 +1,6 @@
+Especie: gyarados
+Batallas ganadas: 24/37
+Nivel: 100
+Movimientos usados:
+  crunch: 85 veces
+Total de movimientos diferentes usados: 1

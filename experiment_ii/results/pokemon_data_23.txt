@@ -1,0 +1,6 @@
+Especie: metagross
+Batallas ganadas: 30/48
+Nivel: 100
+Movimientos usados:
+  icywind: 104 veces
+Total de movimientos diferentes usados: 1

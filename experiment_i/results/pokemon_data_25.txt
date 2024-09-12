@@ -1,6 +1,6 @@
 Especie: unfezant
-Batallas ganadas: 20/29
+Batallas ganadas: 32/43
 Nivel: 100
 Movimientos usados:
-  skyattack: 9 veces
+  skyattack: 57 veces
 Total de movimientos diferentes usados: 1

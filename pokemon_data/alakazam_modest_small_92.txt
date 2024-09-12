@@ -1,0 +1,8 @@
+Specie:alakazam
+Won:52/55 battles
+Level:89
+Fitness:0.9227134435831148
+Ability:innerfocus
+Nature:modest
+Moves:['futuresight', 'takedown', 'irontail', 'allyswitch']
+Most Used Moves:{'futuresight'}

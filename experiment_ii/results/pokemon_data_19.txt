@@ -1,0 +1,6 @@
+Especie: aegislash
+Batallas ganadas: 33/51
+Nivel: 100
+Movimientos usados:
+  shadowball: 110 veces
+Total de movimientos diferentes usados: 1

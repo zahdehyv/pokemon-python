@@ -1,6 +1,6 @@
 Especie: alakazam
-Batallas ganadas: 26/29
+Batallas ganadas: 43/51
 Nivel: 100
 Movimientos usados:
-  dreameater: 58 veces
+  dreameater: 75 veces
 Total de movimientos diferentes usados: 1

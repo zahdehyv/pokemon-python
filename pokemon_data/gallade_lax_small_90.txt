@@ -1,0 +1,8 @@
+Specie:gallade
+Won:51/55 battles
+Level:99
+Fitness:0.9075571095316193
+Ability:steadfast
+Nature:lax
+Moves:[np.str_('helpinghand'), np.str_('leafblade'), np.str_('aerialace'), np.str_('icepunch')]
+Most Used Moves:{np.str_('icepunch')}

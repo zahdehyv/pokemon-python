@@ -1,0 +1,8 @@
+Specie:aegislash
+Won:49/55 battles
+Level:96
+Fitness:0.9062736966312732
+Ability:stancechange
+Nature:relaxed
+Moves:[np.str_('sacredsword'), np.str_('rest'), np.str_('shadowball'), np.str_('wideguard')]
+Most Used Moves:{np.str_('shadowball')}

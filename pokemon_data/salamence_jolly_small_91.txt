@@ -1,0 +1,8 @@
+Specie:salamence
+Won:54/55 battles
+Level:94
+Fitness:0.9104479619328636
+Ability:intimidate
+Nature:jolly
+Moves:[np.str_('dragonpulse'), np.str_('naturalgift'), np.str_('facade'), np.str_('honeclaws')]
+Most Used Moves:{np.str_('naturalgift'), np.str_('honeclaws')}

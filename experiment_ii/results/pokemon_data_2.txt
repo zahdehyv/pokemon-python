@@ -1,0 +1,6 @@
+Especie: mewtwo
+Batallas ganadas: 35/50
+Nivel: 100
+Movimientos usados:
+  fireblast: 71 veces
+Total de movimientos diferentes usados: 1

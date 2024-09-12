@@ -15,6 +15,8 @@ def battle_pokemons(pokemon1: PokemonEntity, pokemon2: PokemonEntity):
     battle_logic.manual_battle_create(pokemon1, pokemon2)
     
     while not battle_logic.manual_battle.ended:
+        if battle_logic.manual_battle.turn > 500:
+            break
         choice1 = pokemon1.ask_for_choice(battle_logic.manual_battle.p1.active_pokemon[0], 
                                           battle_logic.manual_battle.p2.active_pokemon[0])
         battle_logic.manual_battle_do_turn(pokemon1, pokemon2, choice1)
@@ -30,9 +32,10 @@ def battle_pokemons(pokemon1: PokemonEntity, pokemon2: PokemonEntity):
     return winner, loser
 
 def tournament(pokemons):
-    for i in range(len(pokemons)):
-        for j in range(i+1, len(pokemons)):
-            winner, loser = battle_pokemons(pokemons[i], pokemons[j])
+    for pok in pokemons:
+        for _ in range(23):
+            foe = np.random.choice(pokemons)
+            winner, loser = battle_pokemons(pok, foe)
             winner.won_battles += 1
             winner.total_battles += 1
             loser.total_battles += 1
@@ -73,7 +76,7 @@ def analyze_experiment(pokemons, experiment_name):
     plt.xlabel('Número de Movimientos Usados')
     plt.ylabel('Frecuencia Relativa')
     plt.legend()
-    plt.savefig(f'/experiment_i/{experiment_name.lower().replace(" ", "_")}_distribution.png')
+    plt.savefig(f'./experiment_i/{experiment_name.lower().replace(" ", "_")}_distribution.png')
     plt.close()
     
     return ks_statistic, p_value, entropy, mean_moves, var_moves
@@ -83,6 +86,8 @@ def main():
     pokemons = []  # Crear 50 Pokémon para el experimento
     for pat in Path("./experiment_i/pkmns/").iterdir():
         pk = load_pokemon(pat)
+        pk.lvl = 100
+        pk.entity[0].level = 100
         pk.won_battles = 0
         pk.total_battles = 0
         pk.used_moves = {}

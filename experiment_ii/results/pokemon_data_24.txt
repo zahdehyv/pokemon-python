@@ -1,0 +1,6 @@
+Especie: gengar
+Batallas ganadas: 25/43
+Nivel: 100
+Movimientos usados:
+  hex: 60 veces
+Total de movimientos diferentes usados: 1

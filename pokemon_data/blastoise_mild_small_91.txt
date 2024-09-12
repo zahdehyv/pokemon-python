@@ -1,0 +1,8 @@
+Specie:blastoise
+Won:52/55 battles
+Level:88
+Fitness:0.9153886201717676
+Ability:torrent
+Nature:mild
+Moves:[np.str_('hydrocannon'), np.str_('mudslap'), np.str_('waterfall'), np.str_('endure')]
+Most Used Moves:{np.str_('hydrocannon')}

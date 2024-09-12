@@ -1,0 +1,8 @@
+Specie:garchomp
+Won:55/55 battles
+Level:93
+Fitness:0.9187638149058928
+Ability:roughskin
+Nature:sassy
+Moves:[np.str_('aerialace'), np.str_('rockslide'), np.str_('laserfocus'), np.str_('protect')]
+Most Used Moves:{np.str_('aerialace')}

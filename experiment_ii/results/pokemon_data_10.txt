@@ -1,0 +1,6 @@
+Especie: garchomp
+Batallas ganadas: 17/47
+Nivel: 100
+Movimientos usados:
+  aerialace: 124 veces
+Total de movimientos diferentes usados: 1

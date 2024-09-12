@@ -1,0 +1,8 @@
+Specie:excadrill
+Won:49/55 battles
+Level:100
+Fitness:0.9170267699593779
+Ability:moldbreaker
+Nature:quirky
+Moves:[np.str_('furyswipes'), np.str_('earthquake'), np.str_('shadowclaw'), np.str_('magnetrise')]
+Most Used Moves:{np.str_('shadowclaw')}

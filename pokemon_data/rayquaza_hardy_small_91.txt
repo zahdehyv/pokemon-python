@@ -1,0 +1,8 @@
+Specie:rayquaza
+Won:52/55 battles
+Level:86
+Fitness:0.9182475325355925
+Ability:airlock
+Nature:hardy
+Moves:['icywind', 'blizzard', 'rockslide', 'protect']
+Most Used Moves:{'icywind', 'protect', 'blizzard', 'rockslide'}

@@ -1,0 +1,8 @@
+Especie: snorlax
+Batallas ganadas: 13/46
+Nivel: 100
+Movimientos usados:
+  blizzard: 67 veces
+  icepunch: 7 veces
+  lick: 17 veces
+Total de movimientos diferentes usados: 3

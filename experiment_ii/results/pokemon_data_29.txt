@@ -1,0 +1,6 @@
+Especie: blaziken
+Batallas ganadas: 32/40
+Nivel: 100
+Movimientos usados:
+  flareblitz: 46 veces
+Total de movimientos diferentes usados: 1

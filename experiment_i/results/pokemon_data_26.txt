@@ -1,6 +1,6 @@
 Especie: gengar
-Batallas ganadas: 3/29
+Batallas ganadas: 23/43
 Nivel: 100
 Movimientos usados:
-  sludgewave: 11 veces
+  sludgewave: 56 veces
 Total de movimientos diferentes usados: 1

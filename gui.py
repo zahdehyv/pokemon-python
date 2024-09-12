@@ -7,7 +7,7 @@ from time import sleep
 import pandas as pd
 import random
 from misc_utils import PokemonEntity, load_pokemon, save_pokemon, BasicPkmnLogic, GeneticEvolution
-from nlp_utils import narrate_battle_logs
+from nlp_utils import narrate_battle_logs, give_advice, get_caption
 from pathlib import Path
 from tkinter import filedialog
 import threading
@@ -232,6 +232,8 @@ def generate_frame(x) -> tk.Frame:
             if file_path:
                     try:
                         pkmns[x] = load_pokemon(file_path)
+                        pkmns[x].entity[0].level = 100
+                        pkmns[x].lvl = 100
                         print("loaded",x)
                     except:
                         print("no se pudo cargar el pokemon")
@@ -239,8 +241,12 @@ def generate_frame(x) -> tk.Frame:
                         if type(pkmns[x]) is PokemonEntity:
                             if x == 0:
                                 select_pokemon1.config(text=pkmns[x].entity[0].species)
+                                pkmns[x].lvl = 100
+                                pkmns[x].entity[0].level = 100
                             if x == 1:
                                 select_pokemon2.config(text=pkmns[x].entity[0].species)
+                                pkmns[x].lvl = 100
+                                pkmns[x].entity[0].level = 100
                 
             
             
@@ -251,7 +257,7 @@ def generate_frame(x) -> tk.Frame:
             if pkmns[0] and pkmns[1]:
                 pkmn_logic.battle(pkmns[0], pkmns[1])
                 print("thinking")
-                answer = narrate_battle_logs(pkmn_logic.lb_log)
+                answer = narrate_battle_logs(pkmn_logic.lb_log, pkmns[0], pkmns[1])
                 print("finished")
                 
                 window = tk.Tk()
@@ -313,11 +319,21 @@ def generate_frame(x) -> tk.Frame:
                 create_back_button(battle_frame)
                 style = ttk.Style()
                 style.configure("Custom.Horizontal.TProgressbar", troughcolor='black', background='green')
-                log_labels = []
-                for _ in range(4):
-                    ll = tk.Label(battle_frame,text="",fg="white", bg="black")
-                    ll.pack()
-                    log_labels.append(ll)
+                # log_labels = []
+                # for _ in range(4):
+                #     ll = tk.Label(battle_frame,text="",fg="white", bg="black")
+                #     ll.pack()
+                #     log_labels.append(ll)
+                turn_moves = tk.Label(battle_frame,text="",fg="white", bg="black", wraplength=500)
+                turn_moves.pack()
+                def caption_change(log):
+                    logs = []
+                    for lg in reversed(log):
+                        lg: str
+                        logs.insert(0, lg)
+                        if lg.startswith("Turn"):
+                            break
+                    turn_moves.config(text=get_caption(logs))
                 name1 = tk.Label(battle_frame,text="your's "+pkmns[0].entity[0].species,fg="white", bg="black")
                 name1.pack()
                 hp1 = ttk.Progressbar(battle_frame, length=150, mode='determinate', maximum=100, style="Custom.Horizontal.TProgressbar")
@@ -335,10 +351,12 @@ def generate_frame(x) -> tk.Frame:
                     ended = pkmn_logic.manual_battle_do_turn(pkmns[0], pkmns[1], selection)
                     set_hp(*calculate_hp_p())
                     print(calculate_hp_p())
-                    mn = min(len(log_labels), len(pkmn_logic.manual_battle.log))
-                    for i in range(mn):
-                        log_labels[i-mn].config(text = pkmn_logic.manual_battle.log[i-mn])
-                        print(pkmn_logic.manual_battle.log[i-mn])
+                    # mn = min(len(log_labels), len(pkmn_logic.manual_battle.log))
+                    # for i in range(mn):
+                    #     log_labels[i-mn].config(text = pkmn_logic.manual_battle.log[i-mn])
+                    #     print(pkmn_logic.manual_battle.log[i-mn])
+                    cpt_thread = threading.Thread(target=caption_change, args=(pkmn_logic.manual_battle.log,))
+                    cpt_thread.start()
                     if ended:
                         result = tk.Label(battle_frame,text="YOU WIN" if pkmn_logic.manual_battle.winner =="p1" else "YOU LOSE",fg="white", bg="black", font=("Arial", 50, "bold"))
                         # for pkc in [name1,hp1,name2,hp2,a0_button,a1_button,a2_button,a3_button,pass_button,run_button]:
@@ -435,7 +453,49 @@ def generate_frame(x) -> tk.Frame:
                 run_button.bind("<Enter>", on_enter)  # Bind mouse enter event
                 run_button.bind("<Leave>", on_leave)  # Bind mouse leave event
                 run_button.pack(pady=10)
-        
+                
+            
+                def update_advice():
+                    
+                    answer = give_advice(pkmn_logic.manual_battle)
+                    print("finished")
+                    
+                    window = tk.Tk()
+                    window.title("Advice")
+                    window.configure(bg='black')  # Set the background color to black
+
+                    # Create a label in the window with white text
+                    label = ttk.Label(window, text=answer, background='black', foreground='white', wraplength=750, font=("Arial", 11, "bold"))
+                    label.pack(pady=20)
+
+                    # Create an "Accept" button in the window with white text
+                    button = ttk.Button(window, text="Accept", command=window.destroy, style='TButton')
+                    button.pack(pady=10)
+
+                    # Configure the button style to have a black background and white text
+                    style = ttk.Style()
+                    style.configure('TButton', background='black', foreground='white')
+
+                    # Run the main event loop
+                    window.mainloop()
+                
+                def thread_adv():
+                    train_thrd = threading.Thread(target=update_advice)
+                    train_thrd.start()
+                
+                adv_button = tk.Button(
+                battle_frame,
+                text="?",
+                font=button_font,
+                fg="white",
+                bg="black",
+                command=thread_adv
+                )
+                adv_button.bind("<Enter>", on_enter)  # Bind mouse enter event
+                adv_button.bind("<Leave>", on_leave)  # Bind mouse leave event
+                adv_button.pack(pady=10)
+
+                
         
         # Create the battle against a Pokémon button
         battle_pokemon_button = tk.Button(

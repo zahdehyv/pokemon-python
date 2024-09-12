@@ -1,0 +1,8 @@
+Specie:magnezone
+Won:48/55 battles
+Level:96
+Fitness:0.9074805601474656
+Ability:analytic
+Nature:naughty
+Moves:[np.str_('supersonic'), np.str_('discharge'), np.str_('naturalgift'), np.str_('recycle')]
+Most Used Moves:{np.str_('naturalgift')}

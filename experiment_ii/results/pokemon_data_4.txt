@@ -1,0 +1,5 @@
+Especie: excadrill
+Batallas ganadas: 4/53
+Nivel: 100
+Movimientos usados:
+Total de movimientos diferentes usados: 0

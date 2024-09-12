@@ -1,0 +1,8 @@
+Specie:lucario
+Won:52/55 battles
+Level:97
+Fitness:0.9029699258635693
+Ability:steadfast
+Nature:rash
+Moves:[np.str_('crunch'), np.str_('sleeptalk'), np.str_('swagger'), np.str_('hyperbeam')]
+Most Used Moves:{np.str_('crunch')}

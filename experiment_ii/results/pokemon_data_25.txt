@@ -1,0 +1,6 @@
+Especie: hydreigon
+Batallas ganadas: 7/43
+Nivel: 100
+Movimientos usados:
+  focusenergy: 213 veces
+Total de movimientos diferentes usados: 1

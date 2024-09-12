@@ -1,0 +1,6 @@
+Especie: dragonite
+Batallas ganadas: 24/46
+Nivel: 100
+Movimientos usados:
+  icebeam: 69 veces
+Total de movimientos diferentes usados: 1

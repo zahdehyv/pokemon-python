@@ -1,0 +1,7 @@
+Especie: manectric
+Batallas ganadas: 12/41
+Nivel: 100
+Movimientos usados:
+  snarl: 25 veces
+  flamethrower: 47 veces
+Total de movimientos diferentes usados: 2

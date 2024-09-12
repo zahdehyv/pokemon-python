@@ -1,6 +1,6 @@
 Especie: carbink
-Batallas ganadas: 14/29
-Nivel: 92
+Batallas ganadas: 21/51
+Nivel: 100
 Movimientos usados:
-  stoneedge: 40 veces
+  rockthrow: 100 veces
 Total de movimientos diferentes usados: 1

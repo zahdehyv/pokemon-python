@@ -1,6 +1,6 @@
 Especie: charizard
-Batallas ganadas: 13/29
-Nivel: 99
+Batallas ganadas: 17/47
+Nivel: 100
 Movimientos usados:
-  rocktomb: 61 veces
+  rocktomb: 64 veces
 Total de movimientos diferentes usados: 1

@@ -1,0 +1,8 @@
+Specie:blaziken
+Won:53/55 battles
+Level:100
+Fitness:0.9026983641031658
+Ability:blaze
+Nature:naive
+Moves:[np.str_('willowisp'), np.str_('firepledge'), np.str_('fireblast'), np.str_('flareblitz')]
+Most Used Moves:{np.str_('flareblitz')}

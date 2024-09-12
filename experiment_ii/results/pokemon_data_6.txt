@@ -1,0 +1,6 @@
+Especie: magnezone
+Batallas ganadas: 27/51
+Nivel: 100
+Movimientos usados:
+  naturalgift: 151 veces
+Total de movimientos diferentes usados: 1

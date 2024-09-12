@@ -1,6 +1,6 @@
 Especie: tranquill
-Batallas ganadas: 8/29
-Nivel: 95
+Batallas ganadas: 15/47
+Nivel: 100
 Movimientos usados:
-  skyattack: 13 veces
+  skyattack: 47 veces
 Total de movimientos diferentes usados: 1

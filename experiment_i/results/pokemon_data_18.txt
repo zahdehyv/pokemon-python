@@ -1,6 +1,6 @@
 Especie: lycanroc
-Batallas ganadas: 7/29
+Batallas ganadas: 5/44
 Nivel: 100
 Movimientos usados:
-  irondefense: 70 veces
+  irondefense: 188 veces
 Total de movimientos diferentes usados: 1

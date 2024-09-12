@@ -1,0 +1,6 @@
+Especie: venusaur
+Batallas ganadas: 17/50
+Nivel: 100
+Movimientos usados:
+  solarbeam: 80 veces
+Total de movimientos diferentes usados: 1

@@ -1,6 +1,6 @@
 Especie: lucario
-Batallas ganadas: 11/29
+Batallas ganadas: 18/46
 Nivel: 100
 Movimientos usados:
-  shadowclaw: 59 veces
+  shadowclaw: 66 veces
 Total de movimientos diferentes usados: 1

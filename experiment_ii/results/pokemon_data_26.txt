@@ -1,0 +1,6 @@
+Especie: lucario
+Batallas ganadas: 24/48
+Nivel: 100
+Movimientos usados:
+  crunch: 98 veces
+Total de movimientos diferentes usados: 1

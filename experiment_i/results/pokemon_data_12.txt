@@ -1,6 +1,6 @@
 Especie: charizard
-Batallas ganadas: 14/29
-Nivel: 98
+Batallas ganadas: 16/40
+Nivel: 100
 Movimientos usados:
-  outrage: 42 veces
+  flareblitz: 56 veces
 Total de movimientos diferentes usados: 1

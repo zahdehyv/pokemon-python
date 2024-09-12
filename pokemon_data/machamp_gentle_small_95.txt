@@ -1,0 +1,8 @@
+Specie:machamp
+Won:54/55 battles
+Level:100
+Fitness:0.9577513756703967
+Ability:steadfast
+Nature:gentle
+Moves:[np.str_('flamethrower'), np.str_('bulletpunch'), np.str_('substitute'), np.str_('icepunch')]
+Most Used Moves:{np.str_('icepunch')}
