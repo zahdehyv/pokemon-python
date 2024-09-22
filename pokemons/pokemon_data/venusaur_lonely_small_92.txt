@@ -1,0 +1,8 @@
+Specie:venusaur
+Won:33/55 battles
+Level:49
+Fitness:0.9229421487603306
+Ability:overgrow
+Nature:lonely
+Moves:['swordsdance', 'seedbomb', 'solarbeam', 'furycutter']
+Most Used Moves:{'solarbeam', 'seedbomb', 'swordsdance', 'furycutter'}

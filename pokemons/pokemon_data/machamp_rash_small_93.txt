@@ -1,0 +1,8 @@
+Specie:machamp
+Won:38/55 battles
+Level:49
+Fitness:0.9324087152516904
+Ability:steadfast
+Nature:rash
+Moves:['poisonjab', 'firepunch', 'bulkup', 'crosschop']
+Most Used Moves:{'bulkup', 'crosschop', 'firepunch', 'poisonjab'}

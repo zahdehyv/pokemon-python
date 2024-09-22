@@ -1,0 +1,8 @@
+Specie:gyarados
+Won:36/55 battles
+Level:40
+Fitness:0.922374154770849
+Ability:moxie
+Nature:calm
+Moves:['earthquake', 'surf', 'doubleedge', 'irontail']
+Most Used Moves:{'doubleedge', 'surf', 'earthquake', 'irontail'}

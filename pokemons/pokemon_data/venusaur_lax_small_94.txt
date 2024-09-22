@@ -1,0 +1,8 @@
+Specie:venusaur
+Won:41/55 battles
+Level:55
+Fitness:0.9422539444027047
+Ability:overgrow
+Nature:lax
+Moves:['furycutter', 'rockclimb', 'solarbeam', 'curse']
+Most Used Moves:{'rockclimb', 'furycutter', 'solarbeam', 'curse'}

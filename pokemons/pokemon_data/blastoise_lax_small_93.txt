@@ -1,0 +1,8 @@
+Specie:blastoise
+Won:36/55 battles
+Level:58
+Fitness:0.9348700225394441
+Ability:raindish
+Nature:lax
+Moves:['icywind', 'hydrocannon', 'icebeam', 'dig']
+Most Used Moves:{'dig', 'icywind', 'icebeam', 'hydrocannon'}

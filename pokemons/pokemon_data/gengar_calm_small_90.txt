@@ -1,0 +1,8 @@
+Specie:gengar
+Won:27/55 battles
+Level:39
+Fitness:0.9046401202103682
+Ability:cursedbody
+Nature:calm
+Moves:['rocksmash', 'shadowball', 'round', 'megadrain']
+Most Used Moves:{'round', 'megadrain', 'rocksmash', 'shadowball'}

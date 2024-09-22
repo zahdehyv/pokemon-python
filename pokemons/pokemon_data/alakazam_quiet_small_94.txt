@@ -1,0 +1,8 @@
+Specie:alakazam
+Won:36/55 battles
+Level:68
+Fitness:0.9418121712997747
+Ability:innerfocus
+Nature:quiet
+Moves:['psywave', 'futuresight', 'focusblast', 'miracleeye']
+Most Used Moves:{'miracleeye', 'futuresight', 'psywave', 'focusblast'}

@@ -1,0 +1,8 @@
+Specie:charizard
+Won:28/55 battles
+Level:43
+Fitness:0.9093102930127724
+Ability:solarpower
+Nature:bold
+Moves:['focusblast', 'ominouswind', 'irontail', 'sandstorm']
+Most Used Moves:{'irontail', 'ominouswind', 'focusblast', 'sandstorm'}
