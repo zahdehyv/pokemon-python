@@ -7,13 +7,10 @@ from time import sleep
 import pandas as pd
 import random
 from misc_utils import PokemonEntity, load_pokemon, save_pokemon, BasicPkmnLogic, GeneticEvolution
-from nlp_utils import narrate_battle_logs, give_advice, get_caption
+from nlp_utils import call_gemini_api
 from pathlib import Path
 from tkinter import filedialog
 import threading
-
-
-
 
 # Function to change button color on mouse enter
 def on_enter(event):

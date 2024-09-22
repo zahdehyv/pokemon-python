@@ -150,7 +150,7 @@ class PokemonEntity:
 def save_pokemon(pokemon: PokemonEntity):
     with open(f'pokemons/{pokemon.entity[0].species}_{pokemon.entity[0].nature}_{BRAIN_SIZE_TEXT}_{int(pokemon.genome.fitness*100)}.pkl', 'wb') as output:
         pickle.dump(pokemon, output, pickle.HIGHEST_PROTOCOL)
-    with open(f'pokemon_data/{pokemon.entity[0].species}_{pokemon.entity[0].nature}_{BRAIN_SIZE_TEXT}_{int(pokemon.genome.fitness*100)}.txt', 'w') as file:
+    with open(f'pokemons/pokemon_data/{pokemon.entity[0].species}_{pokemon.entity[0].nature}_{BRAIN_SIZE_TEXT}_{int(pokemon.genome.fitness*100)}.txt', 'w') as file:
         file.write(f"Specie:{pokemon.entity[0].species}\n")
         file.write(f"Won:{pokemon.won_battles}/{pokemon.total_battles} battles\n")
         file.write(f"Level:{pokemon.lvl}\n")
