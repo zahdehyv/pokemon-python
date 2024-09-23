@@ -5,7 +5,6 @@ import pandas as pd
 import numpy as np
 import random
 from sim.structs import Pokemon
-
 from pokemon import PokemonEntity
 
 TURN_BONUS = 10
@@ -88,6 +87,7 @@ class ExperienceHandler:
         x = b/a
         return (((np.tanh(13*(x-1.1))+1)/2)+0.7*x)*1.5**x
     
+    
 class BasicPkmnLogic:
     def __init__(self) -> None:
         self.experience_handler = ExperienceHandler()
@@ -163,30 +163,16 @@ class BasicPkmnLogic:
         
         self.manual_battle.log.append(f"status: {pkmn1.entity[0].species} hp:{self.manual_battle.p1.active_pokemon[0].hp}/{self.manual_battle.p1.active_pokemon[0].maxhp} and {pkmn2.entity[0].species} hp:{self.manual_battle.p2.active_pokemon[0].hp}/{self.manual_battle.p2.active_pokemon[0].maxhp}")
         if self.manual_battle.ended:
-        # print()
-        # print(self.manual_battle.log)
-        # input()
-        # print()
+       
             self.lb_log = self.manual_battle.log
             
             if self.manual_battle_exp:
                 if self.manual_battle.winner == 'p1':
                     winner = pkmn1
                     loser = pkmn2
-                    # a = self.experience_handler.base_stats(self.manual_battle.p1.active_pokemon[0])
-                    # b = self.experience_handler.base_stats(self.manual_battle.p2.active_pokemon[0])
-                    # stat_modifier = self.experience_handler.stats_mod(self.manual_battle.p1.active_pokemon[0],self.manual_battle.p2.active_pokemon[0])
                 if self.manual_battle.winner == 'p2':
                     winner = pkmn2
                     loser = pkmn1
-                    # a = self.experience_handler.base_stats(self.manual_battle.p2.active_pokemon[0])
-                    # b = self.experience_handler.base_stats(self.manual_battle.p1.active_pokemon[0])
-                    # stat_modifier = self.experience_handler.stats_mod(self.manual_battle.p2.active_pokemon[0],self.manual_battle.p1.active_pokemon[0])
-                # print()
-                # print(a)
-                # print(b)
-                # print(stat_modifier)
-                # print()
                 loser_index = self.ecosystem.id_to_index_pokemon[loser.entity[0].species]
                 modifier = (self.manual_battle.turn+TURN_BONUS)/self.manual_battle.turn
                 
@@ -254,8 +240,6 @@ class BasicPkmnLogic:
                     pkmn1.used_moves[used] = pkmn1.used_moves[used]+1
                 else:
                     pkmn1.used_moves[used] = 1
-            # if pkmn2_choice in range(4):
-            #     pkmn2.used_moves.add(pkmn2.entity[0].moves[pkmn2_choice])
                 
             sim.do_turn(battle)
         if battle.p1.active_pokemon[0].hp <=0:
@@ -263,30 +247,15 @@ class BasicPkmnLogic:
         if battle.p2.active_pokemon[0].hp <=0:
             battle.log.append(battle.p2.active_pokemon[0].species+" has fainted")
         
-        # print()
-        # print(battle.log)
-        # input()
-        # print()
         self.lb_log = battle.log
         
         if exp:
             if battle.winner == 'p1':
                 winner = pkmn1
                 loser = pkmn2
-                # a = self.experience_handler.base_stats(battle.p1.active_pokemon[0])
-                # b = self.experience_handler.base_stats(battle.p2.active_pokemon[0])
-                # stat_modifier = self.experience_handler.stats_mod(battle.p1.active_pokemon[0],battle.p2.active_pokemon[0])
             if battle.winner == 'p2':
                 winner = pkmn2
                 loser = pkmn1
-                # a = self.experience_handler.base_stats(battle.p2.active_pokemon[0])
-                # b = self.experience_handler.base_stats(battle.p1.active_pokemon[0])
-                # stat_modifier = self.experience_handler.stats_mod(battle.p2.active_pokemon[0],battle.p1.active_pokemon[0])
-            # print()
-            # print(a)
-            # print(b)
-            # print(stat_modifier)
-            # print()
             loser_index = self.ecosystem.id_to_index_pokemon[loser.entity[0].species]
             modifier = (battle.turn+TURN_BONUS)/battle.turn
             
@@ -299,11 +268,8 @@ class BasicPkmnLogic:
             return 0
         
     def pokemon_match_old(self, pokemon_list):
-        # print(len(pokemon_list))
-        # Shuffle the list to randomize the order
         random.shuffle(pokemon_list)
         for i in range(0, len(pokemon_list), 2):
-            # print("battle no:", i)
             if i + 1 < len(pokemon_list):  # Ensure there is a pair
                 pokemon1 = pokemon_list[i]
                 pokemon2 = pokemon_list[i + 1]

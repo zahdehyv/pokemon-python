@@ -79,7 +79,8 @@ def do_turn(B:Battle) -> None:
 
     turn_start(B)
 
-    B.log.append("\nTurn "+ str(B.turn)+":")
+    B.log.append("Turn "+ str(B.turn)+":")
+    # B.log.append() STATUS
     if B.debug:
         print('---Turn ' + str(B.turn) + '---')
         print(B.p1.choice)
@@ -146,6 +147,10 @@ def do_turn(B:Battle) -> None:
             else:
                 B.p2.request = 'pass'
     
+    B.log.append('End of Turn ' + str(B.turn) +'\n')
+    lgg = B.log.copy()
+    B.logs.append(lgg)
+    B.log = []
     if B.debug:
         print('---End of Turn ' + str(B.turn) + '---')
     return

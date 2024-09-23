@@ -167,7 +167,7 @@ class Pokemon:
     active : bool = False
     active_turns : int = 0
 
-    level : int = field(default=1)
+    level : int = field(default=50)
 
     types : List[str] = field(init=False)
 
@@ -328,7 +328,7 @@ class Battle:
     started : bool = False
     setup_ran : bool = False
     log : List[str] = field(default_factory=list)
-
+    logs: List[List[str]] = field(default_factory=list)
     # players
     p1 : Player = field(init=False)
     p2 : Player = field(init=False)

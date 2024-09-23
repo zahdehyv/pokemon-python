@@ -232,7 +232,12 @@ def faint(P:Pokemon) -> None:
     P.hp = 0
     P.fainted = True
     #self.side.pokemon_left -= 1
-
+    
+    try:
+        P.log.append(P.owner +"'s "+ P.name + ' fainted')
+    except:
+        pass
+    
     if P.debug:
         print(P.name + ' fainted')
     return

@@ -151,7 +151,7 @@ def turn_end(B:Battle) -> None:
                 cure_status(pokemon)
     return
 
-def run_action(B, a : Action) -> None:
+def run_action(B: Battle, a : Action) -> None:
     '''
     ONLY CALLED IN do_turn()
     Takes Action object and if it is a switch, calls player.switch().
@@ -165,9 +165,9 @@ def run_action(B, a : Action) -> None:
     # one way for switches
     if a.action_type == 'switch':
         if a.user.player_uid == 1:
-            switch(B.p1, a.user, a.pos)
+            switch(B, B.p1, a.user, a.pos, B.p1.name)
         if a.user.player_uid == 2:
-            switch(B.p2, a.user, a.pos)
+            switch(B,B.p2, a.user, a.pos, B.p2.name)
         return
 
     # another for mega evolutions
@@ -179,9 +179,9 @@ def run_action(B, a : Action) -> None:
     if not B.doubles and a.target[0:3] == 'foe':
         p = a.user.player_uid
         if p == 1:
-            run_move(B, a.user, a.move, B.p2.active_pokemon[0])
+            run_move(B, a.user, a.move, B.p2.active_pokemon[0], B.p1.name)
         if p == 2:
-            run_move(B, a.user, a.move, B.p1.active_pokemon[0])
+            run_move(B, a.user, a.move, B.p1.active_pokemon[0], B.p2.name)
         return
 
     if a.target == 'all': 
@@ -192,14 +192,14 @@ def run_action(B, a : Action) -> None:
 
     return
 
-def run_move(B:Battle, user:Pokemon, move:dex.Move, target:Pokemon) -> None:
+def run_move(B:Battle, user:Pokemon, move:dex.Move, target:Pokemon, player_name) -> None:
     '''
     ONLY CALLED IN run_action()
     Does the move logic.
     '''
     # Fainted pokemon can't use their move.
     if user.fainted:
-        B.log.append(user.name + " fainted before they could move")
+        B.log.append(player_name +"'s "+ user.name + " fainted before they could move")
         return
 
     # subtract pp
@@ -218,7 +218,7 @@ def run_move(B:Battle, user:Pokemon, move:dex.Move, target:Pokemon) -> None:
 
     # ACCURACY CHECK
     if not accuracy_check(B, user, move, target):
-        B.log.append(user.name + ' used ' + move.id + ' and missed')
+        B.log.append(player_name +"'s "+ user.name + ' used ' + move.id + ' and missed')
         if B.debug:
             print(user.name + ' used ' + move.id + ' and missed')
         # move missed! do nothing
@@ -263,7 +263,7 @@ def run_move(B:Battle, user:Pokemon, move:dex.Move, target:Pokemon) -> None:
     unique_moves_after_damage(B, user, move, target, dmg)
     # handle boosts and statuses
     boosts_statuses(B, user, move, target)
-    B.log.append(user.name + ' used ' + move.id + '')
+    B.log.append(player_name +"'s "+ user.name + ' used ' + move.id + '')
     if B.debug:
         print(user.name + ' used ' + move.id + '')
     return

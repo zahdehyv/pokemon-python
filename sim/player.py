@@ -14,7 +14,7 @@ FUNCTIONS:
 import sys
 from sim.pokemon import *
 
-def switch(T:Player, user:Pokemon, position:int) -> bool:
+def switch(B:Battle, T:Player, user:Pokemon, position:int, player_name) -> bool:
     '''
     switch the active pokemon to the pokemon in index: position
 
@@ -32,7 +32,7 @@ def switch(T:Player, user:Pokemon, position:int) -> bool:
         sys.exit('No pokemon left and we are switching')
 
     # if the selected pokemon is fainted or is already on the field do a default switch
-    if T.pokemon[position].fainted or T.pokemon[position].active:
+    if T.pokemon[position].fainted:# or T.pokemon[position].active:
         for pokemon in T.bench:
             if not pokemon.fainted and not pokemon.active:
                 position = pokemon.position
@@ -51,6 +51,7 @@ def switch(T:Player, user:Pokemon, position:int) -> bool:
     #self.battle.active_pokemon[pos] = pokemon_in
 
     pokemon_in.active = True
+    pokemon_out.active = False
     pokemon_out.is_switching = False
     pokemon_out.aqua_ring = False
     pokemon_out.volatile_statuses = set()
@@ -64,9 +65,10 @@ def switch(T:Player, user:Pokemon, position:int) -> bool:
         'accuracy': 0,
         'evasion': 0
     }
-    
+    # print("NAME", player_name)
+    B.log.append(player_name +"'s "+ pokemon_out.name + ' switches out for ' + pokemon_in.name)
     if T.debug:
-        print(pokemon_out.name + ' switches out for ' + pokemon_in.name)
+        print(player_name +"'s "+ pokemon_out.name + ' switches out for ' + pokemon_in.name)
 
     #self.battle.log(pokemon_out.fullname
     #      + ' switches out for '
