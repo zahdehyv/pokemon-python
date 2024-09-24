@@ -1,0 +1,5968 @@
+Timestep: 0
+
+Converged at time: 0
+Fixed Point iterations: 1
+Timestep: 0
+
+Converged at time: 0
+Fixed Point iterations: 1
+Timestep: 0
+
+Converged at time: 0
+Fixed Point iterations: 1
+Timestep: 0
+
+Converged at time: 0
+Fixed Point iterations: 1
+Timestep: 0
+
+Converged at time: 0
+Fixed Point iterations: 1
+Timestep: 0
+
+Converged at time: 0
+Fixed Point iterations: 1
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 0
+Timestep: 0
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 24
+Timestep: 0
+Timestep: 1
+Timestep: 2
+Timestep: 3
+Timestep: 4
+Timestep: 5
+Timestep: 6
+Timestep: 7
+Timestep: 8
+Timestep: 9
+Timestep: 10
+Timestep: 11
+Timestep: 12
+Timestep: 13
+Timestep: 14
+Timestep: 15
+Timestep: 16
+Timestep: 17
+Timestep: 18
+Timestep: 19
+Timestep: 20
+Timestep: 21
+Timestep: 22
+Timestep: 23
+
+Converged at time: 23
+Fixed Point iterations: 72
+10000000voltthunderbolt
+absorb
+accelerock
+acid
+acidarmor
+aciddownpour
+acidspray
+acrobatics
+acupressure
+aerialace
+aeroblast
+afteryou
+agility
+aircutter
+airslash
+alloutpummeling
+allyswitch
+amnesia
+anchorshot
+ancientpower
+aquajet
+aquaring
+aquatail
+armthrust
+aromatherapy
+aromaticmist
+assist
+assurance
+astonish
+attackorder
+attract
+aurasphere
+aurorabeam
+auroraveil
+autotomize
+avalanche
+babydolleyes
+banefulbunker
+barrage
+barrier
+batonpass
+beakblast
+beatup
+belch
+bellydrum
+bestow
+bide
+bind
+bite
+blackholeeclipse
+blastburn
+blazekick
+blizzard
+block
+bloomdoom
+blueflare
+bodyslam
+boltstrike
+boneclub
+bonerush
+bonemerang
+boomburst
+bounce
+bravebird
+breakneckblitz
+brickbreak
+brine
+brutalswing
+bubble
+bubblebeam
+bugbite
+bugbuzz
+bulkup
+bulldoze
+bulletpunch
+bulletseed
+burnup
+calmmind
+camouflage
+captivate
+catastropika
+celebrate
+charge
+chargebeam
+charm
+chatter
+chipaway
+circlethrow
+clamp
+clangingscales
+clangoroussoulblaze
+clearsmog
+closecombat
+coil
+cometpunch
+confide
+confuseray
+confusion
+constrict
+continentalcrush
+conversion
+conversion2
+copycat
+coreenforcer
+corkscrewcrash
+cosmicpower
+cottonguard
+cottonspore
+counter
+covet
+crabhammer
+craftyshield
+crosschop
+crosspoison
+crunch
+crushclaw
+crushgrip
+curse
+cut
+darkpulse
+darkvoid
+darkestlariat
+dazzlinggleam
+defendorder
+defensecurl
+defog
+destinybond
+detect
+devastatingdrake
+diamondstorm
+dig
+disable
+disarmingvoice
+discharge
+dive
+dizzypunch
+doomdesire
+doubleedge
+doublehit
+doublekick
+doubleslap
+doubleteam
+dracometeor
+dragonascent
+dragonbreath
+dragonclaw
+dragondance
+dragonhammer
+dragonpulse
+dragonrage
+dragonrush
+dragontail
+drainingkiss
+drainpunch
+dreameater
+drillpeck
+drillrun
+dualchop
+dynamicpunch
+earthpower
+earthquake
+echoedvoice
+eerieimpulse
+eggbomb
+electricterrain
+electrify
+electroball
+electroweb
+embargo
+ember
+encore
+endeavor
+endure
+energyball
+entrainment
+eruption
+explosion
+extrasensory
+extremeevoboost
+extremespeed
+facade
+feintattack
+fairylock
+fairywind
+fakeout
+faketears
+falseswipe
+featherdance
+feint
+fellstinger
+fierydance
+finalgambit
+fireblast
+firefang
+firelash
+firepledge
+firepunch
+firespin
+firstimpression
+fissure
+flail
+flameburst
+flamecharge
+flamewheel
+flamethrower
+flareblitz
+flash
+flashcannon
+flatter
+fleurcannon
+fling
+floralhealing
+flowershield
+fly
+flyingpress
+focusblast
+focusenergy
+focuspunch
+followme
+forcepalm
+foresight
+forestscurse
+foulplay
+freezedry
+freezeshock
+frenzyplant
+frostbreath
+frustration
+furyattack
+furycutter
+furyswipes
+fusionbolt
+fusionflare
+futuresight
+gastroacid
+geargrind
+gearup
+genesissupernova
+geomancy
+gigadrain
+gigaimpact
+gigavolthavoc
+glaciate
+glare
+grassknot
+grasspledge
+grasswhistle
+grassyterrain
+gravity
+growl
+growth
+grudge
+guardsplit
+guardswap
+guardianofalola
+guillotine
+gunkshot
+gust
+gyroball
+hail
+hammerarm
+happyhour
+harden
+haze
+headcharge
+headsmash
+headbutt
+healbell
+healblock
+healorder
+healpulse
+healingwish
+heartstamp
+heartswap
+heatcrash
+heatwave
+heavyslam
+helpinghand
+hex
+hiddenpower
+hiddenpowerbug
+hiddenpowerdark
+hiddenpowerdragon
+hiddenpowerelectric
+hiddenpowerfighting
+hiddenpowerfire
+hiddenpowerflying
+hiddenpowerghost
+hiddenpowergrass
+hiddenpowerground
+hiddenpowerice
+hiddenpowerpoison
+hiddenpowerpsychic
+hiddenpowerrock
+hiddenpowersteel
+hiddenpowerwater
+highhorsepower
+highjumpkick
+holdback
+holdhands
+honeclaws
+hornattack
+horndrill
+hornleech
+howl
+hurricane
+hydrocannon
+hydropump
+hydrovortex
+hyperbeam
+hyperfang
+hyperspacefury
+hyperspacehole
+hypervoice
+hypnosis
+iceball
+icebeam
+iceburn
+icefang
+icehammer
+icepunch
+iceshard
+iciclecrash
+iciclespear
+icywind
+imprison
+incinerate
+inferno
+infernooverdrive
+infestation
+ingrain
+instruct
+iondeluge
+irondefense
+ironhead
+irontail
+judgment
+jumpkick
+karatechop
+kinesis
+kingsshield
+knockoff
+landswrath
+laserfocus
+lastresort
+lavaplume
+leafblade
+leafstorm
+leaftornado
+leafage
+leechlife
+leechseed
+leer
+letssnuggleforever
+lick
+lightofruin
+lightscreen
+lightthatburnsthesky
+liquidation
+lockon
+lovelykiss
+lowkick
+lowsweep
+luckychant
+lunardance
+lunge
+lusterpurge
+machpunch
+magiccoat
+magicroom
+magicalleaf
+magmastorm
+magnetbomb
+magneticflux
+magnetrise
+magnitude
+maliciousmoonsault
+matblock
+mefirst
+meanlook
+meditate
+megadrain
+megakick
+megapunch
+megahorn
+memento
+menacingmoonrazemaelstrom
+metalburst
+metalclaw
+metalsound
+meteormash
+metronome
+milkdrink
+mimic
+mindblown
+mindreader
+minimize
+miracleeye
+mirrorcoat
+mirrormove
+mirrorshot
+mist
+mistball
+mistyterrain
+moonblast
+moongeistbeam
+moonlight
+morningsun
+mudslap
+mudbomb
+mudshot
+mudsport
+muddywater
+multiattack
+mysticalfire
+nastyplot
+naturalgift
+naturepower
+naturesmadness
+needlearm
+neverendingnightmare
+nightdaze
+nightshade
+nightslash
+nightmare
+nobleroar
+nuzzle
+oblivionwing
+oceanicoperetta
+octazooka
+odorsleuth
+ominouswind
+originpulse
+outrage
+overheat
+painsplit
+paraboliccharge
+partingshot
+payday
+payback
+peck
+perishsong
+petalblizzard
+petaldance
+phantomforce
+photongeyser
+pinmissile
+plasmafists
+playnice
+playrough
+pluck
+poisonfang
+poisongas
+poisonjab
+poisonpowder
+poisonsting
+poisontail
+pollenpuff
+pound
+powder
+powdersnow
+powergem
+powersplit
+powerswap
+powertrick
+powertrip
+poweruppunch
+powerwhip
+precipiceblades
+present
+prismaticlaser
+protect
+psybeam
+psychup
+psychic
+psychicfangs
+psychicterrain
+psychoboost
+psychocut
+psychoshift
+psyshock
+psystrike
+psywave
+pulverizingpancake
+punishment
+purify
+pursuit
+quash
+quickattack
+quickguard
+quiverdance
+rage
+ragepowder
+raindance
+rapidspin
+razorleaf
+razorshell
+razorwind
+recover
+recycle
+reflect
+reflecttype
+refresh
+relicsong
+rest
+retaliate
+return
+revelationdance
+revenge
+reversal
+roar
+roaroftime
+rockblast
+rockclimb
+rockpolish
+rockslide
+rocksmash
+rockthrow
+rocktomb
+rockwrecker
+roleplay
+rollingkick
+rollout
+roost
+rototiller
+round
+sacredfire
+sacredsword
+safeguard
+sandattack
+sandtomb
+sandstorm
+savagespinout
+scald
+scaryface
+scratch
+screech
+searingshot
+searingsunrazesmash
+secretpower
+secretsword
+seedbomb
+seedflare
+seismictoss
+selfdestruct
+shadowball
+shadowbone
+shadowclaw
+shadowforce
+shadowpunch
+shadowsneak
+sharpen
+shatteredpsyche
+sheercold
+shellsmash
+shelltrap
+shiftgear
+shockwave
+shoreup
+signalbeam
+silverwind
+simplebeam
+sing
+sinisterarrowraid
+sketch
+skillswap
+skullbash
+skyattack
+skydrop
+skyuppercut
+slackoff
+slam
+slash
+sleeppowder
+sleeptalk
+sludge
+sludgebomb
+sludgewave
+smackdown
+smartstrike
+smellingsalts
+smog
+smokescreen
+snarl
+snatch
+snore
+spectralthief
+speedswap
+spikyshield
+spiritshackle
+soak
+softboiled
+solarbeam
+solarblade
+sonicboom
+soulstealing7starstrike
+spacialrend
+spark
+sparklingaria
+spiderweb
+spikecannon
+spikes
+spitup
+spite
+splash
+splinteredstormshards
+spore
+spotlight
+stealthrock
+steameruption
+steelwing
+stickyweb
+stockpile
+stokedsparksurfer
+stomp
+stompingtantrum
+stoneedge
+storedpower
+stormthrow
+steamroller
+strength
+strengthsap
+stringshot
+struggle
+strugglebug
+stunspore
+submission
+substitute
+subzeroslammer
+suckerpunch
+sunnyday
+sunsteelstrike
+superfang
+superpower
+supersonic
+supersonicskystrike
+surf
+swagger
+swallow
+sweetkiss
+sweetscent
+swift
+switcheroo
+swordsdance
+synchronoise
+synthesis
+tackle
+tailglow
+tailslap
+tailwhip
+tailwind
+takedown
+taunt
+tearfullook
+technoblast
+tectonicrage
+teeterdance
+telekinesis
+teleport
+thief
+thousandarrows
+thousandwaves
+thrash
+throatchop
+thunder
+thunderfang
+thunderpunch
+thundershock
+thunderwave
+thunderbolt
+tickle
+topsyturvy
+torment
+toxic
+toxicspikes
+toxicthread
+transform
+triattack
+trick
+trickortreat
+trickroom
+triplekick
+tropkick
+trumpcard
+twineedle
+twinkletackle
+twister
+uturn
+uproar
+vcreate
+vacuumwave
+venomdrench
+venoshock
+vicegrip
+vinewhip
+vitalthrow
+voltswitch
+volttackle
+wakeupslap
+watergun
+waterpledge
+waterpulse
+watersport
+waterspout
+waterfall
+watershuriken
+weatherball
+whirlpool
+whirlwind
+wideguard
+wildcharge
+willowisp
+wingattack
+wish
+withdraw
+wonderroom
+woodhammer
+workup
+worryseed
+wrap
+wringout
+xscissor
+yawn
+zapcannon
+zenheadbutt
+zingzap
+10000000voltthunderbolt
+absorb
+accelerock
+acid
+acidarmor
+aciddownpour
+acidspray
+acrobatics
+acupressure
+aerialace
+aeroblast
+afteryou
+agility
+aircutter
+airslash
+alloutpummeling
+allyswitch
+amnesia
+anchorshot
+ancientpower
+aquajet
+aquaring
+aquatail
+armthrust
+aromatherapy
+aromaticmist
+assist
+assurance
+astonish
+attackorder
+attract
+aurasphere
+aurorabeam
+auroraveil
+autotomize
+avalanche
+babydolleyes
+banefulbunker
+barrage
+barrier
+batonpass
+beakblast
+beatup
+belch
+bellydrum
+bestow
+bide
+bind
+bite
+blackholeeclipse
+blastburn
+blazekick
+blizzard
+block
+bloomdoom
+blueflare
+bodyslam
+boltstrike
+boneclub
+bonerush
+bonemerang
+boomburst
+bounce
+bravebird
+breakneckblitz
+brickbreak
+brine
+brutalswing
+bubble
+bubblebeam
+bugbite
+bugbuzz
+bulkup
+bulldoze
+bulletpunch
+bulletseed
+burnup
+calmmind
+camouflage
+captivate
+catastropika
+celebrate
+charge
+chargebeam
+charm
+chatter
+chipaway
+circlethrow
+clamp
+clangingscales
+clangoroussoulblaze
+clearsmog
+closecombat
+coil
+cometpunch
+confide
+confuseray
+confusion
+constrict
+continentalcrush
+conversion
+conversion2
+copycat
+coreenforcer
+corkscrewcrash
+cosmicpower
+cottonguard
+cottonspore
+counter
+covet
+crabhammer
+craftyshield
+crosschop
+crosspoison
+crunch
+crushclaw
+crushgrip
+curse
+cut
+darkpulse
+darkvoid
+darkestlariat
+dazzlinggleam
+defendorder
+defensecurl
+defog
+destinybond
+detect
+devastatingdrake
+diamondstorm
+dig
+disable
+disarmingvoice
+discharge
+dive
+dizzypunch
+doomdesire
+doubleedge
+doublehit
+doublekick
+doubleslap
+doubleteam
+dracometeor
+dragonascent
+dragonbreath
+dragonclaw
+dragondance
+dragonhammer
+dragonpulse
+dragonrage
+dragonrush
+dragontail
+drainingkiss
+drainpunch
+dreameater
+drillpeck
+drillrun
+dualchop
+dynamicpunch
+earthpower
+earthquake
+echoedvoice
+eerieimpulse
+eggbomb
+electricterrain
+electrify
+electroball
+electroweb
+embargo
+ember
+encore
+endeavor
+endure
+energyball
+entrainment
+eruption
+explosion
+extrasensory
+extremeevoboost
+extremespeed
+facade
+feintattack
+fairylock
+fairywind
+fakeout
+faketears
+falseswipe
+featherdance
+feint
+fellstinger
+fierydance
+finalgambit
+fireblast
+firefang
+firelash
+firepledge
+firepunch
+firespin
+firstimpression
+fissure
+flail
+flameburst
+flamecharge
+flamewheel
+flamethrower
+flareblitz
+flash
+flashcannon
+flatter
+fleurcannon
+fling
+floralhealing
+flowershield
+fly
+flyingpress
+focusblast
+focusenergy
+focuspunch
+followme
+forcepalm
+foresight
+forestscurse
+foulplay
+freezedry
+freezeshock
+frenzyplant
+frostbreath
+frustration
+furyattack
+furycutter
+furyswipes
+fusionbolt
+fusionflare
+futuresight
+gastroacid
+geargrind
+gearup
+genesissupernova
+geomancy
+gigadrain
+gigaimpact
+gigavolthavoc
+glaciate
+glare
+grassknot
+grasspledge
+grasswhistle
+grassyterrain
+gravity
+growl
+growth
+grudge
+guardsplit
+guardswap
+guardianofalola
+guillotine
+gunkshot
+gust
+gyroball
+hail
+hammerarm
+happyhour
+harden
+haze
+headcharge
+headsmash
+headbutt
+healbell
+healblock
+healorder
+healpulse
+healingwish
+heartstamp
+heartswap
+heatcrash
+heatwave
+heavyslam
+helpinghand
+hex
+hiddenpower
+hiddenpowerbug
+hiddenpowerdark
+hiddenpowerdragon
+hiddenpowerelectric
+hiddenpowerfighting
+hiddenpowerfire
+hiddenpowerflying
+hiddenpowerghost
+hiddenpowergrass
+hiddenpowerground
+hiddenpowerice
+hiddenpowerpoison
+hiddenpowerpsychic
+hiddenpowerrock
+hiddenpowersteel
+hiddenpowerwater
+highhorsepower
+highjumpkick
+holdback
+holdhands
+honeclaws
+hornattack
+horndrill
+hornleech
+howl
+hurricane
+hydrocannon
+hydropump
+hydrovortex
+hyperbeam
+hyperfang
+hyperspacefury
+hyperspacehole
+hypervoice
+hypnosis
+iceball
+icebeam
+iceburn
+icefang
+icehammer
+icepunch
+iceshard
+iciclecrash
+iciclespear
+icywind
+imprison
+incinerate
+inferno
+infernooverdrive
+infestation
+ingrain
+instruct
+iondeluge
+irondefense
+ironhead
+irontail
+judgment
+jumpkick
+karatechop
+kinesis
+kingsshield
+knockoff
+landswrath
+laserfocus
+lastresort
+lavaplume
+leafblade
+leafstorm
+leaftornado
+leafage
+leechlife
+leechseed
+leer
+letssnuggleforever
+lick
+lightofruin
+lightscreen
+lightthatburnsthesky
+liquidation
+lockon
+lovelykiss
+lowkick
+lowsweep
+luckychant
+lunardance
+lunge
+lusterpurge
+machpunch
+magiccoat
+magicroom
+magicalleaf
+magmastorm
+magnetbomb
+magneticflux
+magnetrise
+magnitude
+maliciousmoonsault
+matblock
+mefirst
+meanlook
+meditate
+megadrain
+megakick
+megapunch
+megahorn
+memento
+menacingmoonrazemaelstrom
+metalburst
+metalclaw
+metalsound
+meteormash
+metronome
+milkdrink
+mimic
+mindblown
+mindreader
+minimize
+miracleeye
+mirrorcoat
+mirrormove
+mirrorshot
+mist
+mistball
+mistyterrain
+moonblast
+moongeistbeam
+moonlight
+morningsun
+mudslap
+mudbomb
+mudshot
+mudsport
+muddywater
+multiattack
+mysticalfire
+nastyplot
+naturalgift
+naturepower
+naturesmadness
+needlearm
+neverendingnightmare
+nightdaze
+nightshade
+nightslash
+nightmare
+nobleroar
+nuzzle
+oblivionwing
+oceanicoperetta
+octazooka
+odorsleuth
+ominouswind
+originpulse
+outrage
+overheat
+painsplit
+paraboliccharge
+partingshot
+payday
+payback
+peck
+perishsong
+petalblizzard
+petaldance
+phantomforce
+photongeyser
+pinmissile
+plasmafists
+playnice
+playrough
+pluck
+poisonfang
+poisongas
+poisonjab
+poisonpowder
+poisonsting
+poisontail
+pollenpuff
+pound
+powder
+powdersnow
+powergem
+powersplit
+powerswap
+powertrick
+powertrip
+poweruppunch
+powerwhip
+precipiceblades
+present
+prismaticlaser
+protect
+psybeam
+psychup
+psychic
+psychicfangs
+psychicterrain
+psychoboost
+psychocut
+psychoshift
+psyshock
+psystrike
+psywave
+pulverizingpancake
+punishment
+purify
+pursuit
+quash
+quickattack
+quickguard
+quiverdance
+rage
+ragepowder
+raindance
+rapidspin
+razorleaf
+razorshell
+razorwind
+recover
+recycle
+reflect
+reflecttype
+refresh
+relicsong
+rest
+retaliate
+return
+revelationdance
+revenge
+reversal
+roar
+roaroftime
+rockblast
+rockclimb
+rockpolish
+rockslide
+rocksmash
+rockthrow
+rocktomb
+rockwrecker
+roleplay
+rollingkick
+rollout
+roost
+rototiller
+round
+sacredfire
+sacredsword
+safeguard
+sandattack
+sandtomb
+sandstorm
+savagespinout
+scald
+scaryface
+scratch
+screech
+searingshot
+searingsunrazesmash
+secretpower
+secretsword
+seedbomb
+seedflare
+seismictoss
+selfdestruct
+shadowball
+shadowbone
+shadowclaw
+shadowforce
+shadowpunch
+shadowsneak
+sharpen
+shatteredpsyche
+sheercold
+shellsmash
+shelltrap
+shiftgear
+shockwave
+shoreup
+signalbeam
+silverwind
+simplebeam
+sing
+sinisterarrowraid
+sketch
+skillswap
+skullbash
+skyattack
+skydrop
+skyuppercut
+slackoff
+slam
+slash
+sleeppowder
+sleeptalk
+sludge
+sludgebomb
+sludgewave
+smackdown
+smartstrike
+smellingsalts
+smog
+smokescreen
+snarl
+snatch
+snore
+spectralthief
+speedswap
+spikyshield
+spiritshackle
+soak
+softboiled
+solarbeam
+solarblade
+sonicboom
+soulstealing7starstrike
+spacialrend
+spark
+sparklingaria
+spiderweb
+spikecannon
+spikes
+spitup
+spite
+splash
+splinteredstormshards
+spore
+spotlight
+stealthrock
+steameruption
+steelwing
+stickyweb
+stockpile
+stokedsparksurfer
+stomp
+stompingtantrum
+stoneedge
+storedpower
+stormthrow
+steamroller
+strength
+strengthsap
+stringshot
+struggle
+strugglebug
+stunspore
+submission
+substitute
+subzeroslammer
+suckerpunch
+sunnyday
+sunsteelstrike
+superfang
+superpower
+supersonic
+supersonicskystrike
+surf
+swagger
+swallow
+sweetkiss
+sweetscent
+swift
+switcheroo
+swordsdance
+synchronoise
+synthesis
+tackle
+tailglow
+tailslap
+tailwhip
+tailwind
+takedown
+taunt
+tearfullook
+technoblast
+tectonicrage
+teeterdance
+telekinesis
+teleport
+thief
+thousandarrows
+thousandwaves
+thrash
+throatchop
+thunder
+thunderfang
+thunderpunch
+thundershock
+thunderwave
+thunderbolt
+tickle
+topsyturvy
+torment
+toxic
+toxicspikes
+toxicthread
+transform
+triattack
+trick
+trickortreat
+trickroom
+triplekick
+tropkick
+trumpcard
+twineedle
+twinkletackle
+twister
+uturn
+uproar
+vcreate
+vacuumwave
+venomdrench
+venoshock
+vicegrip
+vinewhip
+vitalthrow
+voltswitch
+volttackle
+wakeupslap
+watergun
+waterpledge
+waterpulse
+watersport
+waterspout
+waterfall
+watershuriken
+weatherball
+whirlpool
+whirlwind
+wideguard
+wildcharge
+willowisp
+wingattack
+wish
+withdraw
+wonderroom
+woodhammer
+workup
+worryseed
+wrap
+wringout
+xscissor
+yawn
+zapcannon
+zenheadbutt
+zingzap
+10000000voltthunderbolt
+absorb
+accelerock
+acid
+acidarmor
+aciddownpour
+acidspray
+acrobatics
+acupressure
+aerialace
+aeroblast
+afteryou
+agility
+aircutter
+airslash
+alloutpummeling
+allyswitch
+amnesia
+anchorshot
+ancientpower
+aquajet
+aquaring
+aquatail
+armthrust
+aromatherapy
+aromaticmist
+assist
+assurance
+astonish
+attackorder
+attract
+aurasphere
+aurorabeam
+auroraveil
+autotomize
+avalanche
+babydolleyes
+banefulbunker
+barrage
+barrier
+batonpass
+beakblast
+beatup
+belch
+bellydrum
+bestow
+bide
+bind
+bite
+blackholeeclipse
+blastburn
+blazekick
+blizzard
+block
+bloomdoom
+blueflare
+bodyslam
+boltstrike
+boneclub
+bonerush
+bonemerang
+boomburst
+bounce
+bravebird
+breakneckblitz
+brickbreak
+brine
+brutalswing
+bubble
+bubblebeam
+bugbite
+bugbuzz
+bulkup
+bulldoze
+bulletpunch
+bulletseed
+burnup
+calmmind
+camouflage
+captivate
+catastropika
+celebrate
+charge
+chargebeam
+charm
+chatter
+chipaway
+circlethrow
+clamp
+clangingscales
+clangoroussoulblaze
+clearsmog
+closecombat
+coil
+cometpunch
+confide
+confuseray
+confusion
+constrict
+continentalcrush
+conversion
+conversion2
+copycat
+coreenforcer
+corkscrewcrash
+cosmicpower
+cottonguard
+cottonspore
+counter
+covet
+crabhammer
+craftyshield
+crosschop
+crosspoison
+crunch
+crushclaw
+crushgrip
+curse
+cut
+darkpulse
+darkvoid
+darkestlariat
+dazzlinggleam
+defendorder
+defensecurl
+defog
+destinybond
+detect
+devastatingdrake
+diamondstorm
+dig
+disable
+disarmingvoice
+discharge
+dive
+dizzypunch
+doomdesire
+doubleedge
+doublehit
+doublekick
+doubleslap
+doubleteam
+dracometeor
+dragonascent
+dragonbreath
+dragonclaw
+dragondance
+dragonhammer
+dragonpulse
+dragonrage
+dragonrush
+dragontail
+drainingkiss
+drainpunch
+dreameater
+drillpeck
+drillrun
+dualchop
+dynamicpunch
+earthpower
+earthquake
+echoedvoice
+eerieimpulse
+eggbomb
+electricterrain
+electrify
+electroball
+electroweb
+embargo
+ember
+encore
+endeavor
+endure
+energyball
+entrainment
+eruption
+explosion
+extrasensory
+extremeevoboost
+extremespeed
+facade
+feintattack
+fairylock
+fairywind
+fakeout
+faketears
+falseswipe
+featherdance
+feint
+fellstinger
+fierydance
+finalgambit
+fireblast
+firefang
+firelash
+firepledge
+firepunch
+firespin
+firstimpression
+fissure
+flail
+flameburst
+flamecharge
+flamewheel
+flamethrower
+flareblitz
+flash
+flashcannon
+flatter
+fleurcannon
+fling
+floralhealing
+flowershield
+fly
+flyingpress
+focusblast
+focusenergy
+focuspunch
+followme
+forcepalm
+foresight
+forestscurse
+foulplay
+freezedry
+freezeshock
+frenzyplant
+frostbreath
+frustration
+furyattack
+furycutter
+furyswipes
+fusionbolt
+fusionflare
+futuresight
+gastroacid
+geargrind
+gearup
+genesissupernova
+geomancy
+gigadrain
+gigaimpact
+gigavolthavoc
+glaciate
+glare
+grassknot
+grasspledge
+grasswhistle
+grassyterrain
+gravity
+growl
+growth
+grudge
+guardsplit
+guardswap
+guardianofalola
+guillotine
+gunkshot
+gust
+gyroball
+hail
+hammerarm
+happyhour
+harden
+haze
+headcharge
+headsmash
+headbutt
+healbell
+healblock
+healorder
+healpulse
+healingwish
+heartstamp
+heartswap
+heatcrash
+heatwave
+heavyslam
+helpinghand
+hex
+hiddenpower
+hiddenpowerbug
+hiddenpowerdark
+hiddenpowerdragon
+hiddenpowerelectric
+hiddenpowerfighting
+hiddenpowerfire
+hiddenpowerflying
+hiddenpowerghost
+hiddenpowergrass
+hiddenpowerground
+hiddenpowerice
+hiddenpowerpoison
+hiddenpowerpsychic
+hiddenpowerrock
+hiddenpowersteel
+hiddenpowerwater
+highhorsepower
+highjumpkick
+holdback
+holdhands
+honeclaws
+hornattack
+horndrill
+hornleech
+howl
+hurricane
+hydrocannon
+hydropump
+hydrovortex
+hyperbeam
+hyperfang
+hyperspacefury
+hyperspacehole
+hypervoice
+hypnosis
+iceball
+icebeam
+iceburn
+icefang
+icehammer
+icepunch
+iceshard
+iciclecrash
+iciclespear
+icywind
+imprison
+incinerate
+inferno
+infernooverdrive
+infestation
+ingrain
+instruct
+iondeluge
+irondefense
+ironhead
+irontail
+judgment
+jumpkick
+karatechop
+kinesis
+kingsshield
+knockoff
+landswrath
+laserfocus
+lastresort
+lavaplume
+leafblade
+leafstorm
+leaftornado
+leafage
+leechlife
+leechseed
+leer
+letssnuggleforever
+lick
+lightofruin
+lightscreen
+lightthatburnsthesky
+liquidation
+lockon
+lovelykiss
+lowkick
+lowsweep
+luckychant
+lunardance
+lunge
+lusterpurge
+machpunch
+magiccoat
+magicroom
+magicalleaf
+magmastorm
+magnetbomb
+magneticflux
+magnetrise
+magnitude
+maliciousmoonsault
+matblock
+mefirst
+meanlook
+meditate
+megadrain
+megakick
+megapunch
+megahorn
+memento
+menacingmoonrazemaelstrom
+metalburst
+metalclaw
+metalsound
+meteormash
+metronome
+milkdrink
+mimic
+mindblown
+mindreader
+minimize
+miracleeye
+mirrorcoat
+mirrormove
+mirrorshot
+mist
+mistball
+mistyterrain
+moonblast
+moongeistbeam
+moonlight
+morningsun
+mudslap
+mudbomb
+mudshot
+mudsport
+muddywater
+multiattack
+mysticalfire
+nastyplot
+naturalgift
+naturepower
+naturesmadness
+needlearm
+neverendingnightmare
+nightdaze
+nightshade
+nightslash
+nightmare
+nobleroar
+nuzzle
+oblivionwing
+oceanicoperetta
+octazooka
+odorsleuth
+ominouswind
+originpulse
+outrage
+overheat
+painsplit
+paraboliccharge
+partingshot
+payday
+payback
+peck
+perishsong
+petalblizzard
+petaldance
+phantomforce
+photongeyser
+pinmissile
+plasmafists
+playnice
+playrough
+pluck
+poisonfang
+poisongas
+poisonjab
+poisonpowder
+poisonsting
+poisontail
+pollenpuff
+pound
+powder
+powdersnow
+powergem
+powersplit
+powerswap
+powertrick
+powertrip
+poweruppunch
+powerwhip
+precipiceblades
+present
+prismaticlaser
+protect
+psybeam
+psychup
+psychic
+psychicfangs
+psychicterrain
+psychoboost
+psychocut
+psychoshift
+psyshock
+psystrike
+psywave
+pulverizingpancake
+punishment
+purify
+pursuit
+quash
+quickattack
+quickguard
+quiverdance
+rage
+ragepowder
+raindance
+rapidspin
+razorleaf
+razorshell
+razorwind
+recover
+recycle
+reflect
+reflecttype
+refresh
+relicsong
+rest
+retaliate
+return
+revelationdance
+revenge
+reversal
+roar
+roaroftime
+rockblast
+rockclimb
+rockpolish
+rockslide
+rocksmash
+rockthrow
+rocktomb
+rockwrecker
+roleplay
+rollingkick
+rollout
+roost
+rototiller
+round
+sacredfire
+sacredsword
+safeguard
+sandattack
+sandtomb
+sandstorm
+savagespinout
+scald
+scaryface
+scratch
+screech
+searingshot
+searingsunrazesmash
+secretpower
+secretsword
+seedbomb
+seedflare
+seismictoss
+selfdestruct
+shadowball
+shadowbone
+shadowclaw
+shadowforce
+shadowpunch
+shadowsneak
+sharpen
+shatteredpsyche
+sheercold
+shellsmash
+shelltrap
+shiftgear
+shockwave
+shoreup
+signalbeam
+silverwind
+simplebeam
+sing
+sinisterarrowraid
+sketch
+skillswap
+skullbash
+skyattack
+skydrop
+skyuppercut
+slackoff
+slam
+slash
+sleeppowder
+sleeptalk
+sludge
+sludgebomb
+sludgewave
+smackdown
+smartstrike
+smellingsalts
+smog
+smokescreen
+snarl
+snatch
+snore
+spectralthief
+speedswap
+spikyshield
+spiritshackle
+soak
+softboiled
+solarbeam
+solarblade
+sonicboom
+soulstealing7starstrike
+spacialrend
+spark
+sparklingaria
+spiderweb
+spikecannon
+spikes
+spitup
+spite
+splash
+splinteredstormshards
+spore
+spotlight
+stealthrock
+steameruption
+steelwing
+stickyweb
+stockpile
+stokedsparksurfer
+stomp
+stompingtantrum
+stoneedge
+storedpower
+stormthrow
+steamroller
+strength
+strengthsap
+stringshot
+struggle
+strugglebug
+stunspore
+submission
+substitute
+subzeroslammer
+suckerpunch
+sunnyday
+sunsteelstrike
+superfang
+superpower
+supersonic
+supersonicskystrike
+surf
+swagger
+swallow
+sweetkiss
+sweetscent
+swift
+switcheroo
+swordsdance
+synchronoise
+synthesis
+tackle
+tailglow
+tailslap
+tailwhip
+tailwind
+takedown
+taunt
+tearfullook
+technoblast
+tectonicrage
+teeterdance
+telekinesis
+teleport
+thief
+thousandarrows
+thousandwaves
+thrash
+throatchop
+thunder
+thunderfang
+thunderpunch
+thundershock
+thunderwave
+thunderbolt
+tickle
+topsyturvy
+torment
+toxic
+toxicspikes
+toxicthread
+transform
+triattack
+trick
+trickortreat
+trickroom
+triplekick
+tropkick
+trumpcard
+twineedle
+twinkletackle
+twister
+uturn
+uproar
+vcreate
+vacuumwave
+venomdrench
+venoshock
+vicegrip
+vinewhip
+vitalthrow
+voltswitch
+volttackle
+wakeupslap
+watergun
+waterpledge
+waterpulse
+watersport
+waterspout
+waterfall
+watershuriken
+weatherball
+whirlpool
+whirlwind
+wideguard
+wildcharge
+willowisp
+wingattack
+wish
+withdraw
+wonderroom
+woodhammer
+workup
+worryseed
+wrap
+wringout
+xscissor
+yawn
+zapcannon
+zenheadbutt
+zingzap
+Bug/Dark
+Bug/Dragon
+Bug/Electric
+Bug/Fairy
+Bug/Fighting
+Bug/Fire
+Bug/Flying
+Bug/Ghost
+Bug/Grass
+Bug/Ground
+Bug/Ice
+Bug/Normal
+Bug/Poison
+Bug/Psychic
+Bug/Rock
+Bug/Steel
+Bug/Water
+Bug/None
+Dark/Bug
+Dark/Dragon
+Dark/Electric
+Dark/Fairy
+Dark/Fighting
+Dark/Fire
+Dark/Flying
+Dark/Ghost
+Dark/Grass
+Dark/Ground
+Dark/Ice
+Dark/Normal
+Dark/Poison
+Dark/Psychic
+Dark/Rock
+Dark/Steel
+Dark/Water
+Dark/None
+Dragon/Bug
+Dragon/Dark
+Dragon/Electric
+Dragon/Fairy
+Dragon/Fighting
+Dragon/Fire
+Dragon/Flying
+Dragon/Ghost
+Dragon/Grass
+Dragon/Ground
+Dragon/Ice
+Dragon/Normal
+Dragon/Poison
+Dragon/Psychic
+Dragon/Rock
+Dragon/Steel
+Dragon/Water
+Dragon/None
+Electric/Bug
+Electric/Dark
+Electric/Dragon
+Electric/Fairy
+Electric/Fighting
+Electric/Fire
+Electric/Flying
+Electric/Ghost
+Electric/Grass
+Electric/Ground
+Electric/Ice
+Electric/Normal
+Electric/Poison
+Electric/Psychic
+Electric/Rock
+Electric/Steel
+Electric/Water
+Electric/None
+Fairy/Bug
+Fairy/Dark
+Fairy/Dragon
+Fairy/Electric
+Fairy/Fighting
+Fairy/Fire
+Fairy/Flying
+Fairy/Ghost
+Fairy/Grass
+Fairy/Ground
+Fairy/Ice
+Fairy/Normal
+Fairy/Poison
+Fairy/Psychic
+Fairy/Rock
+Fairy/Steel
+Fairy/Water
+Fairy/None
+Fighting/Bug
+Fighting/Dark
+Fighting/Dragon
+Fighting/Electric
+Fighting/Fairy
+Fighting/Fire
+Fighting/Flying
+Fighting/Ghost
+Fighting/Grass
+Fighting/Ground
+Fighting/Ice
+Fighting/Normal
+Fighting/Poison
+Fighting/Psychic
+Fighting/Rock
+Fighting/Steel
+Fighting/Water
+Fighting/None
+Fire/Bug
+Fire/Dark
+Fire/Dragon
+Fire/Electric
+Fire/Fairy
+Fire/Fighting
+Fire/Flying
+Fire/Ghost
+Fire/Grass
+Fire/Ground
+Fire/Ice
+Fire/Normal
+Fire/Poison
+Fire/Psychic
+Fire/Rock
+Fire/Steel
+Fire/Water
+Fire/None
+Flying/Bug
+Flying/Dark
+Flying/Dragon
+Flying/Electric
+Flying/Fairy
+Flying/Fighting
+Flying/Fire
+Flying/Ghost
+Flying/Grass
+Flying/Ground
+Flying/Ice
+Flying/Normal
+Flying/Poison
+Flying/Psychic
+Flying/Rock
+Flying/Steel
+Flying/Water
+Flying/None
+Ghost/Bug
+Ghost/Dark
+Ghost/Dragon
+Ghost/Electric
+Ghost/Fairy
+Ghost/Fighting
+Ghost/Fire
+Ghost/Flying
+Ghost/Grass
+Ghost/Ground
+Ghost/Ice
+Ghost/Normal
+Ghost/Poison
+Ghost/Psychic
+Ghost/Rock
+Ghost/Steel
+Ghost/Water
+Ghost/None
+Grass/Bug
+Grass/Dark
+Grass/Dragon
+Grass/Electric
+Grass/Fairy
+Grass/Fighting
+Grass/Fire
+Grass/Flying
+Grass/Ghost
+Grass/Ground
+Grass/Ice
+Grass/Normal
+Grass/Poison
+Grass/Psychic
+Grass/Rock
+Grass/Steel
+Grass/Water
+Grass/None
+Ground/Bug
+Ground/Dark
+Ground/Dragon
+Ground/Electric
+Ground/Fairy
+Ground/Fighting
+Ground/Fire
+Ground/Flying
+Ground/Ghost
+Ground/Grass
+Ground/Ice
+Ground/Normal
+Ground/Poison
+Ground/Psychic
+Ground/Rock
+Ground/Steel
+Ground/Water
+Ground/None
+Ice/Bug
+Ice/Dark
+Ice/Dragon
+Ice/Electric
+Ice/Fairy
+Ice/Fighting
+Ice/Fire
+Ice/Flying
+Ice/Ghost
+Ice/Grass
+Ice/Ground
+Ice/Normal
+Ice/Poison
+Ice/Psychic
+Ice/Rock
+Ice/Steel
+Ice/Water
+Ice/None
+Normal/Bug
+Normal/Dark
+Normal/Dragon
+Normal/Electric
+Normal/Fairy
+Normal/Fighting
+Normal/Fire
+Normal/Flying
+Normal/Ghost
+Normal/Grass
+Normal/Ground
+Normal/Ice
+Normal/Poison
+Normal/Psychic
+Normal/Rock
+Normal/Steel
+Normal/Water
+Normal/None
+Poison/Bug
+Poison/Dark
+Poison/Dragon
+Poison/Electric
+Poison/Fairy
+Poison/Fighting
+Poison/Fire
+Poison/Flying
+Poison/Ghost
+Poison/Grass
+Poison/Ground
+Poison/Ice
+Poison/Normal
+Poison/Psychic
+Poison/Rock
+Poison/Steel
+Poison/Water
+Poison/None
+Psychic/Bug
+Psychic/Dark
+Psychic/Dragon
+Psychic/Electric
+Psychic/Fairy
+Psychic/Fighting
+Psychic/Fire
+Psychic/Flying
+Psychic/Ghost
+Psychic/Grass
+Psychic/Ground
+Psychic/Ice
+Psychic/Normal
+Psychic/Poison
+Psychic/Rock
+Psychic/Steel
+Psychic/Water
+Psychic/None
+Rock/Bug
+Rock/Dark
+Rock/Dragon
+Rock/Electric
+Rock/Fairy
+Rock/Fighting
+Rock/Fire
+Rock/Flying
+Rock/Ghost
+Rock/Grass
+Rock/Ground
+Rock/Ice
+Rock/Normal
+Rock/Poison
+Rock/Psychic
+Rock/Steel
+Rock/Water
+Rock/None
+Steel/Bug
+Steel/Dark
+Steel/Dragon
+Steel/Electric
+Steel/Fairy
+Steel/Fighting
+Steel/Fire
+Steel/Flying
+Steel/Ghost
+Steel/Grass
+Steel/Ground
+Steel/Ice
+Steel/Normal
+Steel/Poison
+Steel/Psychic
+Steel/Rock
+Steel/Water
+Steel/None
+Water/Bug
+Water/Dark
+Water/Dragon
+Water/Electric
+Water/Fairy
+Water/Fighting
+Water/Fire
+Water/Flying
+Water/Ghost
+Water/Grass
+Water/Ground
+Water/Ice
+Water/Normal
+Water/Poison
+Water/Psychic
+Water/Rock
+Water/Steel
+Water/None
+Bug/Bug
+Bug/Dark
+Bug/Dark
+Bug/Dragon
+Bug/Dragon
+Bug/Electric
+Bug/Electric
+Bug/Fairy
+Bug/Fairy
+Bug/Fighting
+Bug/Fighting
+Bug/Fire
+Bug/Fire
+Bug/Flying
+Bug/Flying
+Bug/Ghost
+Bug/Ghost
+Bug/Grass
+Bug/Grass
+Bug/Ground
+Bug/Ground
+Bug/Ice
+Bug/Ice
+Bug/Normal
+Bug/Normal
+Bug/Poison
+Bug/Poison
+Bug/Psychic
+Bug/Psychic
+Bug/Rock
+Bug/Rock
+Bug/Steel
+Bug/Steel
+Bug/Water
+Bug/Water
+Bug/None
+Bug/None
+Dark/Bug
+Dark/Bug
+Dark/Dark
+Dark/Dragon
+Dark/Dragon
+Dark/Electric
+Dark/Electric
+Dark/Fairy
+Dark/Fairy
+Dark/Fighting
+Dark/Fighting
+Dark/Fire
+Dark/Fire
+Dark/Flying
+Dark/Flying
+Dark/Ghost
+Dark/Ghost
+Dark/Grass
+Dark/Grass
+Dark/Ground
+Dark/Ground
+Dark/Ice
+Dark/Ice
+Dark/Normal
+Dark/Normal
+Dark/Poison
+Dark/Poison
+Dark/Psychic
+Dark/Psychic
+Dark/Rock
+Dark/Rock
+Dark/Steel
+Dark/Steel
+Dark/Water
+Dark/Water
+Dark/None
+Dark/None
+Dragon/Bug
+Dragon/Bug
+Dragon/Dark
+Dragon/Dark
+Dragon/Dragon
+Dragon/Electric
+Dragon/Electric
+Dragon/Fairy
+Dragon/Fairy
+Dragon/Fighting
+Dragon/Fighting
+Dragon/Fire
+Dragon/Fire
+Dragon/Flying
+Dragon/Flying
+Dragon/Ghost
+Dragon/Ghost
+Dragon/Grass
+Dragon/Grass
+Dragon/Ground
+Dragon/Ground
+Dragon/Ice
+Dragon/Ice
+Dragon/Normal
+Dragon/Normal
+Dragon/Poison
+Dragon/Poison
+Dragon/Psychic
+Dragon/Psychic
+Dragon/Rock
+Dragon/Rock
+Dragon/Steel
+Dragon/Steel
+Dragon/Water
+Dragon/Water
+Dragon/None
+Dragon/None
+Electric/Bug
+Electric/Bug
+Electric/Dark
+Electric/Dark
+Electric/Dragon
+Electric/Dragon
+Electric/Electric
+Electric/Fairy
+Electric/Fairy
+Electric/Fighting
+Electric/Fighting
+Electric/Fire
+Electric/Fire
+Electric/Flying
+Electric/Flying
+Electric/Ghost
+Electric/Ghost
+Electric/Grass
+Electric/Grass
+Electric/Ground
+Electric/Ground
+Electric/Ice
+Electric/Ice
+Electric/Normal
+Electric/Normal
+Electric/Poison
+Electric/Poison
+Electric/Psychic
+Electric/Psychic
+Electric/Rock
+Electric/Rock
+Electric/Steel
+Electric/Steel
+Electric/Water
+Electric/Water
+Electric/None
+Electric/None
+Fairy/Bug
+Fairy/Bug
+Fairy/Dark
+Fairy/Dark
+Fairy/Dragon
+Fairy/Dragon
+Fairy/Electric
+Fairy/Electric
+Fairy/Fairy
+Fairy/Fighting
+Fairy/Fighting
+Fairy/Fire
+Fairy/Fire
+Fairy/Flying
+Fairy/Flying
+Fairy/Ghost
+Fairy/Ghost
+Fairy/Grass
+Fairy/Grass
+Fairy/Ground
+Fairy/Ground
+Fairy/Ice
+Fairy/Ice
+Fairy/Normal
+Fairy/Normal
+Fairy/Poison
+Fairy/Poison
+Fairy/Psychic
+Fairy/Psychic
+Fairy/Rock
+Fairy/Rock
+Fairy/Steel
+Fairy/Steel
+Fairy/Water
+Fairy/Water
+Fairy/None
+Fairy/None
+Fighting/Bug
+Fighting/Bug
+Fighting/Dark
+Fighting/Dark
+Fighting/Dragon
+Fighting/Dragon
+Fighting/Electric
+Fighting/Electric
+Fighting/Fairy
+Fighting/Fairy
+Fighting/Fighting
+Fighting/Fire
+Fighting/Fire
+Fighting/Flying
+Fighting/Flying
+Fighting/Ghost
+Fighting/Ghost
+Fighting/Grass
+Fighting/Grass
+Fighting/Ground
+Fighting/Ground
+Fighting/Ice
+Fighting/Ice
+Fighting/Normal
+Fighting/Normal
+Fighting/Poison
+Fighting/Poison
+Fighting/Psychic
+Fighting/Psychic
+Fighting/Rock
+Fighting/Rock
+Fighting/Steel
+Fighting/Steel
+Fighting/Water
+Fighting/Water
+Fighting/None
+Fighting/None
+Fire/Bug
+Fire/Bug
+Fire/Dark
+Fire/Dark
+Fire/Dragon
+Fire/Dragon
+Fire/Electric
+Fire/Electric
+Fire/Fairy
+Fire/Fairy
+Fire/Fighting
+Fire/Fighting
+Fire/Fire
+Fire/Flying
+Fire/Flying
+Fire/Ghost
+Fire/Ghost
+Fire/Grass
+Fire/Grass
+Fire/Ground
+Fire/Ground
+Fire/Ice
+Fire/Ice
+Fire/Normal
+Fire/Normal
+Fire/Poison
+Fire/Poison
+Fire/Psychic
+Fire/Psychic
+Fire/Rock
+Fire/Rock
+Fire/Steel
+Fire/Steel
+Fire/Water
+Fire/Water
+Fire/None
+Fire/None
+Flying/Bug
+Flying/Bug
+Flying/Dark
+Flying/Dark
+Flying/Dragon
+Flying/Dragon
+Flying/Electric
+Flying/Electric
+Flying/Fairy
+Flying/Fairy
+Flying/Fighting
+Flying/Fighting
+Flying/Fire
+Flying/Fire
+Flying/Flying
+Flying/Ghost
+Flying/Ghost
+Flying/Grass
+Flying/Grass
+Flying/Ground
+Flying/Ground
+Flying/Ice
+Flying/Ice
+Flying/Normal
+Flying/Normal
+Flying/Poison
+Flying/Poison
+Flying/Psychic
+Flying/Psychic
+Flying/Rock
+Flying/Rock
+Flying/Steel
+Flying/Steel
+Flying/Water
+Flying/Water
+Flying/None
+Flying/None
+Ghost/Bug
+Ghost/Bug
+Ghost/Dark
+Ghost/Dark
+Ghost/Dragon
+Ghost/Dragon
+Ghost/Electric
+Ghost/Electric
+Ghost/Fairy
+Ghost/Fairy
+Ghost/Fighting
+Ghost/Fighting
+Ghost/Fire
+Ghost/Fire
+Ghost/Flying
+Ghost/Flying
+Ghost/Ghost
+Ghost/Grass
+Ghost/Grass
+Ghost/Ground
+Ghost/Ground
+Ghost/Ice
+Ghost/Ice
+Ghost/Normal
+Ghost/Normal
+Ghost/Poison
+Ghost/Poison
+Ghost/Psychic
+Ghost/Psychic
+Ghost/Rock
+Ghost/Rock
+Ghost/Steel
+Ghost/Steel
+Ghost/Water
+Ghost/Water
+Ghost/None
+Ghost/None
+Grass/Bug
+Grass/Bug
+Grass/Dark
+Grass/Dark
+Grass/Dragon
+Grass/Dragon
+Grass/Electric
+Grass/Electric
+Grass/Fairy
+Grass/Fairy
+Grass/Fighting
+Grass/Fighting
+Grass/Fire
+Grass/Fire
+Grass/Flying
+Grass/Flying
+Grass/Ghost
+Grass/Ghost
+Grass/Grass
+Grass/Ground
+Grass/Ground
+Grass/Ice
+Grass/Ice
+Grass/Normal
+Grass/Normal
+Grass/Poison
+Grass/Poison
+Grass/Psychic
+Grass/Psychic
+Grass/Rock
+Grass/Rock
+Grass/Steel
+Grass/Steel
+Grass/Water
+Grass/Water
+Grass/None
+Grass/None
+Ground/Bug
+Ground/Bug
+Ground/Dark
+Ground/Dark
+Ground/Dragon
+Ground/Dragon
+Ground/Electric
+Ground/Electric
+Ground/Fairy
+Ground/Fairy
+Ground/Fighting
+Ground/Fighting
+Ground/Fire
+Ground/Fire
+Ground/Flying
+Ground/Flying
+Ground/Ghost
+Ground/Ghost
+Ground/Grass
+Ground/Grass
+Ground/Ground
+Ground/Ice
+Ground/Ice
+Ground/Normal
+Ground/Normal
+Ground/Poison
+Ground/Poison
+Ground/Psychic
+Ground/Psychic
+Ground/Rock
+Ground/Rock
+Ground/Steel
+Ground/Steel
+Ground/Water
+Ground/Water
+Ground/None
+Ground/None
+Ice/Bug
+Ice/Bug
+Ice/Dark
+Ice/Dark
+Ice/Dragon
+Ice/Dragon
+Ice/Electric
+Ice/Electric
+Ice/Fairy
+Ice/Fairy
+Ice/Fighting
+Ice/Fighting
+Ice/Fire
+Ice/Fire
+Ice/Flying
+Ice/Flying
+Ice/Ghost
+Ice/Ghost
+Ice/Grass
+Ice/Grass
+Ice/Ground
+Ice/Ground
+Ice/Ice
+Ice/Normal
+Ice/Normal
+Ice/Poison
+Ice/Poison
+Ice/Psychic
+Ice/Psychic
+Ice/Rock
+Ice/Rock
+Ice/Steel
+Ice/Steel
+Ice/Water
+Ice/Water
+Ice/None
+Ice/None
+Normal/Bug
+Normal/Bug
+Normal/Dark
+Normal/Dark
+Normal/Dragon
+Normal/Dragon
+Normal/Electric
+Normal/Electric
+Normal/Fairy
+Normal/Fairy
+Normal/Fighting
+Normal/Fighting
+Normal/Fire
+Normal/Fire
+Normal/Flying
+Normal/Flying
+Normal/Ghost
+Normal/Ghost
+Normal/Grass
+Normal/Grass
+Normal/Ground
+Normal/Ground
+Normal/Ice
+Normal/Ice
+Normal/Normal
+Normal/Poison
+Normal/Poison
+Normal/Psychic
+Normal/Psychic
+Normal/Rock
+Normal/Rock
+Normal/Steel
+Normal/Steel
+Normal/Water
+Normal/Water
+Normal/None
+Normal/None
+Poison/Bug
+Poison/Bug
+Poison/Dark
+Poison/Dark
+Poison/Dragon
+Poison/Dragon
+Poison/Electric
+Poison/Electric
+Poison/Fairy
+Poison/Fairy
+Poison/Fighting
+Poison/Fighting
+Poison/Fire
+Poison/Fire
+Poison/Flying
+Poison/Flying
+Poison/Ghost
+Poison/Ghost
+Poison/Grass
+Poison/Grass
+Poison/Ground
+Poison/Ground
+Poison/Ice
+Poison/Ice
+Poison/Normal
+Poison/Normal
+Poison/Poison
+Poison/Psychic
+Poison/Psychic
+Poison/Rock
+Poison/Rock
+Poison/Steel
+Poison/Steel
+Poison/Water
+Poison/Water
+Poison/None
+Poison/None
+Psychic/Bug
+Psychic/Bug
+Psychic/Dark
+Psychic/Dark
+Psychic/Dragon
+Psychic/Dragon
+Psychic/Electric
+Psychic/Electric
+Psychic/Fairy
+Psychic/Fairy
+Psychic/Fighting
+Psychic/Fighting
+Psychic/Fire
+Psychic/Fire
+Psychic/Flying
+Psychic/Flying
+Psychic/Ghost
+Psychic/Ghost
+Psychic/Grass
+Psychic/Grass
+Psychic/Ground
+Psychic/Ground
+Psychic/Ice
+Psychic/Ice
+Psychic/Normal
+Psychic/Normal
+Psychic/Poison
+Psychic/Poison
+Psychic/Psychic
+Psychic/Rock
+Psychic/Rock
+Psychic/Steel
+Psychic/Steel
+Psychic/Water
+Psychic/Water
+Psychic/None
+Psychic/None
+Rock/Bug
+Rock/Bug
+Rock/Dark
+Rock/Dark
+Rock/Dragon
+Rock/Dragon
+Rock/Electric
+Rock/Electric
+Rock/Fairy
+Rock/Fairy
+Rock/Fighting
+Rock/Fighting
+Rock/Fire
+Rock/Fire
+Rock/Flying
+Rock/Flying
+Rock/Ghost
+Rock/Ghost
+Rock/Grass
+Rock/Grass
+Rock/Ground
+Rock/Ground
+Rock/Ice
+Rock/Ice
+Rock/Normal
+Rock/Normal
+Rock/Poison
+Rock/Poison
+Rock/Psychic
+Rock/Psychic
+Rock/Rock
+Rock/Steel
+Rock/Steel
+Rock/Water
+Rock/Water
+Rock/None
+Rock/None
+Steel/Bug
+Steel/Bug
+Steel/Dark
+Steel/Dark
+Steel/Dragon
+Steel/Dragon
+Steel/Electric
+Steel/Electric
+Steel/Fairy
+Steel/Fairy
+Steel/Fighting
+Steel/Fighting
+Steel/Fire
+Steel/Fire
+Steel/Flying
+Steel/Flying
+Steel/Ghost
+Steel/Ghost
+Steel/Grass
+Steel/Grass
+Steel/Ground
+Steel/Ground
+Steel/Ice
+Steel/Ice
+Steel/Normal
+Steel/Normal
+Steel/Poison
+Steel/Poison
+Steel/Psychic
+Steel/Psychic
+Steel/Rock
+Steel/Rock
+Steel/Steel
+Steel/Water
+Steel/Water
+Steel/None
+Steel/None
+Water/Bug
+Water/Bug
+Water/Dark
+Water/Dark
+Water/Dragon
+Water/Dragon
+Water/Electric
+Water/Electric
+Water/Fairy
+Water/Fairy
+Water/Fighting
+Water/Fighting
+Water/Fire
+Water/Fire
+Water/Flying
+Water/Flying
+Water/Ghost
+Water/Ghost
+Water/Grass
+Water/Grass
+Water/Ground
+Water/Ground
+Water/Ice
+Water/Ice
+Water/Normal
+Water/Normal
+Water/Poison
+Water/Poison
+Water/Psychic
+Water/Psychic
+Water/Rock
+Water/Rock
+Water/Steel
+Water/Steel
+Water/Water
+Water/None
+Water/None
+['Bug', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water']
+['Bug', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water']
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+['Bug', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water']
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+None
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+None
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+None
+['Bug', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water', 1]
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+None
+['Bug', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water', 1]
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+None
+['Bug', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water', 1]
+Bug/Bug
+Bug/Dark
+Bug/Dark
+Bug/Dragon
+Bug/Dragon
+Bug/Electric
+Bug/Electric
+Bug/Fairy
+Bug/Fairy
+Bug/Fighting
+Bug/Fighting
+Bug/Fire
+Bug/Fire
+Bug/Flying
+Bug/Flying
+Bug/Ghost
+Bug/Ghost
+Bug/Grass
+Bug/Grass
+Bug/Ground
+Bug/Ground
+Bug/Ice
+Bug/Ice
+Bug/Normal
+Bug/Normal
+Bug/Poison
+Bug/Poison
+Bug/Psychic
+Bug/Psychic
+Bug/Rock
+Bug/Rock
+Bug/Steel
+Bug/Steel
+Bug/Water
+Bug/Water
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+['Bug', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water']
+Bug/Bug
+Bug/Dark
+Bug/Dark
+Bug/Dragon
+Bug/Dragon
+Bug/Electric
+Bug/Electric
+Bug/Fairy
+Bug/Fairy
+Bug/Fighting
+Bug/Fighting
+Bug/Fire
+Bug/Fire
+Bug/Flying
+Bug/Flying
+Bug/Ghost
+Bug/Ghost
+Bug/Grass
+Bug/Grass
+Bug/Ground
+Bug/Ground
+Bug/Ice
+Bug/Ice
+Bug/Normal
+Bug/Normal
+Bug/Poison
+Bug/Poison
+Bug/Psychic
+Bug/Psychic
+Bug/Rock
+Bug/Rock
+Bug/Steel
+Bug/Steel
+Bug/Water
+Bug/Water
+Bug/None
+Bug/None
+Dark/Bug
+Dark/Bug
+Dark/Dark
+Dark/Dragon
+Dark/Dragon
+Dark/Electric
+Dark/Electric
+Dark/Fairy
+Dark/Fairy
+Dark/Fighting
+Dark/Fighting
+Dark/Fire
+Dark/Fire
+Dark/Flying
+Dark/Flying
+Dark/Ghost
+Dark/Ghost
+Dark/Grass
+Dark/Grass
+Dark/Ground
+Dark/Ground
+Dark/Ice
+Dark/Ice
+Dark/Normal
+Dark/Normal
+Dark/Poison
+Dark/Poison
+Dark/Psychic
+Dark/Psychic
+Dark/Rock
+Dark/Rock
+Dark/Steel
+Dark/Steel
+Dark/Water
+Dark/Water
+Dark/None
+Dark/None
+Dragon/Bug
+Dragon/Bug
+Dragon/Dark
+Dragon/Dark
+Dragon/Dragon
+Dragon/Electric
+Dragon/Electric
+Dragon/Fairy
+Dragon/Fairy
+Dragon/Fighting
+Dragon/Fighting
+Dragon/Fire
+Dragon/Fire
+Dragon/Flying
+Dragon/Flying
+Dragon/Ghost
+Dragon/Ghost
+Dragon/Grass
+Dragon/Grass
+Dragon/Ground
+Dragon/Ground
+Dragon/Ice
+Dragon/Ice
+Dragon/Normal
+Dragon/Normal
+Dragon/Poison
+Dragon/Poison
+Dragon/Psychic
+Dragon/Psychic
+Dragon/Rock
+Dragon/Rock
+Dragon/Steel
+Dragon/Steel
+Dragon/Water
+Dragon/Water
+Dragon/None
+Dragon/None
+Electric/Bug
+Electric/Bug
+Electric/Dark
+Electric/Dark
+Electric/Dragon
+Electric/Dragon
+Electric/Electric
+Electric/Fairy
+Electric/Fairy
+Electric/Fighting
+Electric/Fighting
+Electric/Fire
+Electric/Fire
+Electric/Flying
+Electric/Flying
+Electric/Ghost
+Electric/Ghost
+Electric/Grass
+Electric/Grass
+Electric/Ground
+Electric/Ground
+Electric/Ice
+Electric/Ice
+Electric/Normal
+Electric/Normal
+Electric/Poison
+Electric/Poison
+Electric/Psychic
+Electric/Psychic
+Electric/Rock
+Electric/Rock
+Electric/Steel
+Electric/Steel
+Electric/Water
+Electric/Water
+Electric/None
+Electric/None
+Fairy/Bug
+Fairy/Bug
+Fairy/Dark
+Fairy/Dark
+Fairy/Dragon
+Fairy/Dragon
+Fairy/Electric
+Fairy/Electric
+Fairy/Fairy
+Fairy/Fighting
+Fairy/Fighting
+Fairy/Fire
+Fairy/Fire
+Fairy/Flying
+Fairy/Flying
+Fairy/Ghost
+Fairy/Ghost
+Fairy/Grass
+Fairy/Grass
+Fairy/Ground
+Fairy/Ground
+Fairy/Ice
+Fairy/Ice
+Fairy/Normal
+Fairy/Normal
+Fairy/Poison
+Fairy/Poison
+Fairy/Psychic
+Fairy/Psychic
+Fairy/Rock
+Fairy/Rock
+Fairy/Steel
+Fairy/Steel
+Fairy/Water
+Fairy/Water
+Fairy/None
+Fairy/None
+Fighting/Bug
+Fighting/Bug
+Fighting/Dark
+Fighting/Dark
+Fighting/Dragon
+Fighting/Dragon
+Fighting/Electric
+Fighting/Electric
+Fighting/Fairy
+Fighting/Fairy
+Fighting/Fighting
+Fighting/Fire
+Fighting/Fire
+Fighting/Flying
+Fighting/Flying
+Fighting/Ghost
+Fighting/Ghost
+Fighting/Grass
+Fighting/Grass
+Fighting/Ground
+Fighting/Ground
+Fighting/Ice
+Fighting/Ice
+Fighting/Normal
+Fighting/Normal
+Fighting/Poison
+Fighting/Poison
+Fighting/Psychic
+Fighting/Psychic
+Fighting/Rock
+Fighting/Rock
+Fighting/Steel
+Fighting/Steel
+Fighting/Water
+Fighting/Water
+Fighting/None
+Fighting/None
+Fire/Bug
+Fire/Bug
+Fire/Dark
+Fire/Dark
+Fire/Dragon
+Fire/Dragon
+Fire/Electric
+Fire/Electric
+Fire/Fairy
+Fire/Fairy
+Fire/Fighting
+Fire/Fighting
+Fire/Fire
+Fire/Flying
+Fire/Flying
+Fire/Ghost
+Fire/Ghost
+Fire/Grass
+Fire/Grass
+Fire/Ground
+Fire/Ground
+Fire/Ice
+Fire/Ice
+Fire/Normal
+Fire/Normal
+Fire/Poison
+Fire/Poison
+Fire/Psychic
+Fire/Psychic
+Fire/Rock
+Fire/Rock
+Fire/Steel
+Fire/Steel
+Fire/Water
+Fire/Water
+Fire/None
+Fire/None
+Flying/Bug
+Flying/Bug
+Flying/Dark
+Flying/Dark
+Flying/Dragon
+Flying/Dragon
+Flying/Electric
+Flying/Electric
+Flying/Fairy
+Flying/Fairy
+Flying/Fighting
+Flying/Fighting
+Flying/Fire
+Flying/Fire
+Flying/Flying
+Flying/Ghost
+Flying/Ghost
+Flying/Grass
+Flying/Grass
+Flying/Ground
+Flying/Ground
+Flying/Ice
+Flying/Ice
+Flying/Normal
+Flying/Normal
+Flying/Poison
+Flying/Poison
+Flying/Psychic
+Flying/Psychic
+Flying/Rock
+Flying/Rock
+Flying/Steel
+Flying/Steel
+Flying/Water
+Flying/Water
+Flying/None
+Flying/None
+Ghost/Bug
+Ghost/Bug
+Ghost/Dark
+Ghost/Dark
+Ghost/Dragon
+Ghost/Dragon
+Ghost/Electric
+Ghost/Electric
+Ghost/Fairy
+Ghost/Fairy
+Ghost/Fighting
+Ghost/Fighting
+Ghost/Fire
+Ghost/Fire
+Ghost/Flying
+Ghost/Flying
+Ghost/Ghost
+Ghost/Grass
+Ghost/Grass
+Ghost/Ground
+Ghost/Ground
+Ghost/Ice
+Ghost/Ice
+Ghost/Normal
+Ghost/Normal
+Ghost/Poison
+Ghost/Poison
+Ghost/Psychic
+Ghost/Psychic
+Ghost/Rock
+Ghost/Rock
+Ghost/Steel
+Ghost/Steel
+Ghost/Water
+Ghost/Water
+Ghost/None
+Ghost/None
+Grass/Bug
+Grass/Bug
+Grass/Dark
+Grass/Dark
+Grass/Dragon
+Grass/Dragon
+Grass/Electric
+Grass/Electric
+Grass/Fairy
+Grass/Fairy
+Grass/Fighting
+Grass/Fighting
+Grass/Fire
+Grass/Fire
+Grass/Flying
+Grass/Flying
+Grass/Ghost
+Grass/Ghost
+Grass/Grass
+Grass/Ground
+Grass/Ground
+Grass/Ice
+Grass/Ice
+Grass/Normal
+Grass/Normal
+Grass/Poison
+Grass/Poison
+Grass/Psychic
+Grass/Psychic
+Grass/Rock
+Grass/Rock
+Grass/Steel
+Grass/Steel
+Grass/Water
+Grass/Water
+Grass/None
+Grass/None
+Ground/Bug
+Ground/Bug
+Ground/Dark
+Ground/Dark
+Ground/Dragon
+Ground/Dragon
+Ground/Electric
+Ground/Electric
+Ground/Fairy
+Ground/Fairy
+Ground/Fighting
+Ground/Fighting
+Ground/Fire
+Ground/Fire
+Ground/Flying
+Ground/Flying
+Ground/Ghost
+Ground/Ghost
+Ground/Grass
+Ground/Grass
+Ground/Ground
+Ground/Ice
+Ground/Ice
+Ground/Normal
+Ground/Normal
+Ground/Poison
+Ground/Poison
+Ground/Psychic
+Ground/Psychic
+Ground/Rock
+Ground/Rock
+Ground/Steel
+Ground/Steel
+Ground/Water
+Ground/Water
+Ground/None
+Ground/None
+Ice/Bug
+Ice/Bug
+Ice/Dark
+Ice/Dark
+Ice/Dragon
+Ice/Dragon
+Ice/Electric
+Ice/Electric
+Ice/Fairy
+Ice/Fairy
+Ice/Fighting
+Ice/Fighting
+Ice/Fire
+Ice/Fire
+Ice/Flying
+Ice/Flying
+Ice/Ghost
+Ice/Ghost
+Ice/Grass
+Ice/Grass
+Ice/Ground
+Ice/Ground
+Ice/Ice
+Ice/Normal
+Ice/Normal
+Ice/Poison
+Ice/Poison
+Ice/Psychic
+Ice/Psychic
+Ice/Rock
+Ice/Rock
+Ice/Steel
+Ice/Steel
+Ice/Water
+Ice/Water
+Ice/None
+Ice/None
+Normal/Bug
+Normal/Bug
+Normal/Dark
+Normal/Dark
+Normal/Dragon
+Normal/Dragon
+Normal/Electric
+Normal/Electric
+Normal/Fairy
+Normal/Fairy
+Normal/Fighting
+Normal/Fighting
+Normal/Fire
+Normal/Fire
+Normal/Flying
+Normal/Flying
+Normal/Ghost
+Normal/Ghost
+Normal/Grass
+Normal/Grass
+Normal/Ground
+Normal/Ground
+Normal/Ice
+Normal/Ice
+Normal/Normal
+Normal/Poison
+Normal/Poison
+Normal/Psychic
+Normal/Psychic
+Normal/Rock
+Normal/Rock
+Normal/Steel
+Normal/Steel
+Normal/Water
+Normal/Water
+Normal/None
+Normal/None
+Poison/Bug
+Poison/Bug
+Poison/Dark
+Poison/Dark
+Poison/Dragon
+Poison/Dragon
+Poison/Electric
+Poison/Electric
+Poison/Fairy
+Poison/Fairy
+Poison/Fighting
+Poison/Fighting
+Poison/Fire
+Poison/Fire
+Poison/Flying
+Poison/Flying
+Poison/Ghost
+Poison/Ghost
+Poison/Grass
+Poison/Grass
+Poison/Ground
+Poison/Ground
+Poison/Ice
+Poison/Ice
+Poison/Normal
+Poison/Normal
+Poison/Poison
+Poison/Psychic
+Poison/Psychic
+Poison/Rock
+Poison/Rock
+Poison/Steel
+Poison/Steel
+Poison/Water
+Poison/Water
+Poison/None
+Poison/None
+Psychic/Bug
+Psychic/Bug
+Psychic/Dark
+Psychic/Dark
+Psychic/Dragon
+Psychic/Dragon
+Psychic/Electric
+Psychic/Electric
+Psychic/Fairy
+Psychic/Fairy
+Psychic/Fighting
+Psychic/Fighting
+Psychic/Fire
+Psychic/Fire
+Psychic/Flying
+Psychic/Flying
+Psychic/Ghost
+Psychic/Ghost
+Psychic/Grass
+Psychic/Grass
+Psychic/Ground
+Psychic/Ground
+Psychic/Ice
+Psychic/Ice
+Psychic/Normal
+Psychic/Normal
+Psychic/Poison
+Psychic/Poison
+Psychic/Psychic
+Psychic/Rock
+Psychic/Rock
+Psychic/Steel
+Psychic/Steel
+Psychic/Water
+Psychic/Water
+Psychic/None
+Psychic/None
+Rock/Bug
+Rock/Bug
+Rock/Dark
+Rock/Dark
+Rock/Dragon
+Rock/Dragon
+Rock/Electric
+Rock/Electric
+Rock/Fairy
+Rock/Fairy
+Rock/Fighting
+Rock/Fighting
+Rock/Fire
+Rock/Fire
+Rock/Flying
+Rock/Flying
+Rock/Ghost
+Rock/Ghost
+Rock/Grass
+Rock/Grass
+Rock/Ground
+Rock/Ground
+Rock/Ice
+Rock/Ice
+Rock/Normal
+Rock/Normal
+Rock/Poison
+Rock/Poison
+Rock/Psychic
+Rock/Psychic
+Rock/Rock
+Rock/Steel
+Rock/Steel
+Rock/Water
+Rock/Water
+Rock/None
+Rock/None
+Steel/Bug
+Steel/Bug
+Steel/Dark
+Steel/Dark
+Steel/Dragon
+Steel/Dragon
+Steel/Electric
+Steel/Electric
+Steel/Fairy
+Steel/Fairy
+Steel/Fighting
+Steel/Fighting
+Steel/Fire
+Steel/Fire
+Steel/Flying
+Steel/Flying
+Steel/Ghost
+Steel/Ghost
+Steel/Grass
+Steel/Grass
+Steel/Ground
+Steel/Ground
+Steel/Ice
+Steel/Ice
+Steel/Normal
+Steel/Normal
+Steel/Poison
+Steel/Poison
+Steel/Psychic
+Steel/Psychic
+Steel/Rock
+Steel/Rock
+Steel/Steel
+Steel/Water
+Steel/Water
+Steel/None
+Steel/None
+Water/Bug
+Water/Bug
+Water/Dark
+Water/Dark
+Water/Dragon
+Water/Dragon
+Water/Electric
+Water/Electric
+Water/Fairy
+Water/Fairy
+Water/Fighting
+Water/Fighting
+Water/Fire
+Water/Fire
+Water/Flying
+Water/Flying
+Water/Ghost
+Water/Ghost
+Water/Grass
+Water/Grass
+Water/Ground
+Water/Ground
+Water/Ice
+Water/Ice
+Water/Normal
+Water/Normal
+Water/Poison
+Water/Poison
+Water/Psychic
+Water/Psychic
+Water/Rock
+Water/Rock
+Water/Steel
+Water/Steel
+Water/Water
+Water/None
+Water/None
+['Bug/Dark', 'Bug/Dragon', 'Bug/Electric', 'Bug/Fairy', 'Bug/Fighting', 'Bug/Fire', 'Bug/Flying', 'Bug/Ghost', 'Bug/Grass', 'Bug/Ground', 'Bug/Ice', 'Bug/Normal', 'Bug/Poison', 'Bug/Psychic', 'Bug/Rock', 'Bug/Steel', 'Bug/Water', 'Bug/None', 'Dark/Bug', 'Dark/Dragon', 'Dark/Electric', 'Dark/Fairy', 'Dark/Fighting', 'Dark/Fire', 'Dark/Flying', 'Dark/Ghost', 'Dark/Grass', 'Dark/Ground', 'Dark/Ice', 'Dark/Normal', 'Dark/Poison', 'Dark/Psychic', 'Dark/Rock', 'Dark/Steel', 'Dark/Water', 'Dark/None', 'Dragon/Bug', 'Dragon/Dark', 'Dragon/Electric', 'Dragon/Fairy', 'Dragon/Fighting', 'Dragon/Fire', 'Dragon/Flying', 'Dragon/Ghost', 'Dragon/Grass', 'Dragon/Ground', 'Dragon/Ice', 'Dragon/Normal', 'Dragon/Poison', 'Dragon/Psychic', 'Dragon/Rock', 'Dragon/Steel', 'Dragon/Water', 'Dragon/None', 'Electric/Bug', 'Electric/Dark', 'Electric/Dragon', 'Electric/Fairy', 'Electric/Fighting', 'Electric/Fire', 'Electric/Flying', 'Electric/Ghost', 'Electric/Grass', 'Electric/Ground', 'Electric/Ice', 'Electric/Normal', 'Electric/Poison', 'Electric/Psychic', 'Electric/Rock', 'Electric/Steel', 'Electric/Water', 'Electric/None', 'Fairy/Bug', 'Fairy/Dark', 'Fairy/Dragon', 'Fairy/Electric', 'Fairy/Fighting', 'Fairy/Fire', 'Fairy/Flying', 'Fairy/Ghost', 'Fairy/Grass', 'Fairy/Ground', 'Fairy/Ice', 'Fairy/Normal', 'Fairy/Poison', 'Fairy/Psychic', 'Fairy/Rock', 'Fairy/Steel', 'Fairy/Water', 'Fairy/None', 'Fighting/Bug', 'Fighting/Dark', 'Fighting/Dragon', 'Fighting/Electric', 'Fighting/Fairy', 'Fighting/Fire', 'Fighting/Flying', 'Fighting/Ghost', 'Fighting/Grass', 'Fighting/Ground', 'Fighting/Ice', 'Fighting/Normal', 'Fighting/Poison', 'Fighting/Psychic', 'Fighting/Rock', 'Fighting/Steel', 'Fighting/Water', 'Fighting/None', 'Fire/Bug', 'Fire/Dark', 'Fire/Dragon', 'Fire/Electric', 'Fire/Fairy', 'Fire/Fighting', 'Fire/Flying', 'Fire/Ghost', 'Fire/Grass', 'Fire/Ground', 'Fire/Ice', 'Fire/Normal', 'Fire/Poison', 'Fire/Psychic', 'Fire/Rock', 'Fire/Steel', 'Fire/Water', 'Fire/None', 'Flying/Bug', 'Flying/Dark', 'Flying/Dragon', 'Flying/Electric', 'Flying/Fairy', 'Flying/Fighting', 'Flying/Fire', 'Flying/Ghost', 'Flying/Grass', 'Flying/Ground', 'Flying/Ice', 'Flying/Normal', 'Flying/Poison', 'Flying/Psychic', 'Flying/Rock', 'Flying/Steel', 'Flying/Water', 'Flying/None', 'Ghost/Bug', 'Ghost/Dark', 'Ghost/Dragon', 'Ghost/Electric', 'Ghost/Fairy', 'Ghost/Fighting', 'Ghost/Fire', 'Ghost/Flying', 'Ghost/Grass', 'Ghost/Ground', 'Ghost/Ice', 'Ghost/Normal', 'Ghost/Poison', 'Ghost/Psychic', 'Ghost/Rock', 'Ghost/Steel', 'Ghost/Water', 'Ghost/None', 'Grass/Bug', 'Grass/Dark', 'Grass/Dragon', 'Grass/Electric', 'Grass/Fairy', 'Grass/Fighting', 'Grass/Fire', 'Grass/Flying', 'Grass/Ghost', 'Grass/Ground', 'Grass/Ice', 'Grass/Normal', 'Grass/Poison', 'Grass/Psychic', 'Grass/Rock', 'Grass/Steel', 'Grass/Water', 'Grass/None', 'Ground/Bug', 'Ground/Dark', 'Ground/Dragon', 'Ground/Electric', 'Ground/Fairy', 'Ground/Fighting', 'Ground/Fire', 'Ground/Flying', 'Ground/Ghost', 'Ground/Grass', 'Ground/Ice', 'Ground/Normal', 'Ground/Poison', 'Ground/Psychic', 'Ground/Rock', 'Ground/Steel', 'Ground/Water', 'Ground/None', 'Ice/Bug', 'Ice/Dark', 'Ice/Dragon', 'Ice/Electric', 'Ice/Fairy', 'Ice/Fighting', 'Ice/Fire', 'Ice/Flying', 'Ice/Ghost', 'Ice/Grass', 'Ice/Ground', 'Ice/Normal', 'Ice/Poison', 'Ice/Psychic', 'Ice/Rock', 'Ice/Steel', 'Ice/Water', 'Ice/None', 'Normal/Bug', 'Normal/Dark', 'Normal/Dragon', 'Normal/Electric', 'Normal/Fairy', 'Normal/Fighting', 'Normal/Fire', 'Normal/Flying', 'Normal/Ghost', 'Normal/Grass', 'Normal/Ground', 'Normal/Ice', 'Normal/Poison', 'Normal/Psychic', 'Normal/Rock', 'Normal/Steel', 'Normal/Water', 'Normal/None', 'Poison/Bug', 'Poison/Dark', 'Poison/Dragon', 'Poison/Electric', 'Poison/Fairy', 'Poison/Fighting', 'Poison/Fire', 'Poison/Flying', 'Poison/Ghost', 'Poison/Grass', 'Poison/Ground', 'Poison/Ice', 'Poison/Normal', 'Poison/Psychic', 'Poison/Rock', 'Poison/Steel', 'Poison/Water', 'Poison/None', 'Psychic/Bug', 'Psychic/Dark', 'Psychic/Dragon', 'Psychic/Electric', 'Psychic/Fairy', 'Psychic/Fighting', 'Psychic/Fire', 'Psychic/Flying', 'Psychic/Ghost', 'Psychic/Grass', 'Psychic/Ground', 'Psychic/Ice', 'Psychic/Normal', 'Psychic/Poison', 'Psychic/Rock', 'Psychic/Steel', 'Psychic/Water', 'Psychic/None', 'Rock/Bug', 'Rock/Dark', 'Rock/Dragon', 'Rock/Electric', 'Rock/Fairy', 'Rock/Fighting', 'Rock/Fire', 'Rock/Flying', 'Rock/Ghost', 'Rock/Grass', 'Rock/Ground', 'Rock/Ice', 'Rock/Normal', 'Rock/Poison', 'Rock/Psychic', 'Rock/Steel', 'Rock/Water', 'Rock/None', 'Steel/Bug', 'Steel/Dark', 'Steel/Dragon', 'Steel/Electric', 'Steel/Fairy', 'Steel/Fighting', 'Steel/Fire', 'Steel/Flying', 'Steel/Ghost', 'Steel/Grass', 'Steel/Ground', 'Steel/Ice', 'Steel/Normal', 'Steel/Poison', 'Steel/Psychic', 'Steel/Rock', 'Steel/Water', 'Steel/None', 'Water/Bug', 'Water/Dark', 'Water/Dragon', 'Water/Electric', 'Water/Fairy', 'Water/Fighting', 'Water/Fire', 'Water/Flying', 'Water/Ghost', 'Water/Grass', 'Water/Ground', 'Water/Ice', 'Water/Normal', 'Water/Poison', 'Water/Psychic', 'Water/Rock', 'Water/Steel', 'Water/None']
+['Bug/Dark', 'Bug/Dragon', 'Bug/Electric', 'Bug/Fairy', 'Bug/Fighting', 'Bug/Fire', 'Bug/Flying', 'Bug/Ghost', 'Bug/Grass', 'Bug/Ground', 'Bug/Ice', 'Bug/Normal', 'Bug/Poison', 'Bug/Psychic', 'Bug/Rock', 'Bug/Steel', 'Bug/Water', 'Bug/None', 'Dark/Bug', 'Dark/Dragon', 'Dark/Electric', 'Dark/Fairy', 'Dark/Fighting', 'Dark/Fire', 'Dark/Flying', 'Dark/Ghost', 'Dark/Grass', 'Dark/Ground', 'Dark/Ice', 'Dark/Normal', 'Dark/Poison', 'Dark/Psychic', 'Dark/Rock', 'Dark/Steel', 'Dark/Water', 'Dark/None', 'Dragon/Bug', 'Dragon/Dark', 'Dragon/Electric', 'Dragon/Fairy', 'Dragon/Fighting', 'Dragon/Fire', 'Dragon/Flying', 'Dragon/Ghost', 'Dragon/Grass', 'Dragon/Ground', 'Dragon/Ice', 'Dragon/Normal', 'Dragon/Poison', 'Dragon/Psychic', 'Dragon/Rock', 'Dragon/Steel', 'Dragon/Water', 'Dragon/None', 'Electric/Bug', 'Electric/Dark', 'Electric/Dragon', 'Electric/Fairy', 'Electric/Fighting', 'Electric/Fire', 'Electric/Flying', 'Electric/Ghost', 'Electric/Grass', 'Electric/Ground', 'Electric/Ice', 'Electric/Normal', 'Electric/Poison', 'Electric/Psychic', 'Electric/Rock', 'Electric/Steel', 'Electric/Water', 'Electric/None', 'Fairy/Bug', 'Fairy/Dark', 'Fairy/Dragon', 'Fairy/Electric', 'Fairy/Fighting', 'Fairy/Fire', 'Fairy/Flying', 'Fairy/Ghost', 'Fairy/Grass', 'Fairy/Ground', 'Fairy/Ice', 'Fairy/Normal', 'Fairy/Poison', 'Fairy/Psychic', 'Fairy/Rock', 'Fairy/Steel', 'Fairy/Water', 'Fairy/None', 'Fighting/Bug', 'Fighting/Dark', 'Fighting/Dragon', 'Fighting/Electric', 'Fighting/Fairy', 'Fighting/Fire', 'Fighting/Flying', 'Fighting/Ghost', 'Fighting/Grass', 'Fighting/Ground', 'Fighting/Ice', 'Fighting/Normal', 'Fighting/Poison', 'Fighting/Psychic', 'Fighting/Rock', 'Fighting/Steel', 'Fighting/Water', 'Fighting/None', 'Fire/Bug', 'Fire/Dark', 'Fire/Dragon', 'Fire/Electric', 'Fire/Fairy', 'Fire/Fighting', 'Fire/Flying', 'Fire/Ghost', 'Fire/Grass', 'Fire/Ground', 'Fire/Ice', 'Fire/Normal', 'Fire/Poison', 'Fire/Psychic', 'Fire/Rock', 'Fire/Steel', 'Fire/Water', 'Fire/None', 'Flying/Bug', 'Flying/Dark', 'Flying/Dragon', 'Flying/Electric', 'Flying/Fairy', 'Flying/Fighting', 'Flying/Fire', 'Flying/Ghost', 'Flying/Grass', 'Flying/Ground', 'Flying/Ice', 'Flying/Normal', 'Flying/Poison', 'Flying/Psychic', 'Flying/Rock', 'Flying/Steel', 'Flying/Water', 'Flying/None', 'Ghost/Bug', 'Ghost/Dark', 'Ghost/Dragon', 'Ghost/Electric', 'Ghost/Fairy', 'Ghost/Fighting', 'Ghost/Fire', 'Ghost/Flying', 'Ghost/Grass', 'Ghost/Ground', 'Ghost/Ice', 'Ghost/Normal', 'Ghost/Poison', 'Ghost/Psychic', 'Ghost/Rock', 'Ghost/Steel', 'Ghost/Water', 'Ghost/None', 'Grass/Bug', 'Grass/Dark', 'Grass/Dragon', 'Grass/Electric', 'Grass/Fairy', 'Grass/Fighting', 'Grass/Fire', 'Grass/Flying', 'Grass/Ghost', 'Grass/Ground', 'Grass/Ice', 'Grass/Normal', 'Grass/Poison', 'Grass/Psychic', 'Grass/Rock', 'Grass/Steel', 'Grass/Water', 'Grass/None', 'Ground/Bug', 'Ground/Dark', 'Ground/Dragon', 'Ground/Electric', 'Ground/Fairy', 'Ground/Fighting', 'Ground/Fire', 'Ground/Flying', 'Ground/Ghost', 'Ground/Grass', 'Ground/Ice', 'Ground/Normal', 'Ground/Poison', 'Ground/Psychic', 'Ground/Rock', 'Ground/Steel', 'Ground/Water', 'Ground/None', 'Ice/Bug', 'Ice/Dark', 'Ice/Dragon', 'Ice/Electric', 'Ice/Fairy', 'Ice/Fighting', 'Ice/Fire', 'Ice/Flying', 'Ice/Ghost', 'Ice/Grass', 'Ice/Ground', 'Ice/Normal', 'Ice/Poison', 'Ice/Psychic', 'Ice/Rock', 'Ice/Steel', 'Ice/Water', 'Ice/None', 'Normal/Bug', 'Normal/Dark', 'Normal/Dragon', 'Normal/Electric', 'Normal/Fairy', 'Normal/Fighting', 'Normal/Fire', 'Normal/Flying', 'Normal/Ghost', 'Normal/Grass', 'Normal/Ground', 'Normal/Ice', 'Normal/Poison', 'Normal/Psychic', 'Normal/Rock', 'Normal/Steel', 'Normal/Water', 'Normal/None', 'Poison/Bug', 'Poison/Dark', 'Poison/Dragon', 'Poison/Electric', 'Poison/Fairy', 'Poison/Fighting', 'Poison/Fire', 'Poison/Flying', 'Poison/Ghost', 'Poison/Grass', 'Poison/Ground', 'Poison/Ice', 'Poison/Normal', 'Poison/Psychic', 'Poison/Rock', 'Poison/Steel', 'Poison/Water', 'Poison/None', 'Psychic/Bug', 'Psychic/Dark', 'Psychic/Dragon', 'Psychic/Electric', 'Psychic/Fairy', 'Psychic/Fighting', 'Psychic/Fire', 'Psychic/Flying', 'Psychic/Ghost', 'Psychic/Grass', 'Psychic/Ground', 'Psychic/Ice', 'Psychic/Normal', 'Psychic/Poison', 'Psychic/Rock', 'Psychic/Steel', 'Psychic/Water', 'Psychic/None', 'Rock/Bug', 'Rock/Dark', 'Rock/Dragon', 'Rock/Electric', 'Rock/Fairy', 'Rock/Fighting', 'Rock/Fire', 'Rock/Flying', 'Rock/Ghost', 'Rock/Grass', 'Rock/Ground', 'Rock/Ice', 'Rock/Normal', 'Rock/Poison', 'Rock/Psychic', 'Rock/Steel', 'Rock/Water', 'Rock/None', 'Steel/Bug', 'Steel/Dark', 'Steel/Dragon', 'Steel/Electric', 'Steel/Fairy', 'Steel/Fighting', 'Steel/Fire', 'Steel/Flying', 'Steel/Ghost', 'Steel/Grass', 'Steel/Ground', 'Steel/Ice', 'Steel/Normal', 'Steel/Poison', 'Steel/Psychic', 'Steel/Rock', 'Steel/Water', 'Steel/None', 'Water/Bug', 'Water/Dark', 'Water/Dragon', 'Water/Electric', 'Water/Fairy', 'Water/Fighting', 'Water/Fire', 'Water/Flying', 'Water/Ghost', 'Water/Grass', 'Water/Ground', 'Water/Ice', 'Water/Normal', 'Water/Poison', 'Water/Psychic', 'Water/Rock', 'Water/Steel', 'Water/None']
+a
+Bug/None
+Bug/None
+Bug/Bug
+Bug/Dark
+Bug/Dark
+Bug/Dragon
+Bug/Dragon
+Bug/Electric
+Bug/Electric
+Bug/Fairy
+Bug/Fairy
+Bug/Fighting
+Bug/Fighting
+Bug/Fire
+Bug/Fire
+Bug/Flying
+Bug/Flying
+Bug/Ghost
+Bug/Ghost
+Bug/Grass
+Bug/Grass
+Bug/Ground
+Bug/Ground
+Bug/Ice
+Bug/Ice
+Bug/Normal
+Bug/Normal
+Bug/Poison
+Bug/Poison
+Bug/Psychic
+Bug/Psychic
+Bug/Rock
+Bug/Rock
+Bug/Steel
+Bug/Steel
+Bug/Water
+Bug/Water
+Dark/None
+Dark/None
+Dark/Bug
+Dark/Bug
+Dark/Dark
+Dark/Dragon
+Dark/Dragon
+Dark/Electric
+Dark/Electric
+Dark/Fairy
+Dark/Fairy
+Dark/Fighting
+Dark/Fighting
+Dark/Fire
+Dark/Fire
+Dark/Flying
+Dark/Flying
+Dark/Ghost
+Dark/Ghost
+Dark/Grass
+Dark/Grass
+Dark/Ground
+Dark/Ground
+Dark/Ice
+Dark/Ice
+Dark/Normal
+Dark/Normal
+Dark/Poison
+Dark/Poison
+Dark/Psychic
+Dark/Psychic
+Dark/Rock
+Dark/Rock
+Dark/Steel
+Dark/Steel
+Dark/Water
+Dark/Water
+Dragon/None
+Dragon/None
+Dragon/Bug
+Dragon/Bug
+Dragon/Dark
+Dragon/Dark
+Dragon/Dragon
+Dragon/Electric
+Dragon/Electric
+Dragon/Fairy
+Dragon/Fairy
+Dragon/Fighting
+Dragon/Fighting
+Dragon/Fire
+Dragon/Fire
+Dragon/Flying
+Dragon/Flying
+Dragon/Ghost
+Dragon/Ghost
+Dragon/Grass
+Dragon/Grass
+Dragon/Ground
+Dragon/Ground
+Dragon/Ice
+Dragon/Ice
+Dragon/Normal
+Dragon/Normal
+Dragon/Poison
+Dragon/Poison
+Dragon/Psychic
+Dragon/Psychic
+Dragon/Rock
+Dragon/Rock
+Dragon/Steel
+Dragon/Steel
+Dragon/Water
+Dragon/Water
+Electric/None
+Electric/None
+Electric/Bug
+Electric/Bug
+Electric/Dark
+Electric/Dark
+Electric/Dragon
+Electric/Dragon
+Electric/Electric
+Electric/Fairy
+Electric/Fairy
+Electric/Fighting
+Electric/Fighting
+Electric/Fire
+Electric/Fire
+Electric/Flying
+Electric/Flying
+Electric/Ghost
+Electric/Ghost
+Electric/Grass
+Electric/Grass
+Electric/Ground
+Electric/Ground
+Electric/Ice
+Electric/Ice
+Electric/Normal
+Electric/Normal
+Electric/Poison
+Electric/Poison
+Electric/Psychic
+Electric/Psychic
+Electric/Rock
+Electric/Rock
+Electric/Steel
+Electric/Steel
+Electric/Water
+Electric/Water
+Fairy/None
+Fairy/None
+Fairy/Bug
+Fairy/Bug
+Fairy/Dark
+Fairy/Dark
+Fairy/Dragon
+Fairy/Dragon
+Fairy/Electric
+Fairy/Electric
+Fairy/Fairy
+Fairy/Fighting
+Fairy/Fighting
+Fairy/Fire
+Fairy/Fire
+Fairy/Flying
+Fairy/Flying
+Fairy/Ghost
+Fairy/Ghost
+Fairy/Grass
+Fairy/Grass
+Fairy/Ground
+Fairy/Ground
+Fairy/Ice
+Fairy/Ice
+Fairy/Normal
+Fairy/Normal
+Fairy/Poison
+Fairy/Poison
+Fairy/Psychic
+Fairy/Psychic
+Fairy/Rock
+Fairy/Rock
+Fairy/Steel
+Fairy/Steel
+Fairy/Water
+Fairy/Water
+Fighting/None
+Fighting/None
+Fighting/Bug
+Fighting/Bug
+Fighting/Dark
+Fighting/Dark
+Fighting/Dragon
+Fighting/Dragon
+Fighting/Electric
+Fighting/Electric
+Fighting/Fairy
+Fighting/Fairy
+Fighting/Fighting
+Fighting/Fire
+Fighting/Fire
+Fighting/Flying
+Fighting/Flying
+Fighting/Ghost
+Fighting/Ghost
+Fighting/Grass
+Fighting/Grass
+Fighting/Ground
+Fighting/Ground
+Fighting/Ice
+Fighting/Ice
+Fighting/Normal
+Fighting/Normal
+Fighting/Poison
+Fighting/Poison
+Fighting/Psychic
+Fighting/Psychic
+Fighting/Rock
+Fighting/Rock
+Fighting/Steel
+Fighting/Steel
+Fighting/Water
+Fighting/Water
+Fire/None
+Fire/None
+Fire/Bug
+Fire/Bug
+Fire/Dark
+Fire/Dark
+Fire/Dragon
+Fire/Dragon
+Fire/Electric
+Fire/Electric
+Fire/Fairy
+Fire/Fairy
+Fire/Fighting
+Fire/Fighting
+Fire/Fire
+Fire/Flying
+Fire/Flying
+Fire/Ghost
+Fire/Ghost
+Fire/Grass
+Fire/Grass
+Fire/Ground
+Fire/Ground
+Fire/Ice
+Fire/Ice
+Fire/Normal
+Fire/Normal
+Fire/Poison
+Fire/Poison
+Fire/Psychic
+Fire/Psychic
+Fire/Rock
+Fire/Rock
+Fire/Steel
+Fire/Steel
+Fire/Water
+Fire/Water
+Flying/None
+Flying/None
+Flying/Bug
+Flying/Bug
+Flying/Dark
+Flying/Dark
+Flying/Dragon
+Flying/Dragon
+Flying/Electric
+Flying/Electric
+Flying/Fairy
+Flying/Fairy
+Flying/Fighting
+Flying/Fighting
+Flying/Fire
+Flying/Fire
+Flying/Flying
+Flying/Ghost
+Flying/Ghost
+Flying/Grass
+Flying/Grass
+Flying/Ground
+Flying/Ground
+Flying/Ice
+Flying/Ice
+Flying/Normal
+Flying/Normal
+Flying/Poison
+Flying/Poison
+Flying/Psychic
+Flying/Psychic
+Flying/Rock
+Flying/Rock
+Flying/Steel
+Flying/Steel
+Flying/Water
+Flying/Water
+Ghost/None
+Ghost/None
+Ghost/Bug
+Ghost/Bug
+Ghost/Dark
+Ghost/Dark
+Ghost/Dragon
+Ghost/Dragon
+Ghost/Electric
+Ghost/Electric
+Ghost/Fairy
+Ghost/Fairy
+Ghost/Fighting
+Ghost/Fighting
+Ghost/Fire
+Ghost/Fire
+Ghost/Flying
+Ghost/Flying
+Ghost/Ghost
+Ghost/Grass
+Ghost/Grass
+Ghost/Ground
+Ghost/Ground
+Ghost/Ice
+Ghost/Ice
+Ghost/Normal
+Ghost/Normal
+Ghost/Poison
+Ghost/Poison
+Ghost/Psychic
+Ghost/Psychic
+Ghost/Rock
+Ghost/Rock
+Ghost/Steel
+Ghost/Steel
+Ghost/Water
+Ghost/Water
+Grass/None
+Grass/None
+Grass/Bug
+Grass/Bug
+Grass/Dark
+Grass/Dark
+Grass/Dragon
+Grass/Dragon
+Grass/Electric
+Grass/Electric
+Grass/Fairy
+Grass/Fairy
+Grass/Fighting
+Grass/Fighting
+Grass/Fire
+Grass/Fire
+Grass/Flying
+Grass/Flying
+Grass/Ghost
+Grass/Ghost
+Grass/Grass
+Grass/Ground
+Grass/Ground
+Grass/Ice
+Grass/Ice
+Grass/Normal
+Grass/Normal
+Grass/Poison
+Grass/Poison
+Grass/Psychic
+Grass/Psychic
+Grass/Rock
+Grass/Rock
+Grass/Steel
+Grass/Steel
+Grass/Water
+Grass/Water
+Ground/None
+Ground/None
+Ground/Bug
+Ground/Bug
+Ground/Dark
+Ground/Dark
+Ground/Dragon
+Ground/Dragon
+Ground/Electric
+Ground/Electric
+Ground/Fairy
+Ground/Fairy
+Ground/Fighting
+Ground/Fighting
+Ground/Fire
+Ground/Fire
+Ground/Flying
+Ground/Flying
+Ground/Ghost
+Ground/Ghost
+Ground/Grass
+Ground/Grass
+Ground/Ground
+Ground/Ice
+Ground/Ice
+Ground/Normal
+Ground/Normal
+Ground/Poison
+Ground/Poison
+Ground/Psychic
+Ground/Psychic
+Ground/Rock
+Ground/Rock
+Ground/Steel
+Ground/Steel
+Ground/Water
+Ground/Water
+Ice/None
+Ice/None
+Ice/Bug
+Ice/Bug
+Ice/Dark
+Ice/Dark
+Ice/Dragon
+Ice/Dragon
+Ice/Electric
+Ice/Electric
+Ice/Fairy
+Ice/Fairy
+Ice/Fighting
+Ice/Fighting
+Ice/Fire
+Ice/Fire
+Ice/Flying
+Ice/Flying
+Ice/Ghost
+Ice/Ghost
+Ice/Grass
+Ice/Grass
+Ice/Ground
+Ice/Ground
+Ice/Ice
+Ice/Normal
+Ice/Normal
+Ice/Poison
+Ice/Poison
+Ice/Psychic
+Ice/Psychic
+Ice/Rock
+Ice/Rock
+Ice/Steel
+Ice/Steel
+Ice/Water
+Ice/Water
+Normal/None
+Normal/None
+Normal/Bug
+Normal/Bug
+Normal/Dark
+Normal/Dark
+Normal/Dragon
+Normal/Dragon
+Normal/Electric
+Normal/Electric
+Normal/Fairy
+Normal/Fairy
+Normal/Fighting
+Normal/Fighting
+Normal/Fire
+Normal/Fire
+Normal/Flying
+Normal/Flying
+Normal/Ghost
+Normal/Ghost
+Normal/Grass
+Normal/Grass
+Normal/Ground
+Normal/Ground
+Normal/Ice
+Normal/Ice
+Normal/Normal
+Normal/Poison
+Normal/Poison
+Normal/Psychic
+Normal/Psychic
+Normal/Rock
+Normal/Rock
+Normal/Steel
+Normal/Steel
+Normal/Water
+Normal/Water
+Poison/None
+Poison/None
+Poison/Bug
+Poison/Bug
+Poison/Dark
+Poison/Dark
+Poison/Dragon
+Poison/Dragon
+Poison/Electric
+Poison/Electric
+Poison/Fairy
+Poison/Fairy
+Poison/Fighting
+Poison/Fighting
+Poison/Fire
+Poison/Fire
+Poison/Flying
+Poison/Flying
+Poison/Ghost
+Poison/Ghost
+Poison/Grass
+Poison/Grass
+Poison/Ground
+Poison/Ground
+Poison/Ice
+Poison/Ice
+Poison/Normal
+Poison/Normal
+Poison/Poison
+Poison/Psychic
+Poison/Psychic
+Poison/Rock
+Poison/Rock
+Poison/Steel
+Poison/Steel
+Poison/Water
+Poison/Water
+Psychic/None
+Psychic/None
+Psychic/Bug
+Psychic/Bug
+Psychic/Dark
+Psychic/Dark
+Psychic/Dragon
+Psychic/Dragon
+Psychic/Electric
+Psychic/Electric
+Psychic/Fairy
+Psychic/Fairy
+Psychic/Fighting
+Psychic/Fighting
+Psychic/Fire
+Psychic/Fire
+Psychic/Flying
+Psychic/Flying
+Psychic/Ghost
+Psychic/Ghost
+Psychic/Grass
+Psychic/Grass
+Psychic/Ground
+Psychic/Ground
+Psychic/Ice
+Psychic/Ice
+Psychic/Normal
+Psychic/Normal
+Psychic/Poison
+Psychic/Poison
+Psychic/Psychic
+Psychic/Rock
+Psychic/Rock
+Psychic/Steel
+Psychic/Steel
+Psychic/Water
+Psychic/Water
+Rock/None
+Rock/None
+Rock/Bug
+Rock/Bug
+Rock/Dark
+Rock/Dark
+Rock/Dragon
+Rock/Dragon
+Rock/Electric
+Rock/Electric
+Rock/Fairy
+Rock/Fairy
+Rock/Fighting
+Rock/Fighting
+Rock/Fire
+Rock/Fire
+Rock/Flying
+Rock/Flying
+Rock/Ghost
+Rock/Ghost
+Rock/Grass
+Rock/Grass
+Rock/Ground
+Rock/Ground
+Rock/Ice
+Rock/Ice
+Rock/Normal
+Rock/Normal
+Rock/Poison
+Rock/Poison
+Rock/Psychic
+Rock/Psychic
+Rock/Rock
+Rock/Steel
+Rock/Steel
+Rock/Water
+Rock/Water
+Steel/None
+Steel/None
+Steel/Bug
+Steel/Bug
+Steel/Dark
+Steel/Dark
+Steel/Dragon
+Steel/Dragon
+Steel/Electric
+Steel/Electric
+Steel/Fairy
+Steel/Fairy
+Steel/Fighting
+Steel/Fighting
+Steel/Fire
+Steel/Fire
+Steel/Flying
+Steel/Flying
+Steel/Ghost
+Steel/Ghost
+Steel/Grass
+Steel/Grass
+Steel/Ground
+Steel/Ground
+Steel/Ice
+Steel/Ice
+Steel/Normal
+Steel/Normal
+Steel/Poison
+Steel/Poison
+Steel/Psychic
+Steel/Psychic
+Steel/Rock
+Steel/Rock
+Steel/Steel
+Steel/Water
+Steel/Water
+Water/None
+Water/None
+Water/Bug
+Water/Bug
+Water/Dark
+Water/Dark
+Water/Dragon
+Water/Dragon
+Water/Electric
+Water/Electric
+Water/Fairy
+Water/Fairy
+Water/Fighting
+Water/Fighting
+Water/Fire
+Water/Fire
+Water/Flying
+Water/Flying
+Water/Ghost
+Water/Ghost
+Water/Grass
+Water/Grass
+Water/Ground
+Water/Ground
+Water/Ice
+Water/Ice
+Water/Normal
+Water/Normal
+Water/Poison
+Water/Poison
+Water/Psychic
+Water/Psychic
+Water/Rock
+Water/Rock
+Water/Steel
+Water/Steel
+Water/Water
+Error in callback <function flush_figures at 0x000000001E3A0E00> (for post_execute), with arguments args (),kwargs {}:
+0.25
+0.25

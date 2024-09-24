@@ -100,6 +100,41 @@ def generate_team(num_pokemon=6, domain='all'):
         
     return team
 
+def agent_create_team(num_pokemon=6, domain='all'):
+    team = []
+    species = []
+    items = []
+    pokedex = list(domain_all)
+    items = list(dex.item_dex.keys())
+    natures = list(dex.nature_dex.keys())
+
+    while len(team) < num_pokemon:
+        pokemon = {}
+        pokemon['species'] = random.choice(pokedex)
+
+        moves = list(dex.simple_learnsets[pokemon['species']])
+        pokemon['moves'] = random.sample(moves, min(4, len(moves)))
+        
+        pokemon['item'] = random.choice(items)
+
+        pokemon['nature'] = random.choice(natures)
+
+        abilities = [re.sub(r'\W+', '', ability.lower()) for ability in list(filter(None.__ne__, list(dex.pokedex[pokemon['species']].abilities)))]
+        
+        pokemon['ability'] = random.choice(abilities)
+
+        divs = [random.randint(0,127) for i in range(5)]
+        divs.append(0)
+        divs.append(127)
+        divs.sort()
+        evs = [4*(divs[i+1]-divs[i]) if 4*(divs[i+1]-divs[i])< 252 else 252 for i in range(len(divs)-1)]
+        pokemon['evs'] = evs
+        pokemon['ivs'] = [31, 31, 31, 31, 31, 31]
+
+        team.append(pokemon)
+
+    return team
+
 def generate_team_pok(index, domain='all', mvs = []):
     index = index-1
     

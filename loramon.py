@@ -5,62 +5,15 @@ import re
 import sim.sim as sim
 from sim.player import Decision
 from pkmn_logic_utils import get_U
+from tools.pick_six import agent_create_team
 
-with open('data/domains/all.json') as f:
-    domain_all = json.load(f)
-def agent_create_team(num_pokemon=6, domain='all'):
-    team = []
-    species = []
-    items = []
-    pokedex = list(domain_all)
-    items = list(dex.item_dex.keys())
-    natures = list(dex.nature_dex.keys())
-
-    while len(team) < num_pokemon:
-        pokemon = {}
-        pokemon['species'] = random.choice(pokedex)
-
-        moves = list(dex.simple_learnsets[pokemon['species']])
-        pokemon['moves'] = random.sample(moves, min(4, len(moves)))
-        
-        pokemon['item'] = random.choice(items)
-
-        pokemon['nature'] = random.choice(natures)
-
-        abilities = [re.sub(r'\W+', '', ability.lower()) for ability in list(filter(None.__ne__, list(dex.pokedex[pokemon['species']].abilities)))]
-        
-        pokemon['ability'] = random.choice(abilities)
-
-        divs = [random.randint(0,127) for i in range(5)]
-        divs.append(0)
-        divs.append(127)
-        divs.sort()
-        evs = [4*(divs[i+1]-divs[i]) if 4*(divs[i+1]-divs[i])< 252 else 252 for i in range(len(divs)-1)]
-        pokemon['evs'] = evs
-        pokemon['ivs'] = [31, 31, 31, 31, 31, 31]
-
-        team.append(pokemon)
-
-    return sim.dict_to_team_set(team)
-
-class TrainerL:
+class TrainerBase:
     def __init__(self, name) -> None:
         self.name = name
-        self.team = agent_create_team()
-        self.current_pkmn = 0
+        self.team = sim.dict_to_team_set(agent_create_team())
+        
         self.plan_library = {}
 
-        self.beliefs = set() #facts
-        self.desires = set() #still from pyreason
-        self.intentions = set() #choosen desires
-
-        self.graph = None
-        self.value = 0
-        
-    def asynthotic_value(self):
-        x = self.value
-        return x/(x+1)
-    
     def get_available_moves(self, px: sim.Player):
         self.plan_library = {}
         if not px.active_pokemon[0].fainted:
@@ -70,19 +23,29 @@ class TrainerL:
         for i, pok in enumerate(px.pokemon):
             if (not pok.fainted) and (not pok.species == px.active_pokemon[0].species):
                 self.plan_library['switch_to('+pok.species+', '+str(i)+')'] = Decision('switch', i)
-
-    def planificate(self):
+        
+    def build_knowledge(self):
         pass
 
-    def choose(self):
-        self.planificate()
+    def choose(self, me: sim.Player, foe: sim.Player):
+        pass
 
-        U = get_U()
-        if U<self.asynthotic_value() and len(self.intentions)>0: #do rational move
-            pass
-        else: #select random move and learn
-            pass
-        return self.plan_library[random.choice(list(self.plan_library.keys()))]
+class TrainerBDI(TrainerBase):
+    def __init__(self, name, graph) -> None:
+        super().__init__(name)
+
+        self.beliefs = set() #facts ()
+        self.desires = set() #still from pyreason
+        self.intentions = set() #choosen desires
+
+        self.kgraph = graph
+    
+    def build_knowledge(self):
+        pass
+
+    def choose(self, me: sim.Player, foe: sim.Player):
+        self.get_available_moves(me)
+        return self.plan_library[random.choice(list(self.plan_library))]
 
 def pokemon_log_assoc(B: sim.Battle):
     for pok in B.p1.pokemon:
@@ -92,7 +55,7 @@ def pokemon_log_assoc(B: sim.Battle):
         pok.log = B.log
         pok.owner = B.p2.name
 
-def do_battle(t1: TrainerL, t2: TrainerL):
+def do_battle(t1: TrainerBase, t2: TrainerBase):
     B = sim.Battle('single', t1.name, t1.team, t2.name, t2.team)
     MAX_TURNS = 9999
     B.logs.append(["\n" + B.p1.name + " vs " + B.p2.name])
@@ -101,14 +64,10 @@ def do_battle(t1: TrainerL, t2: TrainerL):
     while not B.ended and B.turn<MAX_TURNS:
         # this carries log for fainted pokemons
         pokemon_log_assoc(B)
-
-        # update players available actions
-        t1.get_available_moves(B.p1)
-        t2.get_available_moves(B.p2)
         
         # the players select their next move
-        B.p1.choice = t1.choose()
-        B.p2.choice = t2.choose()
+        B.p1.choice = t1.choose(B.p1, B.p2)
+        B.p2.choice = t2.choose(B.p2, B.p1)
 
         # do a turn
         sim.do_turn(B)
@@ -123,8 +82,8 @@ def do_battle(t1: TrainerL, t2: TrainerL):
     return winner, B.logs
 
 if __name__ == "__main__":
-    player1 = TrainerL("Juan")
-    player2 = TrainerL("Pedro")
+    player1 = TrainerBDI("Juan", None)
+    player2 = TrainerBDI("Pedro", None)
 
     winner, logs = do_battle(player1, player2)
 
