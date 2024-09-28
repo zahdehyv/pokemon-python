@@ -380,7 +380,7 @@ Information of your team:
             else:
                 prompt = prompt + "- use " + plan[1] + "\n"
 
-        print(prompt)
+        # print(prompt)
         
         num_tries = 0
         while True:
@@ -411,8 +411,8 @@ Information of your team:
                             return (self.plan_library[plan])
     
             except Exception as e:
-                print("REASONING FAIL:", e)
                 tm_exp = 2**num_tries
+                print("REASONING FAIL:", e, "\nwaiting", tm_exp, "seconds")
                 time.sleep(tm_exp)
             
 class TrainerLLMFeed(TrainerLLM):
@@ -518,8 +518,8 @@ class TrainerLLMFeedSC(TrainerLLMFeed):
                             return (self.plan_library[plan])
     
             except Exception as e:
-                print("REASONING FAIL:", e)
                 tm_exp = 2**num_tries
+                print("REASONING FAIL:", e, "\nwaiting", tm_exp, "seconds")
                 time.sleep(tm_exp)
 
 def pokemon_log_assoc(B: sim.Battle):
