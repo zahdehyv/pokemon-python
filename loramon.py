@@ -411,7 +411,7 @@ Information of your team:
                             return (self.plan_library[plan])
     
             except Exception as e:
-                tm_exp = 2**num_tries
+                tm_exp = min(2**num_tries, 10 * 60)
                 print("REASONING FAIL:", e, "\nwaiting", tm_exp, "seconds")
                 time.sleep(tm_exp)
             
@@ -518,7 +518,7 @@ class TrainerLLMFeedSC(TrainerLLMFeed):
                             return (self.plan_library[plan])
     
             except Exception as e:
-                tm_exp = 2**num_tries
+                tm_exp = min(2**num_tries, 10 * 60)
                 print("REASONING FAIL:", e, "\nwaiting", tm_exp, "seconds")
                 time.sleep(tm_exp)
 
